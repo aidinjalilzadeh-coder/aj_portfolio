@@ -188,6 +188,10 @@ textarea {
   align-items: center;
 }
 
+.hero-actions {
+  margin-top: 0.4rem;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
