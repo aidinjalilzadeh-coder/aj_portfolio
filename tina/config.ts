@@ -6,12 +6,14 @@ const branch =
   process.env.HEAD ||
   "main";
 
+const basePath = process.env.TINA_BASE_PATH || "";
+
 export default defineConfig({
   branch,
   clientId: process.env.TINA_PUBLIC_CLIENT_ID || null,
   token: process.env.TINA_TOKEN || null,
   build: {
-    basePath: "aj_portfolio",
+    basePath,
     publicFolder: ".",
     outputFolder: "admin",
   },

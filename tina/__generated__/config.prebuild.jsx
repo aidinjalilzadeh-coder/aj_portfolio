@@ -1,11 +1,13 @@
 // tina/config.ts
 import { defineConfig } from "tinacms";
 var branch = process.env.TINA_BRANCH || process.env.NEXT_PUBLIC_TINA_BRANCH || process.env.HEAD || "main";
+var basePath = process.env.TINA_BASE_PATH || "";
 var config_default = defineConfig({
   branch,
   clientId: process.env.TINA_PUBLIC_CLIENT_ID || null,
   token: process.env.TINA_TOKEN || null,
   build: {
+    basePath,
     publicFolder: ".",
     outputFolder: "admin"
   },
