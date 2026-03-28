@@ -1,95 +1,43 @@
-import SITE_CONFIG from "./config.js";
-import { parseFrontMatter, renderMarkdown, slugify } from "./markdown.js";
+import { renderMarkdown } from "./markdown.js";
 import { formatDate } from "./site.js";
 
 let postIndexPromise;
 
-function isLocalPreview() {
-  return ["localhost", "127.0.0.1"].includes(window.location.hostname);
-}
-
-function getGithubDirectoryUrl() {
-  const { owner, repo, branch, contentDir } = SITE_CONFIG.github;
-  const encodedDir = contentDir
-    .split("/")
-    .map((part) => encodeURIComponent(part))
-    .join("/");
-
-  return `https://api.github.com/repos/${owner}/${repo}/contents/${encodedDir}?ref=${encodeURIComponent(branch)}`;
-}
-
-function normalizePost(markdown, fileName) {
-  const { data, body } = parseFrontMatter(markdown);
-  const fallbackSlug = slugify(fileName.replace(/\.md$/i, ""));
-  const tags = Array.isArray(data.tags) ? data.tags : [];
-
+function normalizePublishedPost(entry) {
   return {
-    title: data.title || fileName.replace(/\.md$/i, ""),
-    slug: data.slug ? slugify(data.slug) : fallbackSlug,
-    summary: data.summary || "",
-    author: data.author || SITE_CONFIG.profile.name,
-    publishedAt: data.publishedAt || new Date(0).toISOString(),
-    tags,
-    draft: Boolean(data.draft),
-    body,
-    file: fileName,
+    title: typeof entry?.title === "string" ? entry.title : "Untitled",
+    slug: typeof entry?.slug === "string" ? entry.slug : "",
+    summary: typeof entry?.summary === "string" ? entry.summary : "",
+    author: typeof entry?.author === "string" ? entry.author : "",
+    publishedAt: entry?.publishedAt || new Date(0).toISOString(),
+    tags: Array.isArray(entry?.tags) ? entry.tags : [],
+    draft: Boolean(entry?.draft),
+    body: typeof entry?.body === "string" ? entry.body : "",
+    file: typeof entry?.file === "string" ? entry.file : "",
   };
 }
 
-async function fetchPostDirectory() {
-  if (isLocalPreview()) {
-    const response = await fetch("content/posts/", { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error("Could not load local blog posts.");
-    }
-
-    const html = await response.text();
-    const documentFragment = new DOMParser().parseFromString(html, "text/html");
-    return Array.from(documentFragment.querySelectorAll("a"))
-      .map((link) => link.getAttribute("href") || "")
-      .filter((href) => href.endsWith(".md"))
-      .map((href) => ({
-        name: href,
-        download_url: `content/posts/${href}`,
-      }));
-  }
-
-  const response = await fetch(getGithubDirectoryUrl(), {
-    cache: "no-store",
-    headers: {
-      Accept: "application/vnd.github+json",
-    },
-  });
-
+async function fetchPostIndex() {
+  const response = await fetch("content/posts.json", { cache: "no-store" });
   if (!response.ok) {
-    if (response.status === 403) {
-      throw new Error("GitHub API rate limit reached while loading blog posts.");
-    }
-    throw new Error("Could not load blog posts from GitHub.");
+    throw new Error("Could not load published blog posts.");
   }
 
   const entries = await response.json();
-  return entries.filter((entry) => entry.type === "file" && entry.name.endsWith(".md"));
-}
-
-async function fetchMarkdownPost(entry) {
-  const response = await fetch(entry.download_url, { cache: "no-store" });
-  if (!response.ok) {
-    throw new Error(`Could not load ${entry.name}.`);
+  if (!Array.isArray(entries)) {
+    throw new Error("Published blog data is invalid.");
   }
 
-  const markdown = await response.text();
-  return normalizePost(markdown, entry.name);
+  return entries.map(normalizePublishedPost);
 }
 
 export async function loadPostIndex() {
   if (!postIndexPromise) {
-    postIndexPromise = fetchPostDirectory().then(async (entries) => {
-      const posts = await Promise.all(entries.map(fetchMarkdownPost));
-      return posts
+    postIndexPromise = fetchPostIndex().then((posts) =>
+      posts
         .filter((post) => !post.draft)
-        .sort((left, right) => new Date(right.publishedAt) - new Date(left.publishedAt));
-    });
+        .sort((left, right) => new Date(right.publishedAt) - new Date(left.publishedAt)),
+    );
   }
 
   return postIndexPromise;

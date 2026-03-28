@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "description": "Dr. Aidin Jalilzadeh portfolio site with TinaCMS-backed blog authoring.",
   "scripts": {
+    "build:posts": "node scripts/generate-posts-json.mjs",
     "tinacms": "tinacms",
-    "dev": "tinacms dev -c \"python3 -m http.server 8000\"",
-    "build:tina": "tinacms build"
+    "dev": "npm run build:posts && tinacms dev -c \"python3 -m http.server 8000\"",
+    "build:tina": "npm run build:posts && tinacms build"
   },
   "dependencies": {
     "@tinacms/cli": "^1.12.6",

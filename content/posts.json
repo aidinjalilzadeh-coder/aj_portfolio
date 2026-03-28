@@ -1,0 +1,28 @@
+[
+  {
+    "title": "My New Title",
+    "slug": "new-blog-math",
+    "summary": "A new blog entry",
+    "author": "Dr. Aidin Jalilzadeh",
+    "publishedAt": "2026-03-23T00:00:00.000Z",
+    "tags": [],
+    "draft": false,
+    "body": "Here are some math equations: $x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$\n\n$$ e=mc²$$",
+    "file": "my-new-blog.md"
+  },
+  {
+    "title": "Welcome",
+    "slug": "welcome",
+    "summary": "An opening note for the portfolio and blog.",
+    "author": "Dr. Aidin Jalilzadeh",
+    "publishedAt": "2026-03-23T00:00:00.000Z",
+    "tags": [
+      "portfolio",
+      "introduction",
+      "Aidin"
+    ],
+    "draft": false,
+    "body": "# Welcome",
+    "file": "welcome.md"
+  }
+]

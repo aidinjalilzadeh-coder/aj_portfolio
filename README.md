@@ -9,6 +9,7 @@ Static academic portfolio designed for GitHub Pages with TinaCMS-backed blog aut
 - `blog.html`: public blog index.
 - `post.html`: individual post reader.
 - `admin/`: TinaCMS admin app generated during deployment when Tina secrets are configured.
+- `content/posts.json`: generated blog index used by the public site.
 
 ## GitHub Pages deployment
 
@@ -50,7 +51,10 @@ Relevant repo files:
 
 - `tina/config.ts`
 - `content/posts/*.md`
+- `content/posts.json`
 - `.github/workflows/deploy-pages.yml`
+
+The public blog pages do not query the live GitHub API. Instead, the site reads `content/posts.json`, a generated file built from the Markdown posts during local development and GitHub Pages deployment.
 
 Recommended Tina setup:
 
@@ -95,6 +99,12 @@ Run the local site together with Tina:
 
 ```bash
 npm run dev
+```
+
+Regenerate the published blog index without starting the dev server:
+
+```bash
+npm run build:posts
 ```
 
 If TinaCloud credentials are not configured locally, the public site still works, but the Tina admin build and authenticated editing flow will not.
