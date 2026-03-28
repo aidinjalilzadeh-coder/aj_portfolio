@@ -6,7 +6,7 @@ const SITE_CONFIG = {
   },
   profile: {
     name: "Dr. Aidin Jalilzadeh",
-    role: "A Mathematical Wonderland",
+    role: "A Mathematical Wonderland!",
     summary:
       "A Mathematical Wonderland! Welcome to a space for writing, ideas, and ongoing work across research, teaching, and public scholarship.",
   },
