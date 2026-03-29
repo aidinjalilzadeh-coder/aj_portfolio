@@ -17,8 +17,8 @@ const SITE_CONFIG = {
     contentDir: "content/posts",
   },
   youtube: {
-    channelId: "",
-    channelUrl: "",
+    channelId: "@AJTeachesMath",
+    channelUrl: "http://www.youtube.com/@AJTeachesMath",
   },
 };
 
