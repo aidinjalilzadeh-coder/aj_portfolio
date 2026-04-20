@@ -16,7 +16,6 @@
     <div class="page-shell">
       <header id="site-header"></header>
       <main class="page">
-        <!-- Dynamic header - content will be set by blog.js -->
         <section class="page-intro">
           <p class="eyebrow" id="dynamic-eyebrow"></p>
           <h1 id="dynamic-title"></h1>
@@ -27,9 +26,10 @@
       </main>
       <footer id="site-footer"></footer>
     </div>
-    <script type="module" src="scripts/blog.js"></script>
-    <!-- KaTeX JS -->
+    
+    <!-- KaTeX JS - MUST load before blog.js -->
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+    <script type="module" src="scripts/blog.js"></script>
   </body>
 </html>
