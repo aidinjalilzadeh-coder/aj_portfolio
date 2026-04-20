@@ -1,5 +1,5 @@
 ---
-title: 'Differentials vs Differences: the story of $dx$ vs $\delta x$. '
+title: 'Differentials vs Differences \\ the story of $dx$ vs $\delta x$. '
 slug: dx_vs_deltax
 summary: The distinction between dx and delta x.
 author: Dr. Aidin Jalilzadeh
@@ -14,4 +14,4 @@ tags:
 
 # Differentials in Calculus
 
-When you're evaluating an integral, say finding the area under some function $f(x)$ from $x=a$ to $x=b$. The first thing you write is the integral expression with the usual notations and conventions - something like: $\int\_{a}^{b} f(x)dx$. By instinct you (and I too) know that any integral expression needs a $dx$ or in physics and mechanics $dt$ since almost all quantities are a function of time.
+When you're evaluating an integral, say finding the area under some function $f(x)$ from $x=a$ to $x=b$. The first thing you write is the integral expression with the usual notations and conventions - something like: $\int\_{a}^{b} f(x)dx$. By instinct you (and I too) know that any integral expression needs a $dx$ or $dt$ if $f$ is a function of time.
