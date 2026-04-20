@@ -21,8 +21,4 @@ When you're evaluating an integral, say finding the area under some function $f(
 
 The differentials stem from the definition of first derivative where we often see or write: $dy/dx=f'(x)$. Fundamental Theorem of Calculus states that integration and differentiation are inversely related and this is why we see $dx$ or $dt$ on the expression of integrals.
 
-\<div style="text-align: center;">
-
-  \<img src="https\://assets.tina.io/4baa8784-c93e-42c9-9c0b-cc6757695a88/dydx\_diag\_edited.png" alt="GeoGebra dy/dx diagram" style="max-width: 100%; height: auto;">
-
-\</div>
+!\[dy/dx diagram showing secant and tangent lines]\(https\://assets.tina.io/4baa8784-c93e-42c9-9c0b-cc6757695a88/dydx\_diag\_edited.png)
