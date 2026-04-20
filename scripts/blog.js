@@ -82,6 +82,18 @@ async function initBlogPage() {
       blogList.innerHTML = '<p style="text-align:center; padding:2rem; color: var(--muted);">No posts found in this category yet. Check back soon!</p>';
     } else {
       blogList.innerHTML = posts.map(renderPostListItem).join("");
+    
+    if (typeof renderMathInElement === 'function') {
+        renderMathInElement(blogList, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+            { left: "\\[", right: "\\]", display: true },
+          ],
+          throwOnError: false
+        });
+      }
     }
     
   } catch (error) {
