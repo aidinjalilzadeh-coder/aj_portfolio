@@ -14,4 +14,4 @@ tags:
 
 # Differentials in Calculus
 
-When you're evaluating an integral, say finding the area under some function $f(x)$ from $x=a$ to $x=b$. The first thing you write is the integral expression with the usual notations and conventions - something like: $\int\_{a}^{b} f(x)dx$. By instinct you (and I too) know that any integral expression needs a $dx$ or $dt$ if $f$ is a function of time.
+When you're evaluating an integral, say finding the area under some function $f(x)$ from $x=a$ to $x=b$. The first thing you write is the integral expression with the usual notations and conventions; something like: $\int\_{a}^{b} f(x)dx$. By instinct, you (and I too) know that any integral expression needs a $dx$ or $dt$ if $f$ is a function of time. You might be wondering, *why?* Since we were told constantly that if we miss the $dx$ the whole expression will be wrong and won't make sense. 
