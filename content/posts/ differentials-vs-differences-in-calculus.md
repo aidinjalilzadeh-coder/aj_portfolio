@@ -1,5 +1,5 @@
 ---
-title: 'Differentials vs Differences: the story of $\small{dx}$ vs $\small{\delta x}$. '
+title: 'Differentials vs Differences: $\small{dx}$ vs $\small{\delta x}$. '
 slug: dx_vs_deltax
 summary: The distinction between dx and delta x.
 author: Dr. Aidin Jalilzadeh
