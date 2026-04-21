@@ -1,4 +1,4 @@
-import { defineConfig } from "tinacms"; 
+import { defineConfig } from "tinacms";  
 
 const branch =
   process.env.TINA_BRANCH ||
