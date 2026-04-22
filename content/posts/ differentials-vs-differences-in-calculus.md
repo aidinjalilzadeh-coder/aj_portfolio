@@ -24,6 +24,6 @@ The differentials stem from the definition of first derivative where we often se
 ![Linear Approximation](https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/dydx_diag.png)
 
 <figure>
-  <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/your-image.png" alt="brief description">
+  <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/dxdy_diag.png" alt="brief description">
   <figcaption>Your unique caption here</figcaption>
 </figure>
