@@ -1,10 +1,22 @@
 function escapeHtml(value) {
-  return value
+  // Protect figure and figcaption tags from being escaped
+  let protected = value.replace(/<(figure|figcaption)>/gi, '___$1_START___')
+                       .replace(/<\/(figure|figcaption)>/gi, '___$1_END___');
+  
+  let escaped = protected
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+  
+  // Restore the protected tags
+  escaped = escaped.replace(/___figure_START___/gi, '<figure>')
+                   .replace(/___figcaption_START___/gi, '<figcaption>')
+                   .replace(/___figure_END___/gi, '</figure>')
+                   .replace(/___figcaption_END___/gi, '</figcaption>');
+  
+  return escaped;
 }
 
 function extractMathSegments(text) {
