@@ -25,3 +25,5 @@ The differentials stem from the definition of first derivative where we often se
   <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/dydx_diag.png" alt="brief description">
   <figcaption>Figure 1</figcaption>
 </figure>
+
+Now consider the diagram above 
