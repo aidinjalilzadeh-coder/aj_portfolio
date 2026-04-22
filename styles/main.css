@@ -551,6 +551,91 @@ header.header {
     font-size: 2.2rem;
   }
 }
+
+/* ============================================
+   IMAGE STYLES
+   ============================================ */
+
+/* Base image style - responsive by default */
+.rich-copy img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+}
+
+/* Size variants */
+.img-small {
+  max-width: 300px !important;
+}
+
+.img-medium {
+  max-width: 500px !important;
+}
+
+.img-large {
+  max-width: 800px !important;
+}
+
+/* Alignment variants */
+.img-left {
+  float: left;
+  margin: 0.5rem 1.5rem 1rem 0 !important;
+}
+
+.img-right {
+  float: right;
+  margin: 0.5rem 0 1rem 1.5rem !important;
+}
+
+.img-center {
+  display: block;
+  margin: 1.5rem auto !important;
+  float: none;
+}
+
+/* Frame/border styles */
+.img-border {
+  border: 1px solid var(--line);
+  padding: 0.5rem;
+  background: white;
+  box-shadow: var(--shadow);
+}
+
+.img-rounded {
+  border-radius: 16px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Caption styling */
+.figure {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.figure img {
+  margin: 0 auto;
+}
+
+.figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Clear floats after floated images */
+.rich-copy::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* ============================================
    CONTACT SECTION
    ============================================ */
