@@ -7,6 +7,26 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+// Preserve HTML tags from being escaped
+function preserveHtml(content) {
+  const htmlBlocks = [];
+  let preserved = content.replace(/<[^>]+>/g, (match) => {
+    const placeholder = `__HTML_${htmlBlocks.length}__`;
+    htmlBlocks.push(match);
+    return placeholder;
+  });
+  return { preserved, htmlBlocks };
+}
+
+// Restore HTML tags after escaping
+function restoreHtml(content, htmlBlocks) {
+  let restored = content;
+  htmlBlocks.forEach((block, i) => {
+    restored = restored.replace(`__HTML_${i}__`, block);
+  });
+  return restored;
+}
+
 function extractMathSegments(text) {
   const segments = [];
   let output = "";
@@ -76,13 +96,22 @@ function restoreMathSegments(text, segments) {
 }
 
 function parseInline(text) {
-  const escaped = escapeHtml(text);
-  return escaped
+  // Step 1: Preserve HTML tags
+  const { preserved, htmlBlocks } = preserveHtml(text);
+  
+  // Step 2: Escape the non-HTML parts
+  const escaped = escapeHtml(preserved);
+  
+  // Step 3: Apply markdown formatting
+  let processed = escaped
     .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" style="max-width:100%; height:auto;">')
     .replace(/`([^`]+)`/g, "<code>$1</code>")
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*]+)\*/g, "<em>$1</em>")
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer">$1</a>');
+  
+  // Step 4: Restore HTML tags
+  return restoreHtml(processed, htmlBlocks);
 }
 
 function renderParagraph(text) {
