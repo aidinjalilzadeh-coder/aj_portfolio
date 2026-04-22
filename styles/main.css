@@ -558,10 +558,10 @@ header.header {
 
 /* Base image style - responsive by default */
 .rich-copy img {
-  max-width: 85%;
+  max-width: 100%;
   height: auto;
   display: block;
-  margin: 2.5rem auto;
+  margin: 1.5rem auto;
   border-radius: 8px;
 }
 
@@ -624,7 +624,6 @@ header.header {
 }
 
 .figcaption {
-  text-align: center;
   font-size: 0.85rem;
   color: var(--muted);
   margin-top: 0.5rem;
