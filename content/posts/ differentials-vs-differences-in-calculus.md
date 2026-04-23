@@ -23,7 +23,7 @@ The differentials stem from the definition of first derivative where we often se
 
 <figure> 
   <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/dydx_diag_2.png" alt="brief description">
-  <figcaption>Figure 1. Tangent line to a function at a point $x$</figcaption>
+  <figcaption>Figure 1. Typical curve and tangent line diagram</figcaption>
 </figure>
 
 Now consider the diagram above
