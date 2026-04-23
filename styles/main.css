@@ -552,6 +552,7 @@ header.header {
   }
 }
 
+
 /* ============================================
    IMAGE STYLES
    ============================================ */
@@ -613,7 +614,7 @@ header.header {
   object-fit: cover;
 }
 
-/* Caption styling */
+/* Figure container - general styling */
 .figure {
   text-align: center;
   margin: 2rem 0;
@@ -624,9 +625,24 @@ header.header {
   height: auto;
   display: block;
   margin: 0 auto;
-  
 }
 
+/* Higher specificity overrides for rich-copy context */
+.rich-copy figure {
+  margin: 2rem 0 !important;
+  text-align: center !important;
+  display: block;
+}
+
+.rich-copy figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* Caption styling - general */
 figcaption {
   text-align: center;
   font-weight: bold;
@@ -637,12 +653,23 @@ figcaption {
   line-height: 1.4;
 }
 
-/* Optional: Add a subtle line above caption */
-figcaption::before {
+/* Higher specificity override for rich-copy context */
+.rich-copy figcaption {
+  text-align: center !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+  line-height: 1.4;
+}
+
+/* Dashes around caption - only in rich-copy context */
+.rich-copy figcaption::before {
   content: "— ";
 }
 
-figcaption::after {
+.rich-copy figcaption::after {
   content: " —";
 }
 
