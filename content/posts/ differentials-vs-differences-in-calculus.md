@@ -26,4 +26,4 @@ The differentials stem from the definition of first derivative where we often se
   <figcaption>Figure 1. Typical curve and tangent line diagram</figcaption>
 </figure>
 
-The diagram in Figure 1 must be familiar to anyone who's done calculus. In fact this is a schematic depiction of tangent line drawn to a curve at a general point $(x,f(x))$. We then increment $x$ by a finite distance $\delta x$ to the right, i.e.** in the direction of increasing** $x$. On the curve this new point $x+\delta x$ corresponds to $f(x+\delta x)$. Note that this point can be higher than $f(x)$ or lower and has no effect on what we're about to demonstrate.
+The diagram in Figure 1 must be familiar to anyone who's done calculus. In fact this is a schematic depiction of tangent line drawn to a curve at a general point $(x,f(x))$. We then increment $x$ by a finite distance $\delta x$ to the right, i.e.** in the direction of increasing** **$x$**. On the curve, this new point $x+\delta x$ corresponds to $f(x+\delta x)$. Note that this point can be higher than $f(x)$ or lower and will make no difference in the way we calculate derivative at $x$, i.e. $f'(x)$.
