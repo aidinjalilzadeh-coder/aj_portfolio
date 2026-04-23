@@ -559,10 +559,10 @@ header.header {
 
 /* Base image style - responsive by default */
 .rich-copy img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   display: block;
-  margin: 2rem auto;
+  margin: 3rem auto;
   border-radius: 8px;
 }
 
