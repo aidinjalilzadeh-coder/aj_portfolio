@@ -616,18 +616,34 @@ header.header {
 /* Caption styling */
 .figure {
   text-align: center;
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 }
 
 .figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
   margin: 0 auto;
+  
 }
 
-.figcaption {
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-top: 0.5rem;
+figcaption {
+  text-align: center;
+  font-weight: bold;
   font-style: italic;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+  line-height: 1.4;
+}
+
+/* Optional: Add a subtle line above caption */
+figcaption::before {
+  content: "— ";
+}
+
+figcaption::after {
+  content: " —";
 }
 
 /* Clear floats after floated images */
