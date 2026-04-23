@@ -617,7 +617,7 @@ header.header {
 /* Figure container - general styling */
 .figure {
   text-align: center;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .figure img {
@@ -629,7 +629,7 @@ header.header {
 
 /* Higher specificity overrides for rich-copy context */
 .rich-copy figure {
-  margin: 2rem 0 !important;
+  margin: 3rem 0 !important;
   text-align: center !important;
   display: block;
 }
@@ -647,9 +647,10 @@ figcaption {
   text-align: center;
   font-weight: bold;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--muted);
   margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   line-height: 1.4;
 }
 
@@ -658,9 +659,10 @@ figcaption {
   text-align: center !important;
   font-weight: bold !important;
   font-style: italic !important;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--muted);
   margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   line-height: 1.4;
 }
 
