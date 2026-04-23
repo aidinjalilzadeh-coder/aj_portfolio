@@ -668,11 +668,11 @@ figcaption {
 
 /* Dashes around caption - only in rich-copy context */
 .rich-copy figcaption::before {
-  content: "— ";
+  content: "<< ";
 }
 
 .rich-copy figcaption::after {
-  content: " —";
+  content: " >>";
 }
 
 /* Clear floats after floated images */
