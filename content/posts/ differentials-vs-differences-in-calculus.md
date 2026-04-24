@@ -36,7 +36,7 @@ $$
 
 \begin{aligned}
 
-f(x+\delta x) & = f(x) + \Delta y \\
+f(x+\delta x) & = f(x) + \Delta y = f(x) + \delta y + \epsilon; \delta x: \textrm{finite non-negative}\\
 &= \lim\_{\delta x \to 0} \frac{\delta y}{\delta x}
 
 \end{aligned}
