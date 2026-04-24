@@ -36,8 +36,8 @@ $$
 
 \begin{aligned}
 
-(1)\\, f(x+\delta x) & =  f(x) + \Delta y = f(x) + \delta y + \epsilon; \quad \small{\\(\delta x, \delta y: \textsf{finite non-zero values}\\)} \\\\
-(2)\\, f(x+\delta x) & \approx  f(x) + \delta y= \tilde{f}(x); \quad \small{\\(\textsf{approximation if we ignore the error}\\)}  
+(1)\\,\\, f(x+\delta x) & =  f(x) + \Delta y = f(x) + \delta y + \epsilon; \quad \small{\\(\delta x, \delta y: \textsf{finite non-zero values}\\)} \\\\
+(2) f(x+\delta x) & \approx  f(x) + \delta y= \tilde{f}(x+\delta x); \quad \small{\\(\textsf{approximation if we ignore the error}\\)}  
 
 \end{aligned}
 
