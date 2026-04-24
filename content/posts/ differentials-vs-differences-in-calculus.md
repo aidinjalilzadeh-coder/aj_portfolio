@@ -36,8 +36,8 @@ $$
 
 \begin{aligned}
 
-f(x+\delta x) & = & f(x) + \Delta y = f(x) + \delta y + \epsilon; \quad \small{\\(\delta x, \delta y: \textrm{finite non-zero values}\\)} \\\\
-f(x+\delta x) & \approx & f(x) + \delta y; \quad \small{\\(\text{if we ignore error}\\)}  
+f(x+\delta x) & =  f(x) + \Delta y = f(x) + \delta y + \epsilon; \quad \small{\\(\delta x, \delta y: \textrm{finite non-zero values}\\)} \\\\
+f(x+\delta x) & \approx  f(x) + \delta y; \quad \small{\\(\textsf{if we ignore error}\\)}  
 
 \end{aligned}
 
