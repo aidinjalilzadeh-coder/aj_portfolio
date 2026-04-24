@@ -36,8 +36,7 @@ $$
 
 \begin{aligned}
 
-\frac{dy}{dx} &= \lim\_{\delta x \to 0} \frac{f(x+\delta x) - f(x)}{\delta x} \\\\
-
+f(x+\delta x) & = f(x) + \Delta y \\
 &= \lim\_{\delta x \to 0} \frac{\delta y}{\delta x}
 
 \end{aligned}
