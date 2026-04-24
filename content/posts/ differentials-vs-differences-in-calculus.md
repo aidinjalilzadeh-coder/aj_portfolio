@@ -30,6 +30,8 @@ The diagram in Figure 1 must be familiar to anyone who's done calculus. In fact 
 
 OK - our goal here is NOT to define the derivative; instead we assume we know the value of $f'(x)$ and we also know $f(x)$, that is the function value at point $x$. In other words we don't have the explicit rule of $y=f(x)$. Using what we know we wish to \*\*\*approximate \*\*\*the value of $f(x+\delta x)$. Hence the only equation at our disposal is the **equation of tangent line**. So as you see in the diagram we can only calculate $\tilde{f}$ at $x+\delta x$. Obviously, compared to the true value, the tangent line may over- or under-estimate $f(x+\delta x)$; hence the error $(\epsilon)$.
 
+Now, please look at each line of equations below and compare it to the diagram above. Once you're convinced that it's correct then move to the next line. Here we go:
+
 $$
 
 \begin{aligned}
