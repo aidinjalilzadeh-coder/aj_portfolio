@@ -559,7 +559,7 @@ header.header {
 
 /* Base image style - responsive by default */
 .rich-copy img {
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 3rem auto;
@@ -621,7 +621,7 @@ header.header {
 }
 
 .figure img {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -635,7 +635,7 @@ header.header {
 }
 
 .rich-copy figure img {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
   display: block;
   margin: 0 auto;
