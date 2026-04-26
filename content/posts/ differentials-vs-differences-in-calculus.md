@@ -48,7 +48,7 @@ In fact $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$, i.e. the
 
 $$
 
-(3)\kern{1.1em} f(x+\delta x)  \approx  f(x) + f'(x) \delta x; \quad \smal{\\( \textsf{can you see why?}\\)}
+(3)\kern{1.1em} f(x+\delta x)  \approx  f(x) + f'(x) \delta x; \quad \small{\\( \textsf{can you see why?}\\)}
 
 $$
 
