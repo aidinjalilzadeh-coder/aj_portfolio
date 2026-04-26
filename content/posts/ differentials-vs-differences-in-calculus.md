@@ -26,15 +26,19 @@ The differentials stem from the definition of first derivative where we often se
   <figcaption>Figure 1. Typical curve and tangent line diagram</figcaption>
 </figure>
 
-The diagram in Figure 1 must be familiar to anyone who's done calculus. In fact this is a schematic depiction of tangent line drawn to a curve at a general point $(x,f(x))$ on the curve. This is how the very first description/definition of instantaneous rate of change (Newton) and the slope of tangent line (Leibniz) began in the mid to late 17th century (1665-1684). The common narrative is that Newton and Leibniz worked independently and at some stage the had brief correspondence exchanging ideas. Apparently, Newton shut Leibniz down - we shall see why.
+The diagram in Figure 1 must be familiar to anyone who's done calculus. In fact this is a schematic depiction of tangent line drawn to a curve at a general point $(x,f(x))$ on the curve. This is how the very first description/definition of instantaneous rate of change (Newton) and the slope of tangent line (Leibniz) began in the mid to late 17th century (1665-1684). The common narrative is that Newton and Leibniz worked independently and at some stage they had brief correspondence exchanging ideas. Apparently, Newton shut Leibniz down - we shall see why.
 
-Look at the diagram again. The point $x$ is incremented by a finite distance $\delta x>0$ to the right, i.e.** in the direction of increasing** $x$. On the curve, this new point $x+\delta x$ corresponds to $f(x+\delta x)$. Let's do some math
+Look at the diagram again. The point $x$ is incremented by a finite distance $\delta x>0$ to the right, i.e.** in the direction of increasing** $x$. On the curve, this new point $x+\delta x$ corresponds to $f(x+\delta x)$. Let's do some math:
 
 $$
 
 (1)\kern{1.1em} f(x+\delta x) =  f(x) + \Delta y = f(x) + \delta y + \epsilon; \quad \small{\\(\delta x, \delta y: \textsf{finite non-zero values}\\)}
 
 $$
+
+On the left hand side, if we ignore the error- since in practice we might not know the magnitude of $\epsilon$- then we can derive an approximation for:
+
+ 
 
 Now, please look at each line of equations below and compare it to the diagram above. Once you're convinced that it's correct then move to the next line. Here we go:
 
