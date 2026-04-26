@@ -62,6 +62,6 @@ $$
 
 Note that the symbolism $f'$ was proposed by Lagrange around 1760s. He also coined the term ***derivative*** !
 
-Newton and Leibniz agree up to equation $(4)$. The divergence comes after they try to make the approximate value, exact. Anyone can see from the diagram that as $\delta x$ gets smaller then $\delta y$ begins to shrink and therefore the error will disappear. 
+Newton and Leibniz agree up to equation $(4)$. The divergence comes after they try to make the approximate value, exact. Anyone can see from the diagram that as $\delta x$ gets smaller then $\delta y$ begins to shrink and therefore the error will disappear. This was literally their justification$\text{—}$ very much intuitive and nothing rigorous. Bear in mind that the concept of limits as we know it today came to existence nearly two centuries after Newton and Leibniz. In other words there was no mathematically solid technique or theory for computing limits. That's why things were done intuitively in the 1680s.
 
  
