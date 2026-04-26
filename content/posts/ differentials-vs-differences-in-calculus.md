@@ -32,7 +32,7 @@ Look at the diagram again. The point $x$ is incremented by a finite distance $\d
 
 $$
 
-(1)\kern{1.1em} f(x+\delta x) & =  f(x) + \Delta y = f(x) + \delta y + \epsilon; \quad \small{\\(\delta x, \delta y: \textsf{finite non-zero values}\\)}
+(1)\kern{1.1em} f(x+\delta x) =  f(x) + \Delta y = f(x) + \delta y + \epsilon; \quad \small{\\(\delta x, \delta y: \textsf{finite non-zero values}\\)}
 
 $$
 
