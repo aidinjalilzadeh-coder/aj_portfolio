@@ -40,18 +40,7 @@ On the left hand side, if we ignore the error-- since in practice we might not k
 
 $$
 
-(2)\kern{0.75em} f(x+\delta x) & \approx  f(x) + \delta y= \tilde{f}(x+\delta x); \quad \small{\\(\textsf{approximation if we ignore the error}\\)}
-
-$$
-
-$$
-
-\begin{aligned}
-
-(1)\kern{0.75em} f(x+\delta x) & =  f(x) + \Delta y = f(x) + \delta y + \epsilon; \quad \small{\\(\delta x, \delta y: \textsf{finite non-zero values}\\)} \\\\
-(2)\kern{0.75em} f(x+\delta x) & \approx  f(x) + \delta y= \tilde{f}(x+\delta x); \quad \small{\\(\textsf{approximation if we ignore the error}\\)}
-
-\end{aligned}
+(2)\kern{0.75em} f(x+\delta x)  \approx  f(x) + \delta y= \tilde{f}(x+\delta x); \quad \small{\\(\textsf{approximation if we ignore the error}\\)}
 
 $$
 
