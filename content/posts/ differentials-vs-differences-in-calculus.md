@@ -36,7 +36,7 @@ $$
 
 $$
 
-On the left hand side, if we ignore the error$\text{—}$ since in practice we might not know the magnitude of $\epsilon\text{—}$ then we can derive an approximation for:
+On the left hand side, if we ignore the error$\text{—}$ since in practice we might not know the magnitude of $\epsilon \text{—}$ then we can derive an approximation for:
 
 $$
 
