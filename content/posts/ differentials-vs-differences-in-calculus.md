@@ -56,12 +56,12 @@ By rearranging $(3)$, we will have an approximate expression for the slope of th
 
 $$
 
-(4)\kern{1.1em} f'(x) \approx \frac{f(x+\delta x) - f(x)}{ \delta x}  \quad \small{\\( \textsf{do you see why?}\\)}
+(4)\kern{1.1em} f'(x) \approx \frac{f(x+\delta x) - f(x)}{ \delta x}  \quad \small{\\( \textsf{difference quotient}\\)}
 
 $$
 
-Note that the symbolism $f'(x)$ was proposed by Lagrange around 1760s. He also coined the term ***derivative*** !
+Note that the symbolism $f'$ was proposed by Lagrange around 1760s. He also coined the term ***derivative*** !
+
+Newton and Leibniz agree upto equation $(4)$. The divergence comes after they try to make the approximate value, exact.
 
  
-
-OK - our goal here is NOT to define the derivative; instead we assume we know the value of $f'(x)$ and from the diagram $f'(x)=\delta y/ \delta x$ (you know why?) We also know $f(x)$, that is the function value at point $x$. In other words we don't have the explicit rule of $y=f(x)$. Using what we know we wish to ***approximate*** the value of $f(x+\delta x)$. Hence the only equation at our disposal is the **equation of tangent line**. So as you see in the diagram we can only calculate $\tilde{f}$ at $x+\delta x$. Obviously, compared to the true value, the tangent line may over- or under-estimate $f(x+\delta x)$; hence the error $(\epsilon)$.
