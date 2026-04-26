@@ -48,8 +48,10 @@ In fact $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$, i.e. the
 
 $$
 
-(3)\kern{1.1em} f(x+\delta x)  \approx  f(x) + f'(x) \delta x; \quad \small{\\( \textsf{can you see why?}\\)}
+(3)\kern{1.1em} f(x+\delta x)  \approx  f(x) + f'(x) \delta x; \quad \small{\\( \textsf{do you see why?}\\)}
 
 $$
+
+We have an approximate expression for the slope of the tangent line, which was later named as ***derivative*** by Lagrange. In fact, the notation \emph{prim}
 
 OK - our goal here is NOT to define the derivative; instead we assume we know the value of $f'(x)$ and from the diagram $f'(x)=\delta y/ \delta x$ (you know why?) We also know $f(x)$, that is the function value at point $x$. In other words we don't have the explicit rule of $y=f(x)$. Using what we know we wish to ***approximate*** the value of $f(x+\delta x)$. Hence the only equation at our disposal is the **equation of tangent line**. So as you see in the diagram we can only calculate $\tilde{f}$ at $x+\delta x$. Obviously, compared to the true value, the tangent line may over- or under-estimate $f(x+\delta x)$; hence the error $(\epsilon)$.
