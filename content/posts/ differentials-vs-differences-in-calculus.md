@@ -36,7 +36,7 @@ $$
 
 $$
 
-On the left hand side, if we ignore the error$\text{—}$ since in practice we might not know the magnitude of $\epsilon \text{—}$ then we can derive an approximation for:
+On the left hand side, if we ignore the error$\text{ —}$ since in practice we might not know the magnitude of $\epsilon \text{ —}$ then we can derive an approximation for:
 
 $$
 
@@ -44,6 +44,6 @@ $$
 
 $$
 
-In fact $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$, i.e. the value given by the tangent line instead of the actual curve$\text{—}$ hence the term ***linear approximation***.
+In fact $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$, i.e. the value given by the tangent line instead of the actual curve$\text{ —}$ hence the term ***linear approximation***. Now forget about the $\tilde{f}$ and let's see if we can modify $(2)$ further.  
 
 OK - our goal here is NOT to define the derivative; instead we assume we know the value of $f'(x)$ and from the diagram $f'(x)=\delta y/ \delta x$ (you know why?) We also know $f(x)$, that is the function value at point $x$. In other words we don't have the explicit rule of $y=f(x)$. Using what we know we wish to ***approximate*** the value of $f(x+\delta x)$. Hence the only equation at our disposal is the **equation of tangent line**. So as you see in the diagram we can only calculate $\tilde{f}$ at $x+\delta x$. Obviously, compared to the true value, the tangent line may over- or under-estimate $f(x+\delta x)$; hence the error $(\epsilon)$.
