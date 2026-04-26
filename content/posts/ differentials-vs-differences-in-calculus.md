@@ -32,7 +32,7 @@ Look at the diagram again. The point $x$ is incremented by a finite distance $\d
 
 $$
 
-(1)\kern{1.1em} f(x+\delta x) =  f(x) + \Delta y = f(x) + \delta y + \epsilon; \quad \small{\\(\delta x, \delta y: \textsf{finite non-zero values}\\)}
+(1)\kern{1.1em} f(x+\delta x) =  f(x) + \Delta y = f(x) + \delta y + \epsilon \quad \small{\\(\delta x, \delta y: \textsf{finite non-zero values}\\)}
 
 $$
 
@@ -40,7 +40,7 @@ On the left hand side, if we ignore the error$\text{ —}$ since in practice we 
 
 $$
 
-(2)\kern{1.1em} f(x+\delta x)  \approx  f(x) + \delta y= \tilde{f}(x+\delta x); \quad \small{\\(\textsf{approximation if we ignore the error}\\)}
+(2)\kern{1.1em} f(x+\delta x)  \approx  f(x) + \delta y= \tilde{f}(x+\delta x) \quad \small{\\(\textsf{approximation if we ignore the error}\\)}
 
 $$
 
@@ -48,10 +48,20 @@ In fact $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$, i.e. the
 
 $$
 
-(3)\kern{1.1em} f(x+\delta x)  \approx  f(x) + f'(x) \delta x; \quad \small{\\( \textsf{do you see why?}\\)}
+(3)\kern{1.1em} f(x+\delta x)  \approx  f(x) + f'(x) \delta x \quad \small{\\( \textsf{do you see why?}\\)}
 
 $$
 
-We have an approximate expression for the slope of the tangent line, which was later named as ***derivative*** by Lagrange. In fact, the notation \emph{prim}
+By rearranging $(3)$, we will have an approximate expression for the slope of the tangent line at $x$:
+
+$$
+
+(4)\kern{1.1em} f'(x) \approx \frac{f(x+\delta x) - f(x)}{ \delta x}  \quad \small{\\( \textsf{do you see why?}\\)}
+
+$$
+
+Note that the symbolism $f'(x)$ was proposed by Lagrange around 1760s. He also coined the term ***derivative*** !
+
+ 
 
 OK - our goal here is NOT to define the derivative; instead we assume we know the value of $f'(x)$ and from the diagram $f'(x)=\delta y/ \delta x$ (you know why?) We also know $f(x)$, that is the function value at point $x$. In other words we don't have the explicit rule of $y=f(x)$. Using what we know we wish to ***approximate*** the value of $f(x+\delta x)$. Hence the only equation at our disposal is the **equation of tangent line**. So as you see in the diagram we can only calculate $\tilde{f}$ at $x+\delta x$. Obviously, compared to the true value, the tangent line may over- or under-estimate $f(x+\delta x)$; hence the error $(\epsilon)$.
