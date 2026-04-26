@@ -62,6 +62,6 @@ $$
 
 Note that the symbolism $f'$ was proposed by Lagrange around 1760s. He also coined the term ***derivative*** !
 
-Newton and Leibniz agree upto equation $(4)$. The divergence comes after they try to make the approximate value, exact.
+Newton and Leibniz agree up to equation $(4)$. The divergence comes after they try to make the approximate value, exact. Anyone can see from the diagram that as $\delta x$ gets smaller then $\delta y$ begins to shrink and therefore the error will disappear. 
 
  
