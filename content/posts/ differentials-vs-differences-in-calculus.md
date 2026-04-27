@@ -58,7 +58,7 @@ $$
 (4) \quad f'(x) \approx \frac{f(x+\delta x) - f(x)}{\delta x} \qquad (\text{difference quotient})
 $$
 
-Note that the symbolism $f'$ was proposed by Lagrange around the 1760s. He also coined the term ***derivative!***
+Note that the symbolism $f'$ (*f-prime*) was proposed by Lagrange around the 1760s. He also coined the term ***derivative!***
 
 ## Newton vs Leibniz
 
