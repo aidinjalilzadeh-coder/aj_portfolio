@@ -98,6 +98,6 @@ Another advantage of this symbolism was realised in the modern era and that is: 
 
 $$
 
-\blacksquare
+\flushright \blacksquare
 
 $$
