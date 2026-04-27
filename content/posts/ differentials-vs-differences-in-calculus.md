@@ -63,7 +63,7 @@ $$
 
 Note that the symbolism $f'$ was proposed by Lagrange around 1760s. He also coined the term ***derivative*** !
 
-Newton and Leibniz agreed up to equation $(4)$. The divergence comes after they try to make the approximate value, exact. Anyone can see from the diagram that as $\delta x$ gets smaller then $\delta y$ begins to shrink and therefore the error will disappear. This was literally their justification$\text{—}$ very much intuitive and nothing rigorous. Bear in mind that the concept of limits as we know it today came to existence nearly two centuries after Newton and Leibniz. In other words there was no mathematically solid technique or theory for computing limits. That's why things were done intuitively in the 1680s. But no matter what, their methods worked and stood the test of time, as confirmed by many mathematicians.
+Newton and Leibniz agreed up to equation $(4)$. The divergence came after they tried to make the approximate value, *exact*. Anyone can see from the diagram that as $\delta x$ gets smaller then $\delta y$ begins to shrink and therefore the error will also shrink markedly. This was literally their justification$\text{—}$ very much intuitive and nothing rigorous. Bear in mind that the concept of limits as we know it today came to existence nearly two centuries after Newton and Leibniz. In other words there was no mathematically solid technique or theory for computing limits. Even the meaning of $x \to a$ (*x tends to a) *was not defined. So, things had to be done intuitively in the 1680s. But no matter what, their methods worked and stood the test of time, as confirmed by many mathematicians.
 
 Alright, I digress! Let's get down to the actual dispute. N & L both realised that $\delta x$ must become very small. One may say that: *well, the smallest non-negative number is zero!* But technically it won't be possible since in $(4)$ we can't divide by zero. Therefore Newton proposed $\delta x$ to become infinitely small but never equal to zero, something rather fictitious! Leibniz didn't do any better in terms of justifying an infinitely small quantity but nonetheless he invented a notation, which is being used to date. Newton and his disciples made very little effort to clarify what they meant by infinitely small and they went as far accusing Leibniz of plagiarism. Leibniz was cleared of this accusation in the 1830s.
 
@@ -77,7 +77,7 @@ $$
 
 $$
 
-Now if we allow $\delta x$ to become infinitely small then we'll have $dx$, and $\delta y$ (and also $\Delta y$) becomes $dy$. In modern times we have a clear definition for $x \to a$ (*x tends to a) *but no such concept existed in 1684! Now we write $(5)$ in terms of the infinitesimals:
+Now if we allow $\delta x$ to become infinitely small then we'll have $dx$, and $\delta y$ (and also $\Delta y$) becomes $dy$. In modern times we have a clear definition for * *but no such concept existed in 1684! Now we write $(5)$ in terms of the infinitesimals:
 
 $$
 
