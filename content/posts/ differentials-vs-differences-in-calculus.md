@@ -81,7 +81,7 @@ But Newton's shadow was still hovering over the Royal Society and Cambridge, and
 Let's take a look at Leibniz's difference quotient and see how he defined the derivative of a function:
 
 $$
-(5) \quad \frac{f(x+\delta x) - f(x)}{\delta x} \approx \frac{\delta y}{\delta x} \qquad (\text{look at the diagram again})
+(5) \quad \frac{f(x+\delta x) - f(x)}{\delta x} \approx \frac{\delta y}{\delta x} \qquad (\text{see eqn $2$})
 $$
 
 Now, if we allow $\delta x$ to become infinitely small, then we have $dx$, and $\delta y$ (and also $\Delta y$) become $dy$. Recall that in 1684, $\delta x \to 0$ was not yet defined! Now we write (5) in terms of the infinitesimals:
