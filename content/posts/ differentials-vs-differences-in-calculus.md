@@ -11,6 +11,7 @@ tags:
   - integral calculus
   - infinitesimals
   - $dx$ vs $\delta x$
+draft: true
 ---
 
 ## Foreword
