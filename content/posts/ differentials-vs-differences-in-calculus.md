@@ -73,6 +73,8 @@ Let's take a look at Leibniz's difference quotient and see how he defined the de
 
 $$
 
-\kern{1.1em}  \frac{f(x+\delta x) - f(x)}{ \delta x}=\frac{\Delta y}{\delta x} \approx \frac{\Delta y}{\delta x}  \quad \small{\\( \textsf{difference quotient}\\)}
+(5)\kern{1.1em}  \frac{f(x+\delta x) - f(x)}{ \delta x} \approx \frac{\delta y}{\delta x}  \quad \small{\\( \textsf{look at the diagram again}\\)}
 
 $$
+
+Now if we allow $\delta x$ to become infinitely small then we'll have $dx$ and $\delta y$ (and also $\Delta y$) become $dy$. In modern times we have a clear definition for $x \to a$ (*x tends to a).*
