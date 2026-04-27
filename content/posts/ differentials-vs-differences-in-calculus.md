@@ -17,7 +17,7 @@ draft: false
 
 ## Foreword
 
-When you're evaluating an integral — say, finding the area under a function $f(x)$ from $x = a$ to $x = b$ — the first thing you write is the integral expression with the usual notations and conventions: $\int\_{a}^{b} f(x) \\, dx$.
+When you're evaluating an integral — say, finding the area under a function $f(x)$ from $x = a$ to $x = b$ — the first thing you write is the integral expression with the usual notations and conventions: $\int\_{a}^{b} f(x) dx$.
 
 By instinct, you — and I too — know that any integral expression needs a $dx$ (or $dt$, if $f$ is a function of time). We were constantly told that if we miss the $dx$, the whole expression will be wrong and won't make sense. But did you ever wonder why? Here I will try to get to the bottom of $dx$ — the so-called ***differential*** of $x$ — and find out where it comes from.
 
@@ -68,7 +68,7 @@ Bear in mind that the concept of limits as we know it today came into existence 
 
 All right, I digress! Let's get down to the actual dispute. Newton and Leibniz both realised that $\delta x$ must become very small. One may say, "Well, the smallest non-negative number is zero!" But technically this isn't possible, since in (4) we cannot divide by zero.
 
-Therefore, Newton proposed that $\delta x$ become *infinitely small* but never equal to zero — something rather fictitious! Leibniz didn't do any better at justifying an infinitely small quantity. Nonetheless, he invented a notation that is still used to this day.
+Therefore, Newton proposed $\delta x$ to become *infinitely small* but never equal to zero — something rather fictitious! Leibniz didn't do any better at justifying an infinitely small quantity. Nonetheless, he invented a notation that is still used to this day.
 
 Newton and his disciples made very little effort to clarify what they meant by "infinitely small," and they went as far as accusing Leibniz of plagiarism. Leibniz was cleared of this accusation in the 1830s.
 
