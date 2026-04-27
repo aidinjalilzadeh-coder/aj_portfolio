@@ -3,7 +3,7 @@ title: Differentials vs Differences
 slug: dx-vs-deltax
 summary: The distinction between $dx$ and $\delta x$.
 author: Dr. Aidin Jalilzadeh
-publishedAt: 2026-04-16T00:00:00.000Z
+publishedAt: 2026-04-20T04:01:00.000Z
 tags:
   - cat-education
   - calculus
