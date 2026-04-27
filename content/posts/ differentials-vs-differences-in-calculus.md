@@ -93,3 +93,5 @@ $$
 (7)\kern{1.1em}\frac{dy}{dx} \cdot \frac{dx}{dt}=\frac{dy}{\cancel{dx}} \cdot \frac{\cancel{dx}}{dt}=\frac{dy}{dt}
 
 $$
+
+Another advantage of this symbolism was realised in the modern era and that is: differentiation has become mechanical and brainless. This means it can be programmed easily and at low cost in computation. At the end, it is just some function evaluations followed by a bunch of multiplication.
