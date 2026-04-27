@@ -11,7 +11,7 @@ tags:
   - integral calculus
   - infinitesimals
   - $dx$ vs $\delta x$
-draft: true
+draft: false
 ---
 
 ## Foreword
@@ -29,7 +29,7 @@ The differentials stem from the definition of first derivative where we often se
 
 The diagram in Figure 1 must be familiar to anyone who's done calculus. In fact this is a schematic depiction of tangent line drawn to a curve at a general point $(x,f(x))$ on the curve. This is how the very first description/definition of instantaneous rate of change (Newton) and the slope of tangent line (Leibniz) began in the mid to late 17th century (1665-1684). The common narrative is that Newton and Leibniz worked independently and at some stage they had brief correspondence exchanging ideas. Apparently, Newton shut Leibniz down - we shall see why.
 
-Look at the diagram again. The point $x$ is incremented by a finite distance $\delta x>0$ to the right, i.e.** in the direction of increasing** $x$. On the curve, this new point $x+\delta x$ corresponds to $f(x+\delta x)$. Let's do some math:
+Look at the diagram again. The point $x$ is incremented by a finite distance $\delta x>0$ to the right, i.e.\*\* in the direction of increasing\*\* $x$. On the curve, this new point $x+\delta x$ corresponds to $f(x+\delta x)$. Let's do some math:
 
 $$
 
@@ -45,7 +45,7 @@ $$
 
 $$
 
-In fact $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$, i.e. the value given by the tangent line instead of the actual curve$\text{ —}$ hence the term ***linear approximation***. Now forget about the $\tilde{f}$ and let's see if we can modify $(2)$ further. It turns out we can, have a look at the equation below: 
+In fact $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$, i.e. the value given by the tangent line instead of the actual curve$\text{ —}$ hence the term ***linear approximation***. Now forget about the $\tilde{f}$ and let's see if we can modify $(2)$ further. It turns out we can, have a look at the equation below:
 
 $$
 
@@ -65,6 +65,4 @@ Note that the symbolism $f'$ was proposed by Lagrange around 1760s. He also coin
 
 Newton and Leibniz agree up to equation $(4)$. The divergence comes after they try to make the approximate value, exact. Anyone can see from the diagram that as $\delta x$ gets smaller then $\delta y$ begins to shrink and therefore the error will disappear. This was literally their justification$\text{—}$ very much intuitive and nothing rigorous. Bear in mind that the concept of limits as we know it today came to existence nearly two centuries after Newton and Leibniz. In other words there was no mathematically solid technique or theory for computing limits. That's why things were done intuitively in the 1680s. But no matter what, their methods worked and stood the test of time, as confirmed by many mathematicians.
 
-Alright, I digress! Let's get down to the actual dispute. N & L both realised that $\delta x$ must become very small. One may say that: well, the smallest non-negative number is zero! But technically it won't be possible since in $(4)$ we can't divide by zero. Therefore Newton proposed $\delta x$ to become infinitely small but never equal to zero, something rather fictitious! Leibniz didn't do any better in terms of justifying an infinitely small quantity but nonetheless he invented a notation, which is being used to date. Newton and his disciples made almost no effort to clarify what they meant by infinitely small. Leibniz was one step ahead and he coined the term infinitesimal as a 
-
- 
+Alright, I digress! Let's get down to the actual dispute. N & L both realised that $\delta x$ must become very small. One may say that: well, the smallest non-negative number is zero! But technically it won't be possible since in $(4)$ we can't divide by zero. Therefore Newton proposed $\delta x$ to become infinitely small but never equal to zero, something rather fictitious! Leibniz didn't do any better in terms of justifying an infinitely small quantity but nonetheless he invented a notation, which is being used to date. Newton and his disciples made very little effort to clarify what they meant by infinitely small. Leibniz was one step ahead and he coined the term *infinitesimal* to be synonymous to infinitely small and described the notation in the following manner: $\delta x$ represents a finite increment in $x$ variable and once it becomes infinitesimal then it is denoted by $dx$ and called *the differential *of $x$. The terminology and symbolism was received quite well in the continental Europe in the 18th century, however, Newton's shadow was still hovering over the Royal Society and Cambridge and none of Leibniz's symbolism was used over in Britain for nearly a century after Issac Newton. 
