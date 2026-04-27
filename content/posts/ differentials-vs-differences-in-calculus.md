@@ -84,3 +84,5 @@ $$
 (6)\kern{1.1em}  \frac{f(x+dx) - f(x)}{ dx} = \frac{dy}{dx}= \frac{df}{dx} \quad \small{\\( \textsf{Finally!!}\\)}
 
 $$
+
+Leibniz's notation was quite handy, specially in dealing with complicated chain rules with multiple layers of functions. The answer was simple: treat $dy/dx$ as a fraction just like rational numbers. This made the Newtonians very much \<u>upset!\</u>    
