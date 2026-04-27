@@ -90,6 +90,6 @@ Leibniz's notation was quite handy, specially in dealing with complicated chain 
 
 $$
 
-(7)\kern{1.1em}\frac{dy}{~~dx~~} \cdot \frac{~~dx~~}{dt}=\frac{dy}{dx} \cdot \frac{dx}{dt}=dy/dt
+(7)\kern{1.1em}\frac{dy}{dx} \cdot \frac{dx}{dt}=\frac{dy}{\not dx} \cdot \frac{\not dx}{dt}=\frac{dy}{dt}
 
 $$
