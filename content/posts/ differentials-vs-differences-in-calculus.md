@@ -85,4 +85,10 @@ $$
 
 $$
 
-Leibniz's notation was quite handy, specially in dealing with complicated chain rules with multiple layers of functions. The answer was simple: treat $dy/dx$ as a fraction just like rational numbers. This made the Newtonians very much \<u>upset!\</u>    
+Leibniz's notation was quite handy, specially in dealing with complicated chain rules with multiple layers of functions. The answer was simple: treat $dy/dx$ as a fraction just like rational numbers. This made the Newtonians very much upset! Let's look at an example: suppose we have $y(x)=x²-4x+1$ and $x(t)=t²$; in other words $y$ depends on $x$ and $x$ depends on $t$. We want to compute derivative of $y$ with respect to $t$, i.e. $dy/dt$. We don't have an explicit expression connecting $y$ to $t$, but we can compute $dy/dx$ and $dx/dt$ and treating these two derivatives as fractions we can multiply and cancel $dx$:
+
+$$
+
+\frac{dy}{dx} \cdot \frac{dx}{dt}
+
+$$
