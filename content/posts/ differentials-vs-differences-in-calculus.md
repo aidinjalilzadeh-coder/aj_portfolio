@@ -94,6 +94,6 @@ $$
 
 $$
 
-Another advantage of this symbolism was realised in the modern era and that is: differentiation has become mechanical and brainless. This means it can be programmed easily and at low cost in computation. At the end, it is just some function evaluations followed by a bunch of multiplication.
+Another advantage of this symbolism was realised in the modern era and that is: differentiation has become mechanical and brainless. This means it can be programmed easily and at a low computational cost in say, Machine Learning models. Because it is just some function evaluations (cheap computation) followed by a bunch of multiplications (again cheap).
 
 <div style="text-align: right;">$\blacksquare$</div>
