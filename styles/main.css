@@ -1301,7 +1301,7 @@ figcaption {
 
   /* Control blog post text width on small phones */
   .rich-copy {
-    max-width: 95% !important;
+    max-width: 92.5% !important;
     margin: 0 auto;
   }
 }
@@ -1315,7 +1315,7 @@ figcaption {
 
   /* Control blog post text width on medium screens */
   .rich-copy {
-    max-width: 85% !important;
+    max-width: 87.5% !important;
     margin: 0 auto;
   }
 }
