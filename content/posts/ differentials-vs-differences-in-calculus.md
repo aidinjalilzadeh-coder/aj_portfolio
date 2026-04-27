@@ -17,7 +17,7 @@ draft: false
 
 ## Foreword
 
-When you're evaluating an integral — say, finding the area under a function $f(x)$ from $x = a$ to $x = b$ — the first thing you write is the integral expression with the usual notations and conventions: $\int\_{a}^{b} f(x) , dx$.
+When you're evaluating an integral — say, finding the area under a function $f(x)$ from $x = a$ to $x = b$ — the first thing you write is the integral expression with the usual notations and conventions: $\int\_{a}^{b} f(x) \\, dx$.
 
 By instinct, you — and I too — know that any integral expression needs a $dx$ (or $dt$, if $f$ is a function of time). We were constantly told that if we miss the $dx$, the whole expression will be wrong and won't make sense. But did you ever wonder why? Here I will try to get to the bottom of $dx$ — the so-called ***differential*** of $x$ — and find out where it comes from.
 
