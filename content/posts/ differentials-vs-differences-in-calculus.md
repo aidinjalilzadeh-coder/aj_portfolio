@@ -67,4 +67,12 @@ Newton and Leibniz agree up to equation $(4)$. The divergence comes after they t
 
 Alright, I digress! Let's get down to the actual dispute. N & L both realised that $\delta x$ must become very small. One may say that: *well, the smallest non-negative number is zero!* But technically it won't be possible since in $(4)$ we can't divide by zero. Therefore Newton proposed $\delta x$ to become infinitely small but never equal to zero, something rather fictitious! Leibniz didn't do any better in terms of justifying an infinitely small quantity but nonetheless he invented a notation, which is being used to date. Newton and his disciples made very little effort to clarify what they meant by infinitely small and they went as far accusing Leibniz of plagiarism. Leibniz was cleared of this accusation in the 1830s.
 
-In 1684 Leibniz published his differential calculus book and there he introduced a myriad of new terms and notation. Firstly, he coined the term *infinitesimal* to be synonymous to infinitely small and described the notation in the following manner: $\delta x$ represents a finite increment in $x$ variable and once it becomes infinitesimal then it is denoted by $dx$ and called *the differential *of $x$. The terminology and symbolism was received quite well in the continental Europe in the 18th century, however, Newton's shadow was still hovering over the Royal Society and Cambridge and none of Leibniz's symbolism was used over in Britain for nearly a century after Issac Newton's death. 
+In 1684 Leibniz published his differential calculus book and there he introduced a myriad of new terms and notation. Firstly, he coined the term *infinitesimal* to be synonymous to infinitely small and described the notation in the following manner: $\delta x$ represents a finite increment in $x$ variable and once it becomes infinitesimal then it is denoted by $dx$ and called *the differential *of $x$. The symbol he used for the derivative of $f$ with respect to $x$ was $df/dx$, which is understood well in high schools these days. The terminology and symbolism was received quite well in the continental Europe in the 18th century, and was popularised rapidly. But Newton's shadow was still hovering over the Royal Society and Cambridge and none of Leibniz's symbolism was used over in Britain for nearly a century after Issac Newton's death. 
+
+Let's take a look at Leibniz's difference quotient and see how he defined the derivative of a function:
+
+$$
+
+(4)\kern{1.1em}  \frac{f(x+\delta x) - f(x)}{ \delta x}  \quad \small{\\( \textsf{difference quotient}\\)}
+
+$$
