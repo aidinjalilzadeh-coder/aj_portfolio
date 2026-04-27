@@ -49,7 +49,7 @@ $$
 In fact, $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$ — i.e., the value given by the tangent line instead of the actual curve — hence the term ***linear approximation***. Now forget about $\tilde{f}$ and let's see if we can modify (2) further. It turns out we can. Have a look at the equation below:
 
 $$
-(3) \quad f(x+\delta x) \approx f(x) + f'(x) , \delta x \qquad (\text{do you see why?})
+(3) \quad f(x+\delta x) \approx f(x) + f'(x) \delta x \qquad (\text{do you see why?})
 $$
 
 By rearranging (3), we obtain an approximate expression for the slope of the tangent line at $x$:
