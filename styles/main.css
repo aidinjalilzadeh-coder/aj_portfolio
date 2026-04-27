@@ -982,7 +982,7 @@ figcaption {
 
 /* Rich content styling for blog post body */
 .rich-copy {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   font-size: 1.05rem;
   line-height: 1.7;
@@ -1256,6 +1256,12 @@ figcaption {
     align-items: flex-start;
     padding: 1rem 5% 2rem;
   }
+
+  /* Control blog post text width on tablets */
+  .rich-copy {
+    max-width: 90% !important;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1292,6 +1298,12 @@ figcaption {
   #experience .section-title {
     font-size: 2rem;
   }
+
+  /* Control blog post text width on small phones */
+  .rich-copy {
+    max-width: 95% !important;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 980px) {
@@ -1299,5 +1311,11 @@ figcaption {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 5%;
+  }
+
+  /* Control blog post text width on medium screens */
+  .rich-copy {
+    max-width: 85% !important;
+    margin: 0 auto;
   }
 }
