@@ -77,4 +77,10 @@ $$
 
 $$
 
-Now if we allow $\delta x$ to become infinitely small then we'll have $dx$ and $\delta y$ (and also $\Delta y$) become $dy$. In modern times we have a clear definition for $x \to a$ (*x tends to a).*
+Now if we allow $\delta x$ to become infinitely small then we'll have $dx$, and $\delta y$ (and also $\Delta y$) becomes $dy$. In modern times we have a clear definition for $x \to a$ (*x tends to a) *but no such concept existed in 1684! Now we write $(5)$ in terms of the infinitesimals:
+
+$$
+
+(6)\kern{1.1em}  \frac{f(x+dx) - f(x)}{ dx} = \frac{dy}{dx}= \frac{df}{dx} \quad \small{\\( \textsf{look at the diagram again}\\)}
+
+$$
