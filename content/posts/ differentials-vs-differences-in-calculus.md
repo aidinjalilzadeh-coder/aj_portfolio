@@ -73,6 +73,6 @@ Let's take a look at Leibniz's difference quotient and see how he defined the de
 
 $$
 
-(4)\kern{1.1em}  \frac{f(x+\delta x) - f(x)}{ \delta x}  \quad \small{\\( \textsf{difference quotient}\\)}
+\kern{1.1em}  \frac{f(x+\delta x) - f(x)}{ \delta x}=\frac{\Delta y}{\delta x} \approx \frac{\Delta y}{\delta x}  \quad \small{\\( \textsf{difference quotient}\\)}
 
 $$
