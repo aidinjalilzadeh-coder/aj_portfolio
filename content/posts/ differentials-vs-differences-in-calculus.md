@@ -8,9 +8,10 @@ tags:
   - cat-education
   - calculus
   - differential calculus
-  - integral calculus
   - infinitesimals
   - $dx$ vs $\delta x$
+  - Newton
+  - Leibniz
 draft: false
 ---
 
