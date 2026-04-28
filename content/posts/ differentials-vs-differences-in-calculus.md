@@ -68,11 +68,11 @@ Bear in mind that the concept of limits as we know it today came into existence 
 
 All right, I digress! Let's get down to the actual dispute. Newton and Leibniz both realised that $\delta x$ must become very small. One may say, *"Well, the smallest non-negative number is zero!"* But technically this isn't possible, since in (4) we cannot divide by zero.
 
-Therefore, Newton proposed $\delta x$ to become *infinitely small* but never equal to zero — something rather fictitious! Leibniz didn't do any better at justifying an infinitely small quantity. Nonetheless, he invented a notation that is still used to this day.
+Therefore, Newton proposed $\delta x$ to become *infinitely small* but never equal to zero — something rather fictitious, even today! Leibniz didn't do any better at justifying an infinitely small quantity. Nonetheless, he invented a notation that is still used to this day.
 
-Newton and his disciples made very little effort to clarify what they meant by "infinitely small," and they went as far as accusing Leibniz of plagiarism. Leibniz was cleared of this accusation in the 1830s.
+Newton and his disciples made very little effort to clarify what they meant by "infinitely small" but they went as far as accusing Leibniz of plagiarism. Leibniz was cleared of this accusation in the 1830s.
 
-In 1684, Leibniz published his differential calculus book, and there he introduced a myriad of new terms and notations. First, he coined the term *infinitesimal* to be synonymous with "infinitely small" and described the notation as follows: $\delta x$ represents a finite increment in the variable $x$; once it becomes infinitesimal, it is denoted by $dx$ and called the ***differential*** of $x$.
+In 1684, Leibniz published his differential calculus book, and there he introduced new vocabulary and notation. First, he coined the term *infinitesimal* as a substitute for "infinitely small" and described the notation as follows: $\delta x$ represents a finite increment in the variable $x$; once it becomes infinitesimal, it is denoted by $dx$ and called the ***differential*** of $x$.
 
 The symbol he used for the derivative of $f$ with respect to $x$ was $df/dx$. The terminology and symbolism were received quite well in continental Europe during the 18th and 19th centuries and were popularised rapidly.
 
