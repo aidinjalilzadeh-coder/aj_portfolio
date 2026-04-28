@@ -19,7 +19,7 @@ draft: false
 
 When you're evaluating an integral — say, finding the area under a function $f(x)$ from $x = a$ to $x = b$ — the first thing you write is the integral expression with the usual notations and conventions: $\int\_{a}^{b} f(x) dx$.
 
-By instinct, you — and I too — know that any integral expression needs a $dx$ (or $dt$, if $f$ is a function of time). We were constantly told that if we miss the $dx$, the whole expression will be wrong and won't make sense. But did you ever wonder why? Here I will try to get to the bottom of $dx$ — the so-called ***differential*** of $x$ — and find out where it comes from.
+By instinct, you — and I too — know that any integral expression needs a $dx$ (or $dt$, if $f$ is a function of time). We were constantly told that if we miss the $dx$, the whole expression will be wrong and won't make sense. But did you ever wonder why? Here I will try to get to the bottom of $dx$ — the so-called ***differential*** of $x$ — and find out where it came from.
 
 ## Derivative, Tangent Line & Linear Approximation
 
@@ -32,21 +32,21 @@ The differentials stem from the definition of the first derivative, where we oft
 
 The diagram in Figure 1 should be familiar to anyone who has studied calculus. In fact, this is a schematic depiction of a tangent line drawn to a curve at a general point $(x, f(x))$ on the curve. This is how the very first descriptions of instantaneous rate of change (Newton) and the slope of the tangent line (Leibniz) began in the mid-to-late 17th century (1665–1684).
 
-The common narrative is that Newton and Leibniz worked independently and, at some stage, had a brief correspondence exchanging ideas. Apparently, Newton shut Leibniz down — we shall see why.
+The common narrative is that Newton and Leibniz worked independently and, at some stage, had a brief correspondence for exchanging ideas. Apparently, Newton shut Leibniz down — we shall see why.
 
-Look at the diagram again. The point $x$ is increased by a finite distance $\delta x > 0$ to the right — i.e., in the direction of increasing $x$. On the curve, this new point $x + \delta x$ corresponds to the function value $f(x + \delta x)$. Let's do some math:
+Look at the diagram again. The point $x$ is increased by a finite distance $\delta x > 0$ to the right — i.e., in the direction of increasing $x$. On the curve, this new point $x + \delta x$ corresponds to the function value $f(x + \delta x)$. We can write:
 
 $$
 (1) \quad f(x+\delta x) = f(x) + \Delta y = f(x) + \delta y + \epsilon \qquad (\delta x, \delta y \text{ are finite, non-zero values})
 $$
 
-On the left-hand side, if we ignore the error — since in practice we might not know the magnitude of $\epsilon$ — then we can derive an approximation:
+On the left-hand side, if we ignore the error — since in practice we might not know the magnitude of $\epsilon$ — then we can derive an approximation for the $y$ value of $x + \delta x$:
 
 $$
 (2) \quad f(x+\delta x) \approx f(x) + \delta y = \tilde{f}(x+\delta x) \qquad (\text{approximation if we ignore the error})
 $$
 
-In fact, $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$ — i.e., the value given by the tangent line instead of the actual curve — hence the term ***linear approximation***. Now forget about $\tilde{f}$ and let's see if we can modify (2) further. It turns out we can. Have a look at the equation below:
+Where, $\tilde{f}(x+\delta x)$ is an approximation of $f(x+\delta x)$ — i.e., the value given by the tangent line instead of the actual curve — hence the term ***linear approximation***. Now forget about $\tilde{f}$ and let's see if we can modify (2) further. It turns out we can. Have a look at the equation below:
 
 $$
 (3) \quad f(x+\delta x) \approx f(x) + f'(x) \delta x \qquad (\text{do you see why?})
@@ -58,7 +58,7 @@ $$
 (4) \quad f'(x) \approx \frac{f(x+\delta x) - f(x)}{\delta x} \qquad (\text{difference quotient})
 $$
 
-Note that the symbolism $f'$ (*f-prime*) was proposed by Lagrange around the 1760s. He also coined the term ***derivative!***
+Note that the symbolism $f'$ (*f-prime*) was proposed by Lagrange around the 1760s. He also coined the term ***derivative!  fonction dérivée***
 
 ## Newton vs Leibniz
 
