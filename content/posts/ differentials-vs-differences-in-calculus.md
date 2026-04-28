@@ -98,6 +98,6 @@ $$
 (7) \quad \frac{dy}{dx} \cdot \frac{dx}{dt} = \frac{dy}{\cancel{dx}} \cdot \frac{\cancel{dx}}{dt} = \frac{dy}{dt}
 $$
 
-Another advantage of this symbolism was realised in the modern era: differentiation has become mechanical and even "brainless." This means it can be programmed easily and at a low computational cost, say, in machine learning models. Because it involves only a few function evaluations (cheap computation) followed by a series of multiplications (again cheap).
+Another advantage of this symbolism was realised in the modern era: differentiation can be treated as a *mechanical process*. This means it can be programmed easily and at a low computational cost, say, in machine learning models. Because it involves only a few function evaluations (cheap computation) followed by a series of multiplications (again cheap).
 
 <div style="text-align: right;">$\blacksquare$</div>
