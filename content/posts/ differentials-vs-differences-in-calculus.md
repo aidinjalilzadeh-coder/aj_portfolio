@@ -58,7 +58,7 @@ $$
 (4) \quad f'(x) \approx \frac{f(x+\delta x) - f(x)}{\delta x} \qquad (\text{difference quotient})
 $$
 
-Note that the symbolism $f'$ (*f-prime*) was proposed by Lagrange around the 1760s. He also coined the term ***derivative!  fonction dérivée***
+Note that the symbolism $f'$ (*f-prime*) was proposed by Lagrange around the 1760s. He also coined the term ***derivative ***translated from the French expression*** fonction dérivée***, which means derived function.
 
 ## Newton vs Leibniz
 
@@ -66,7 +66,7 @@ Newton and Leibniz agreed up to equation (4). The divergence came after they tri
 
 Bear in mind that the concept of limits as we know it today came into existence nearly two centuries after Newton and Leibniz. In other words, there was no solid mathematical theory for computing limits. Even $x \to a$ ($x$ *tends to* $a$) was not defined. So things had to be done intuitively in the 1680s. But no matter what, their methods worked and have stood the test of time.
 
-All right, I digress! Let's get down to the actual dispute. Newton and Leibniz both realised that $\delta x$ must become very small. One may say, "Well, the smallest non-negative number is zero!" But technically this isn't possible, since in (4) we cannot divide by zero.
+All right, I digress! Let's get down to the actual dispute. Newton and Leibniz both realised that $\delta x$ must become very small. One may say, *"Well, the smallest non-negative number is zero!"* But technically this isn't possible, since in (4) we cannot divide by zero.
 
 Therefore, Newton proposed $\delta x$ to become *infinitely small* but never equal to zero — something rather fictitious! Leibniz didn't do any better at justifying an infinitely small quantity. Nonetheless, he invented a notation that is still used to this day.
 
