@@ -21,3 +21,5 @@ $$
 
 $$
 Usually this is as far as it goes in terms of theory. Then come a myriad of formulae and techniques where students learn (memorize) and become (potentially) capable of differentiating any function regradless of how complicated the rule $f(x)$ may be. This is part 1, i.e. *differential calculus* done!
+
+In part 2, students must learn how to undo whatever techniques they have learnt in part 1. Because part 2 is informally known as integration, where most of us, may immediately think of: **area under curve**.
