@@ -29,12 +29,12 @@ Translating all this to beautiful math we get:
 
 $$
 
-\int f(x) \kern{0.1em} dx = F(x) + C \kern{1em} \iff \kern{1em} F'(x) = f(x). \qquad \left( f \textsf{ is the derivative of } F \textsf{ and } F \textsf{ is the anti-derivative of } f \right)
+\int f(x) \kern{0.1em} dx = F(x) + C \kern{0.5em} \iff \kern{0.5em} F'(x) = f(x). \qquad \left( f \textsf{ is the derivative of } F \textsf{ and } F \textsf{ is the anti-derivative of } f \right)
 
 $$
 
 I don't want o get more into the nitty-gritty of integration but keep in mind that every single rule that you learn in differentiation, e.g. chain rule, product rule, quotient rule, … they all have a counterpart in the integration world. Integration by parts (IBP) is the counterpart for the product rule!
 
-## IBP
+## IBP Product Rule's Relative
 
 <div style="text-align: right;">$\blacksquare$</div>
