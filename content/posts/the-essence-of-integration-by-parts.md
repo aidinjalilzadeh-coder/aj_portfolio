@@ -45,8 +45,24 @@ $$
 
 $$
 
-Now, let's change the roles of $\ln(x)$ and $1/x$. The question will be: **what is the antiderivative of** $\ln(x)$? or $\int \ln(x) dx = ??$. In other words I want to find some function $F(x)$ so that when I differentiate it I get $\ln(x)$. This is not trivial and we need to use a different set of keys to unlock $\int \ln(x) dx$.
+Now, let's change the roles of $\ln(x)$ and $1/x$. The question will be: **what is the antiderivative of** $\ln(x)$? or $\int \ln(x) dx = ??$. In other words I want to find some function $F(x)$ so that when I differentiate it I get $\ln(x)$. This is not trivial and we need to use a different set of keys to unlock $\int \ln(x) dx$ and many more integrals like this.
 
 #### Product Rule Revisited
+
+Suppose we have two functions $u(x)$ and $v(x)$, where both depend on one variable $x$. The derivative of the product $u \cdot v$ can be written as:
+
+$$
+
+(1)—  \kern{0.1em} \frac{d}{dx}(uv) = u \frac{dv}{dx} + v \frac{du}{dx}
+
+$$
+
+The differential form after cancelling $dx$ is:
+
+$$
+
+(2)—  \kern{0.1em} d(uv) = u dv + v du
+
+$$
 
 <div style="text-align: right;">$\blacksquare$</div>
