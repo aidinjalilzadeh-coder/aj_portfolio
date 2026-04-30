@@ -53,7 +53,7 @@ Suppose we have two functions $u(x)$ and $v(x)$, where both depend on one variab
 
 $$
 
-(1)  \qquad \frac{d}{dx}(uv) = u \frac{dv}{dx} + v \frac{du}{dx}
+(1)  \qquad \frac{d}{dx}(uv) = u \frac{dv}{dx} + v \frac{du}{dx}=uv' + vu'
 
 $$
 
@@ -65,6 +65,12 @@ $$
 
 $$
 
-In my experience, students get confused upon coming across equation $(2)$ and the source of confusion is in misunderstanding of the use of differentials plus the fact that $(2)$ is another form of the product rule. Let's stick an integral sign
+In my experience, students get confused upon coming across equation $(2)$ and the source of confusion is in the misunderstanding of the use of differentials plus the fact that $(2)$ is another form of the product rule given in $(1)$. Let's stick an integral sign on both sides of $(2)$:
+
+$$
+
+(3)  \qquad \int d(uv) =\int uv'dx + \int vu'dx
+
+$$
 
 <div style="text-align: right;">$\blacksquare$</div>
