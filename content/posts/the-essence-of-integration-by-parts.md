@@ -75,6 +75,6 @@ $$
 
 On the left hand side, we have integration applied after the differentiation of $uv$ and we know these two undo each others' action so $uv$ doesn't change. On the right hand side, we have two parts and if you're lucky, one of the integrals is straight-forward like the ones that you already know its antiderivative and the other integral is the nasty one. Hence by rearranging $(3)$ we can write the nasty integral in terms of nice ones.
 
-A classic example is $\int x e^x dx$.
+A classic first example is $\int x e^x dx$. I used to solve this in my classes using $vdu$ and $udv$ arguments but later I realised that for the first few examples, it's much better understood by class if I just reverse engineered. 
 
 <div style="text-align: right;">$\blacksquare$</div>
