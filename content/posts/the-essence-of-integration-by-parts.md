@@ -103,6 +103,8 @@ $$
 
 The rest is easy!
 
-Using reverse engineering has been extremely successful in my classes and not much can go wrong unless the student doesn't know how to differentiate. If we were given $\int x² e^x dx$ then we would have to apply IBP twice to grind down the quadratic term.
+Using reverse engineering has been extremely successful in my classes and not much can go wrong unless the student doesn't know how to differentiate. Notice that if you were given $\int x² e^x dx$ then you would have to apply IBP twice to grind down the quadratic term.
+
+Let's quickly revisit the problem of finding the antiderivative of $ln (x)$
 
 <div style="text-align: right;">$\blacksquare$</div>
