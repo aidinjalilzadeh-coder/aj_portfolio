@@ -35,7 +35,7 @@ $$
 
 I don't want o get more into the nitty-gritty of integration but keep in mind that every single rule that you learn in differentiation, e.g. chain rule, product rule, quotient rule, … they all have a counterpart in the integration world. Integration by parts (IBP) is the counterpart for the product rule!
 
-## IBP - Product Rule's Relative
+## IBP - Related to the Product Rule
 
 Integration by parts— which I'll refer to it as IBP from here on— is a powerful technique in finding the antiderivative of a function that is a bit out of the ordinary. Let me clarify what I mean by out of the ordinary; the antiderivative of $\cos(x)$ is $\sin(x)$, i.e. $\int \cos(x) dx = \sin(x) + C$. So this is a straightforward integration where the antiderivative is known in advance and there's no need for any mathematical manipulation. The same goes for $e^x$, $\sin(x)$, $x^n$ (except when $n=-1$) and so on and so forth. Also, consider $y=\ln(x)$; we know by definition that $y' = 1/x$, therefore $\ln(x)$ is the antiderivative of $1/x$ or:
 
@@ -89,7 +89,7 @@ and with the integral sign:
 
 $$
 
-(3')  \qquad \int d(xe^x) =\int xe^xdx + \int e^x dx \qquad \textsf{nice integral: } \int e^x dx \kern{0.33em} \textsf{ nasty: \int xe^xdx}.
+(3')  \qquad \int d(xe^x) =\int xe^xdx + \int e^x dx \qquad \textsf{nice integral: } \int e^x dx \kern{0.33em} \textsf{ nasty: }\int xe^xdx.
 
 $$
 
@@ -100,5 +100,7 @@ $$
 (3'')  \qquad \int d(xe^xdx) =xe^x - \int e^x dx \qquad \textsf{the first term on the right is equivalent to } uv \kern{0.33em} \textsf{ in } $(3)$.
 
 $$
+
+The rest is easy!
 
 <div style="text-align: right;">$\blacksquare$</div>
