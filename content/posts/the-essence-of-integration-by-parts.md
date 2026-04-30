@@ -103,6 +103,8 @@ $$
 
 The rest is easy!
 
-Using reverse engineering has been extremely successful in my classes and not much can go wrong unless the student doesn't know how to differentiate. Let's quickly revisit the problem of finding the antiderivative of $\ln (x)$. Unlike the other examples there's only one function under the integral: $\int \ln(x) dx$. But you can think of it and the product of $1 \cdot \ln(x)$.
+Using reverse engineering has been extremely successful in my classes and not much can go wrong unless the student doesn't know how to differentiate. Let's quickly revisit the problem of finding the antiderivative of $\ln (x)$. Unlike the other examples there's only one function under the integral: $\int \ln(x) dx$. But you can think of it and the product of $\left(1 \cdot \ln(x)\right)$. I think you can take it from here!!
+
+Let me know how you get on.
 
 <div style="text-align: right;">$\blacksquare$</div>
