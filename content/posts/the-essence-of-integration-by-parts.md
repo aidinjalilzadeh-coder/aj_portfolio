@@ -97,7 +97,7 @@ We got it! $\int x e^x dx$ is the difficult integral on the right side and the o
 
 $$
 
-(3'')  \qquad \int d(xe^xdx) =xe^x - \int e^x dx \qquad \textsf{the first term on the right is equivalent to } uv \kern{0.33em} \textsf{ in } $(3)$.
+(3'')  \qquad \int d(xe^xdx) =xe^x - \int e^x dx \qquad \textsf{the first term on the right is equivalent to } uv \kern{0.33em} \textsf{ in } (3).
 
 $$
 
