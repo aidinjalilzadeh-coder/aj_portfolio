@@ -29,3 +29,5 @@ $$
 \int f(x) dx = F(x) + C \quad \iff \quad F'(x) = f(x). \qquad \\( f \textsf{ is the derivative of } F \textsf{ and } F \textsf{ is the anti-derivative of } f \\)
 
 $$
+
+I don't want o get more into the nitty-gritty of integration but keep in mind that every single rule that you learn in differentiation, e.g. chain rule, product rule, quotient rule, … they all have a counterpart in the integration world.
