@@ -8,9 +8,9 @@ tags:
   - cat-education
   - integration by parts
   - product rule
-draft: true
+draft: false
 ---
 
 ## Background
 
-Calculus, has become such an accessible subject that kids in almost every corner of the world begin learning in their grade 10 or 11 if not sooner. The classic path to teaching calculus begins by the concept of limits and what it means for a variable to approach (tend) to some fixed value.
+Calculus of single-variable functions ($y=f(x)$), has become such an accessible subject that kids in almost every corner of the world begin learning in their grade 10 or 11 if not sooner. The classic path to teaching calculus begins by the concept of limits and what it means for a variable to approach (tend) to some fixed value. Then move up to calculating average rate of change of some function with respect to its independent variable.
