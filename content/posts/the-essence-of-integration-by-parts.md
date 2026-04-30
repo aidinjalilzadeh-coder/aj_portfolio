@@ -47,4 +47,6 @@ $$
 
 Now, let's change the roles of $\ln(x)$ and $1/x$. The question will be: **what is the antiderivative of** $\ln(x)$? or $\int \ln(x) dx = ??$. In other words I want to find some function $F(x)$ so that when I differentiate it I get $\ln(x)$. This is not trivial and we need to use a different set of keys to unlock $\int \ln(x) dx$.
 
+#### Product Rule Revisited
+
 <div style="text-align: right;">$\blacksquare$</div>
