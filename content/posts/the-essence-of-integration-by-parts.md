@@ -77,4 +77,12 @@ On the left hand side, we have integration applied after the differentiation of 
 
 A classic first example is $\int x e^x dx$. I used to solve this in my classes using $vdu$ and $udv$ arguments but later I realised that for the first few examples, it's understood better, if I just reverse engineered the integral. Of course, ultimately students will transition from this to $vdu$ and $udv$ methods but they have a back up method in case this one backfires!
 
+Here's how I explain it; the function under the integral is $xe^x$ so let's try the product rule on this: 
+
+$$
+
+(4)  \qquad d(xe^x) = x (e^x dx) + e^x (1 dx) 
+
+$$
+
 <div style="text-align: right;">$\blacksquare$</div>
