@@ -29,7 +29,7 @@ Translating all this to beautiful math we get:
 
 $$
 
-\int f(x) \kern{0.1em} dx = F(x) + C \quad \iff \quad F'(x) = f(x). \qquad \left( f \textsf{ is the derivative of } F \textsf{ and } F \textsf{ is the anti-derivative of } f \right)
+\int f(x) \kern{0.1em} dx = F(x) + C \kern{1em} \iff \kern{1em} F'(x) = f(x). \qquad \left( f \textsf{ is the derivative of } F \textsf{ and } F \textsf{ is the anti-derivative of } f \right)
 
 $$
 
