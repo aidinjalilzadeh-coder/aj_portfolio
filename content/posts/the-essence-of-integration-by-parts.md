@@ -22,7 +22,9 @@ $$
 $$
 Usually this is as far as it goes in terms of theory specially in high schools. Then come a myriad of formulae and techniques where students learn (memorize) and become (potentially) capable of differentiating any function regardless of how complicated the rule $f(x)$ may be. This is part 1, i.e. *differential calculus* done!
 
-In part 2, students must learn how to undo whatever techniques they have learnt in part 1. Part 2 is called **integration**, where most of us may immediately think of: **area under curve!** Yes, one application is for calculating areas and volumes however, there is a crucial step before the actual calculation of areas. Integration is the operation *opposite* to that of the differentiation— this is what I meant by “ … learn how to undo …” in the start of this paragraph. So, integrating a function $f(x)$ gives us a new function say $F(x)$, which is called the ***anti-derivative*** of $f(x)$. In other words, the derivative of $F$ is equal to $f$. Translating all this to math we get:
+In part 2, students must learn how to undo whatever techniques they have learnt in part 1. Part 2 is called **integration**, where most of us may immediately think of: **area under curve!** Yes, one application is for calculating areas and volumes however, there is a crucial step before the actual calculation of areas. Integration is the operation *opposite* to that of the differentiation— this is what I meant by “ … learn how to undo …” in the start of this paragraph. So, integrating a function $f(x)$ gives us a new function say $F(x)$, which is called the ***anti-derivative*** of $f(x)$. In other words, the derivative of $F$ is equal to $f$. 
+
+Translating all this to beautiful math we get:
 
 $$
 
@@ -31,3 +33,7 @@ $$
 $$
 
 I don't want o get more into the nitty-gritty of integration but keep in mind that every single rule that you learn in differentiation, e.g. chain rule, product rule, quotient rule, … they all have a counterpart in the integration world.
+
+```markdown
+<div style="text-align: right;">$\blacksquare$</div>
+```
