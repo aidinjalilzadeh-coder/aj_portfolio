@@ -49,11 +49,11 @@ Now, let's change the roles of $\ln(x)$ and $1/x$. The question will be: **what 
 
 #### Product Rule Revisited
 
-Suppose we have two functions $u(x)$ and $v(x)$, where both depend on one variable $x$. The derivative of the product $u \cdot v$ can be written as:
+Suppose we have two functions $u(x)$ and $v(x)$, where both depend on one variable $x$. The derivative of the product $uv$ can be written as:
 
 $$
 
-(1)—  \kern{0.1em} \frac{d}{dx}(uv) = u \frac{dv}{dx} + v \frac{du}{dx}
+(1)—  \qquad \frac{d}{dx}(uv) = u \frac{dv}{dx} + v \frac{du}{dx}
 
 $$
 
@@ -61,7 +61,7 @@ The differential form after cancelling $dx$ is:
 
 $$
 
-(2)—  \kern{0.1em} d(uv) = u dv + v du
+(2)—  \qquad d(uv) = u dv + v du
 
 $$
 
