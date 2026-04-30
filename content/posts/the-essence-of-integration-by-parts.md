@@ -17,6 +17,6 @@ Calculus of single-variable functions $(y=f(x))$, has become such an accessible 
 
 $$
 
-\textsf{On } y=f(x) \textsf{ At point } (a,f(a)) \rightarrow
+\textsf{On}\quad y=f(x) \quad \textsf{At point: } (a,f(a)) \rightarrow f'(a)=\lim\_{h \to 0}\frac{f(a+h)-f(a)}{h} = m\_a \quad \textsf{slope of tangent at }a
 
 $$
