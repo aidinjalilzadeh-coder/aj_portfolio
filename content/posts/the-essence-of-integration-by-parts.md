@@ -33,6 +33,8 @@ $$
 
 $$
 
-I don't want o get more into the nitty-gritty of integration but keep in mind that every single rule that you learn in differentiation, e.g. chain rule, product rule, quotient rule, … they all have a counterpart in the integration world.
+I don't want o get more into the nitty-gritty of integration but keep in mind that every single rule that you learn in differentiation, e.g. chain rule, product rule, quotient rule, … they all have a counterpart in the integration world. Integration by parts (IBP) is the counterpart for the product rule!
+
+## IBP
 
 <div style="text-align: right;">$\blacksquare$</div>
