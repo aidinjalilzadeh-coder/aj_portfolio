@@ -73,6 +73,8 @@ $$
 
 $$
 
-On the left hand side, we have integration applied after differentiation of $uv$ and we know these two undo each others' action so $uv$ didn't change. On the right hand side, we have two parts and if you're luck one of the integrals is straight-forward like the ones that you already know its antiderivative and the other integral is the nasty one. 
+On the left hand side, we have integration applied after the differentiation of $uv$ and we know these two undo each others' action so $uv$ doesn't change. On the right hand side, we have two parts and if you're lucky, one of the integrals is straight-forward like the ones that you already know its antiderivative and the other integral is the nasty one. Hence by rearranging $(3)$ we can write the nasty integral in terms of nice ones.
+
+A classic example is $\int x e^x dx$.
 
 <div style="text-align: right;">$\blacksquare$</div>
