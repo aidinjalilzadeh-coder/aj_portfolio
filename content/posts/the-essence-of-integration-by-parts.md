@@ -1,5 +1,5 @@
 ---
-title: The Essence of Integration by Parts
+title: The Essence of Integration by Parts (IBP)
 slug: IBP
 summary: Where does integration by parts come from?
 author: Dr. Aidin Jalilzadeh
@@ -36,5 +36,7 @@ $$
 I don't want o get more into the nitty-gritty of integration but keep in mind that every single rule that you learn in differentiation, e.g. chain rule, product rule, quotient rule, … they all have a counterpart in the integration world. Integration by parts (IBP) is the counterpart for the product rule!
 
 ## IBP - Product Rule's Relative
+
+Integration by parts— which I'll refer to it as IBP from here on— is a powerful technique in finding the antiderivative of a function
 
 <div style="text-align: right;">$\blacksquare$</div>
