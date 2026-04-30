@@ -81,15 +81,15 @@ Here's how I explain it; the function under the integral is $xe^x$ so let's try 
 
 $$
 
-(2')  \qquad d(xe^x) = x (e^x dx) + e^x (1 dx)  \qquad \textsf{where }\kernel{0.3em} d(e^x)=e^x dx \kernel{0.3em} \textsf{ and } \kernel{0.3em} d(x) = 1 dx,
+(2')  \qquad d(xe^x) = x (e^x dx) + e^x (1 dx)  \qquad \textsf{where }\kern{0.3em} d(e^x)=e^x dx \kern{0.3em} \textsf{ and } \kern{0.3em} d(x) = 1 dx,
 
 $$
 
-and integral
+and with the integral sign:
 
 $$
 
-(3')  \qquad \int d(xe^x) =\int xe^xdx + \int e^x dx \quad \implies \quad  uv = \int uv'dx + \int vu'dx.
+(3')  \qquad \int d(xe^x) =\int xe^xdx + \int e^x dx 
 
 $$
 
