@@ -69,8 +69,10 @@ In my experience, students get confused upon coming across equation $(2)$ and th
 
 $$
 
-(3)  \qquad \int d(uv) =\int uv'dx + \int vu'dx
+(3)  \qquad \int d(uv) =\int uv'dx + \int vu'dx \quad \rightarrow \quad  uv = \int uv'dx + \int vu'dx.
 
 $$
+
+On the left hand side, we have integration applied after differentiation of $uv$ and we know these two undo each others action so $uv$ didn't change.
 
 <div style="text-align: right;">$\blacksquare$</div>
