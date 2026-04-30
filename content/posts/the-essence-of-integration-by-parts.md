@@ -37,6 +37,12 @@ I don't want o get more into the nitty-gritty of integration but keep in mind th
 
 ## IBP - Product Rule's Relative
 
-Integration by parts— which I'll refer to it as IBP from here on— is a powerful technique in finding the antiderivative of a function that is a bit out of the ordinary. Let me clarify what I mean by out of the ordinary; the antiderivative of $\cos(x)$ is $\sin(x)$, i.e. $\int \cos(x) dx = \sin(x) + C$. So this is a straightforward integration where the antiderivative is known in advance and there's no need for any mathematical manipulation. The same goes for $e^x$, $\sin(x)$, $x^n$ (except when $n=-1$) and so on and so forth. Also, consider $y=\ln(x)$; we know that by definition $y' = 1/x$
+Integration by parts— which I'll refer to it as IBP from here on— is a powerful technique in finding the antiderivative of a function that is a bit out of the ordinary. Let me clarify what I mean by out of the ordinary; the antiderivative of $\cos(x)$ is $\sin(x)$, i.e. $\int \cos(x) dx = \sin(x) + C$. So this is a straightforward integration where the antiderivative is known in advance and there's no need for any mathematical manipulation. The same goes for $e^x$, $\sin(x)$, $x^n$ (except when $n=-1$) and so on and so forth. Also, consider $y=\ln(x)$; we know by definition that $y' = 1/x$ therefore $\ln(x)$ is the antiderivative of $1/x$ or:
+
+$$
+
+\int \frac{1}{x} \kern{0.1em} dx = \ln(x) + C \kern{0.5em} \iff \kern{0.5em} \frac{d}{dx} \ln(x) = \frac{1}{x}
+
+$$
 
 <div style="text-align: right;">$\blacksquare$</div>
