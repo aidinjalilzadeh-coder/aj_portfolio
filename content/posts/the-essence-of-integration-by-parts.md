@@ -26,6 +26,6 @@ In part 2, students must learn how to undo whatever techniques they have learnt 
 
 $$
 
-\int f(x) dx = F(x) + C \quad \iff \quad F'(x) = f(x). \qquad f \textsf{ is the derivative of } F \textsf{ and } F \textsf{ is the anti-derivative of } f.
+\int f(x) dx = F(x) + C \quad \iff \quad F'(x) = f(x). \qquad \\( f \textsf{ is the derivative of } F \textsf{ and } F \textsf{ is the anti-derivative of } f \\)
 
 $$
