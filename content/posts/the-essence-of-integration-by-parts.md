@@ -20,4 +20,4 @@ $$
 \textsf{On}\quad y=f(x) \quad \textsf{At point: } (a,f(a)) \rightarrow f'(a)=\lim\_{h \to 0}\frac{f(a+h)-f(a)}{h} = m\_a \quad \textsf{slope of tangent at  } x=a.
 
 $$
-Usually this is as far as it goes in terms of theory. Then come a myriad of formulae and techniques where students learn (memorize) and become (potentially) capable of differentiating any function regradless of how complicated the rule $f(x)$ may be.
+Usually this is as far as it goes in terms of theory. Then come a myriad of formulae and techniques where students learn (memorize) and become (potentially) capable of differentiating any function regradless of how complicated the rule $f(x)$ may be. This is part 1, i.e. *differential calculus* done!
