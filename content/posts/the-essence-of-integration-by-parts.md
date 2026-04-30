@@ -45,4 +45,6 @@ $$
 
 $$
 
+Now, let's change the roles of $\ln(x)$ and $1/x$. The question will be: what is the antiderivative of $\ln(x)$? or $\int \ln(x) dx = ??$
+
 <div style="text-align: right;">$\blacksquare$</div>
