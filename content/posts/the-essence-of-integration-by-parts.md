@@ -29,7 +29,7 @@ Translating all this to beautiful math we get:
 
 $$
 
-\int f(x) , dx = F(x) + C \quad \iff \quad F'(x) ; = f(x). \qquad \left( f \textsf{ is the derivative of } F \textsf{ and } F \textsf{ is the anti-derivative of } f \right)
+\int f(x) dx = F(x) + C \quad \iff \quad F'(x) = f(x). \qquad \left( f \textsf{ is the derivative of } F \textsf{ and } F \textsf{ is the anti-derivative of } f \right)
 
 $$
 
