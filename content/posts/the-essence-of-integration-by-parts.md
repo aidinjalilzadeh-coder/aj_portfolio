@@ -45,7 +45,7 @@ $$
 
 $$
 
-Now, let's change the roles of $\ln(x)$ and $1/x$. The question will be: **what is the antiderivative of** $\ln(x)$? or $\int \ln(x) dx = ??$. In other words I want to find some function $F(x)$ so that when I differentiate it I get $\ln(x)$. This is not trivial and we need to use a different set of keys to unlock $\int \ln(x) dx$ and many more integrals like this.
+Now, let's change the roles of $\ln(x)$ and $1/x$. The question will be: **what is the antiderivative of** $\ln(x)$? or $\int \ln(x) dx = ??$. In other words I want to find some function $F(x)$ so that when I differentiate it I get $\ln(x)$. This is not trivial and we need to use a different set of keys to unlock $\int \ln(x) dx$ and many more integrals like this. I will explain the mechanics of IBP by reverse engineering the product rule.
 
 #### Product Rule Revisited
 
@@ -53,7 +53,7 @@ Suppose we have two functions $u(x)$ and $v(x)$, where both depend on one variab
 
 $$
 
-(1)—  \qquad \frac{d}{dx}(uv) = u \frac{dv}{dx} + v \frac{du}{dx}
+(1)  \qquad \frac{d}{dx}(uv) = u \frac{dv}{dx} + v \frac{du}{dx}
 
 $$
 
@@ -61,8 +61,10 @@ The differential form after cancelling $dx$ is:
 
 $$
 
-(2)—  \qquad d(uv) = u dv + v du
+(2)  \qquad d(uv) = u dv + v du = uv'dx + vu'dx
 
 $$
+
+In my experience, students get confused upon coming across equation $(2)$ and the source of confusion is in misunderstanding of the use of differentials plus the fact that $(2)$ is another form of the product rule. Let's stick an integral sign
 
 <div style="text-align: right;">$\blacksquare$</div>
