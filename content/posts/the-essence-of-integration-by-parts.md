@@ -20,6 +20,6 @@ $$
 \textsf{On}\quad y=f(x) \quad \textsf{At point: } (a,f(a)) \rightarrow f'(a)=\lim\_{h \to 0}\frac{f(a+h)-f(a)}{h} = m\_a \quad \textsf{slope of tangent at  } x=a.
 
 $$
-Usually this is as far as it goes in terms of theory. Then come a myriad of formulae and techniques where students learn (memorize) and become (potentially) capable of differentiating any function regradless of how complicated the rule $f(x)$ may be. This is part 1, i.e. *differential calculus* done!
+Usually this is as far as it goes in terms of theory. Then come a myriad of formulae and techniques where students learn (memorize) and become (potentially) capable of differentiating any function regardless of how complicated the rule $f(x)$ may be. This is part 1, i.e. *differential calculus* done!
 
-In part 2, students must learn how to undo whatever techniques they have learnt in part 1. Part 2 is informally known as **integration**, where most of us, may immediately think of: **area under curve**. Yes, one application is for calculating areas and volumes but before you can perform such calculation properly you should do one thing properly and correctly! Integration is the *opposite* operation of the differentiation--
+In part 2, students must learn how to undo whatever techniques they have learnt in part 1. Part 2 is informally known as **integration**, where most of us, may immediately think of: **area under curve**. Yes, one application is for calculating areas and volumes but before you can perform such calculation properly you should do one thing properly and correctly! Integration is the *opposite* operation of the differentiation— this is what I meant by “ … learning how to undo …”. 
