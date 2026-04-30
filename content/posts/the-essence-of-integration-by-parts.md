@@ -81,7 +81,7 @@ Here's how I explain it; the function under the integral is $xe^x$ so let's try 
 
 $$
 
-(4)  \qquad d(xe^x) = x (e^x dx) + e^x (1 dx) 
+(4)  \qquad d(xe^x) = x (e^x dx) + e^x (1 dx)  \qquad d(e^x)=e^x dx \textsf{ and } d(x) = 1 dx
 
 $$
 
