@@ -77,7 +77,7 @@ On the left hand side, we have integration applied after the differentiation of 
 
 A classic first example is $\int x e^x dx$. I used to solve this in my classes using $vdu$ and $udv$ arguments but later I realised that for the first few examples, it's understood better, if I just reverse engineered the integral. Of course, ultimately students will transition from this to $vdu$ and $udv$ methods but they have a back up method in case this one backfires!
 
-Here's how I explain it; the function under the integral is $xe^x$ so let's try the product rule on this: 
+Here's how I explain it; the function under the integral is $xe^x$ so let's try the product rule on this:
 
 $$
 
@@ -103,7 +103,7 @@ $$
 
 The rest is easy!
 
-Using reverse engineering has been extremely successful in my classes and not much can go wrong unless the student doesn't know how to differentiate. Let's quickly revisit the problem of finding the antiderivative of $\ln (x)$. Unlike the other examples there's only one function under the integral: $\int \ln(x) dx$. But you can think of it and the product of $\left(1 \cdot \ln(x)\right)$. I think you can take it from here!!
+Using reverse engineering has been extremely successful in my classes and not much can go wrong unless the student doesn't know how to differentiate. Let's quickly revisit the problem of finding the antiderivative of $\ln (x)$. Unlike the other examples there's only one function under the integral: $\int \ln(x) dx$. But you can think of it as the product of $\left(1 \cdot \ln(x)\right)$. I think you can take it from here!!
 
 Let me know how you get on.
 
