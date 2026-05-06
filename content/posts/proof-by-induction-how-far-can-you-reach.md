@@ -13,7 +13,7 @@ tags:
 
 ## Episode 1: The Thought
 
-A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 250 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and students were trickling in. A few moments later, I glanced at the lecture hall— around 30 students were seated. But one tiny detail caught my attention: *every single one them had blonde hair!*
+A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 250 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and in the meantime students were trickling in. A few moments later, I glanced at the lecture hall— around 30 students were seated. But one tiny detail caught my attention: *every single one of them had blonde hair!*
 
 A thought pops into my head: *“…hmm… can I use mathematical induction to justify that all the students in this school are blonde?”* I already knew the answer and I had to start my talk.
 
@@ -21,4 +21,4 @@ A thought pops into my head: *“…hmm… can I use mathematical induction to j
 
 Since then, I have been dabbling with the whole idea on and off in between other things that I do. As I said, I already knew the answer— and so does anyone with common sense, whether they've heard of the ***Principle of Mathematical Induction (PMI)*** or not.
 
-However, the distinction becomes apparent when I follow up my question with a simple **why? **
+However, the distinction becomes apparent when I follow up my question with a simple **why?** And of course, the reasoning can no longer rely on common sense; it must be *watertight!* Often, in my mathematical proof classes I use the courtroom analogy: any statement made in the court of law must be concise and backed up by solid reasoning, otherwise won't be credible!
