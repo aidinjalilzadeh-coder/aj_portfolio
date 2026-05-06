@@ -8,7 +8,7 @@ tags:
   - cat-research
   - mathematical induction
   - proof by induction
-  - inductive set
+  - inductive reasoning
 ---
 
-##
+## Story
