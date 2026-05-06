@@ -18,3 +18,5 @@ A few weeks ago, I was invited to an international school to give a public lectu
 A thought pops into my head: *“…hmm… can I use mathematical induction to justify that all the students in this school are blonde?”* But I had to start my talk.
 
 ## Episode 2: Since Then …
+
+Since then, I have been dabbling with the whole idea on and off in between other things that I do. I already knew the answer and basically anyone who knows the ***Principle of Mathematical Induction (PMI)***
