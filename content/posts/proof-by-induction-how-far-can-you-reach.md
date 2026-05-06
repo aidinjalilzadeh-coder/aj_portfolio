@@ -11,4 +11,6 @@ tags:
   - inductive reasoning
 ---
 
-## Story
+## Episode 1
+
+A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 250 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and saw that students are trickling in.
