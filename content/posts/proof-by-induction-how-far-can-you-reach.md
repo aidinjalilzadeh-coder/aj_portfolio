@@ -1,5 +1,5 @@
 ---
-title: 'Mathematical Induction vs Everyday Induction: The Blonde Student Fallacy'
+title: 'Mathematical Induction vs. Everyday Induction: The Blonde Student Fallacy'
 slug: PBI
 summary: What statements can or cannot be proved by mathematical induction?
 author: Dr. Aidin Jalilzadeh
@@ -13,12 +13,12 @@ tags:
 
 ## Episode 1: The Thought
 
-A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 250 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and saw that students are trickling in. A few moments later, I glanced at the lecture hall— around 30 students were seated. But one tiny detail caught my attention: *every single one them had blonde hair!*
+A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 250 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and students were trickling in. A few moments later, I glanced at the lecture hall— around 30 students were seated. But one tiny detail caught my attention: *every single one them had blonde hair!*
 
 A thought pops into my head: *“…hmm… can I use mathematical induction to justify that all the students in this school are blonde?”* I already knew the answer and I had to start my talk.
 
 ## Episode 2: Since Then …
 
-Since then, I have been dabbling with the whole idea on and off in between other things that I do. As I said, I already knew the answer-- and so does anyone with common sense, whether they've heard of the ***Principle of Mathematical Induction (PMI)*** or not.
+Since then, I have been dabbling with the whole idea on and off in between other things that I do. As I said, I already knew the answer— and so does anyone with common sense, whether they've heard of the ***Principle of Mathematical Induction (PMI)*** or not.
 
-However, the distinction becomes apparent when I follow up my question with a simple **why?**
+However, the distinction becomes apparent when I follow up my question with a simple **why? **
