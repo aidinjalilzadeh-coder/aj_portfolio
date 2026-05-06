@@ -960,7 +960,7 @@ figcaption {
   margin-bottom: 3rem;
 }
 
-.post-header h1 {
+.post-header h2 {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: clamp(2.2rem, 5vw, 3.2rem);
   margin: 3rem 0 3rem 0;
