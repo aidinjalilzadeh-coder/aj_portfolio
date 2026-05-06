@@ -11,8 +11,10 @@ tags:
   - inductive reasoning
 ---
 
-## Episode 1
+## Episode 1: The Thought
 
 A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 250 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and saw that students are trickling in. A few moments later, I glanced at the lecture hall— around 30 students were seated. But one tiny detail caught my attention: *every single one them had blonde hair!*
 
 A thought pops into my head: *“…hmm… can I use mathematical induction to justify that all the students in this school are blonde?”* But I had to start my talk.
+
+## Episode 2: Since Then …
