@@ -19,4 +19,6 @@ A thought pops into my head: *“…hmm… can I use mathematical induction to j
 
 ## Episode 2: Since Then …
 
-Since then, I have been dabbling with the whole idea on and off in between other things that I do. I already knew the answer and anyone regardless of being familiar with the \*\*\*Principle of Mathematical Induction (PMI) \*\*\* or not, also knows the answer— just use common sense!
+Since then, I have been dabbling with the whole idea on and off in between other things that I do. I already knew the answer and anyone regardless of being familiar with the ***Principle of Mathematical Induction (PMI)*** or not, also knows the answer— just use common sense!
+
+However, the distinction becomes apparent when I propose a simple follow up question; **why?**
