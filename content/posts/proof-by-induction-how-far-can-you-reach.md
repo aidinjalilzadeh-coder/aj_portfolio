@@ -1,5 +1,5 @@
 ---
-title: Proof by Induction - How far can you reach?
+title: 'Mathematical Induction vs Everyday Induction: The Blonde Student Fallacy'
 slug: PBI
 summary: What statements can or cannot be proved by mathematical induction?
 author: Dr. Aidin Jalilzadeh
