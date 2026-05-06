@@ -13,4 +13,4 @@ tags:
 
 ## Episode 1
 
-A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 250 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and saw that students are trickling in. A few moments later, I looked at the lecture hall and there were easily around 30 students seated. Though one tiny detail caught my attention: all 30 students had blonde hairs. 
+A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 250 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and saw that students are trickling in. A few moments later, I glanced at the lecture hall— around 30 students were seated. But one tiny detail caught my attention: every single one them had blonde hair! 
