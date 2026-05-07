@@ -25,4 +25,4 @@ However, the distinction becomes apparent when I follow up my question with a si
 
 Therefore, to answer the follow-up why **"rigorously"** we should disect the proof by induction procedure.
 
-<div style="text-align: right;">$\blacksquare$</div>
+<div style="text-align: right;">$\blacksquare$</div> 
