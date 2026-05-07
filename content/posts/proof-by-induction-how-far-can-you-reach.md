@@ -30,8 +30,9 @@ I won't go into the nuts and bolts of proof by induction and the formalities. Bu
 OK- let's go back to the so-called “abstract world of mathematics”.
 
 From the description given above, two conditions will guarantee a successful domino effect:
-
-* there must be a beginning,
-* ensure each tile will actually knock over the next one upon its own falling.
+\begin{itemize}
+\item there must be a beginning,
+\item ensure each tile will actually knock over the next one upon its own falling.
+\end{itemize}
 
 <div style="text-align: right;">$\blacksquare$</div> 
