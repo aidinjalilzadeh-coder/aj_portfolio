@@ -23,8 +23,8 @@ Since then, I have been dabbling with the whole idea on and off in between other
 
 However, the distinction becomes apparent when I follow up my question with a simple **why?** Now, the reasoning can no longer rely on common sense. In fact, in my mathematical proof classes I often use the courtroom analogy: *any statement made in a court of law must be airtight so that nobody can fault it!* To be **airtight** or **watertight** means there are no gaps (ambiguities) or **logical leaks** in your statements. The more specific term for a faultless proof in mathematics and logic is **rigorous**. In a rigorous proof, every claim you make must refer either to a formal definition or to a theorem. Hence, if you make a claim outside of this realm, no matter how trivial or obvious, you must prove it on the spot before proceeding further. Therefore, to answer the follow-up why **"rigorously"** we should disect the elements of proof by induction procedure.
 
-## And Now ...
+## Episode 3: Dominoes
 
-I will not be going through the knots and bolts of proof by induction and the logic behind it; but in a nutshell, the PMI, which is the foundation for proof by induction, resembles the domino effect. One tile is knocked off and this can initiate (hypothetically) an infinite sequence of fall-overs.
+I will not be going through the nuts and bolts of proof by induction and the pure maths behind it. But in a nutshell, the PMI — which is the foundation for proof by induction — resembles the domino effect. One tile is knocked over, and this can initiate (hypothetically) an infinite sequence of toppling. Think of the domino as a real-world simulation of proof by induction where you have an infinite sequence of tiles! In the abstract world the ordered sequence of tiles is replaced by consecutive integers. The domino effect
 
 <div style="text-align: right;">$\blacksquare$</div> 
