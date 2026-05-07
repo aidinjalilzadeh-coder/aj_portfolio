@@ -25,6 +25,13 @@ However, the distinction becomes apparent when I follow up my question with a si
 
 ## Episode 3: Dominoes and Math
 
-I won't go into the nuts and bolts of proof by induction and the formalities. But in a nutshell, the PMI — the foundation of proof by induction — resembles the domino effect. One tile knocks over the next, and this can initiate (hypothetically) an infinite sequence of toppling. Think of dominoes as the real-world simulation of proof by induction, where you have an infinite sequence of tiles! In the abstract world of mathematics, the **ordered** sequence of tiles is replaced by the set of *natural numbers* denoted $\mathbb{N}$. For the domino effect to work, you need to knock over the first tile to set off the whole show. This is necessary but not sufficient. The distance between two successive dominoes must be such that each falling tile knocks over its immediate successor— otherwise, if the gap is too large, no progress is made.
+I won't go into the nuts and bolts of proof by induction and the formalities. But in a nutshell, the PMI — the foundation of proof by induction — resembles the domino effect. One tile knocks over the next, and this can initiate (hypothetically) an infinite sequence of toppling. Think of dominoes as the real-world simulation of proof by induction, where you have an infinite sequence of tiles! In the abstract world of mathematics, the **ordered** sequence of tiles is replaced by the set of *natural numbers*, denoted $\mathbb{N}$. For the domino effect to work, you need to knock over the first tile to set off the whole show. This is necessary but not sufficient. The distance between two successive dominoes must be such that each falling tile knocks over its immediate successor— otherwise, if the gap is too large, no progress is made.
+
+OK- let's go back to the so-called “abstract world of mathematics”.
+
+From the description given above, two conditions will guarantee a successful domino effect:
+
+* there must be a beginning,
+* ensure each tile will actually knock over the next one upon its own falling.
 
 <div style="text-align: right;">$\blacksquare$</div> 
