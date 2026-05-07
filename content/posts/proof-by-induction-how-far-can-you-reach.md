@@ -34,6 +34,8 @@ From the description given above, two conditions will guarantee a successful dom
 
 $\qquad \textsf{i.} \kern{0.25em}$ there must be a beginning,
 
-$\qquad \textsf{ii.} \kern{0.25em}$ ensure each tile will actually knock over the next one upon its own falling
+$\qquad \textsf{ii.} \kern{0.25em}$ ensure each tile will actually knock over the next one upon its own falling.
+
+In mathematical induction, the first condition required in the dominoes is referred to as the **base case**. Often the statement whose truth is to be proved by induction is denoted as $P(n)$ where $n \in \mathbb{N}$. In other words, we wish to prove $P$ is true for all integer values $n=1, 2, 3, ...$.
 
 <div style="text-align: right;">$\blacksquare$</div> 
