@@ -25,6 +25,6 @@ However, the distinction becomes apparent when I follow up my question with a si
 
 ## Episode 3: Dominoes
 
-I will not be going through the nuts and bolts of proof by induction and the pure maths behind it. But in a nutshell, the PMI — which is the foundation for proof by induction — resembles the domino effect. One tile is knocked over, and this can initiate (hypothetically) an infinite sequence of toppling. Think of the domino as a real-world simulation of proof by induction where you have an infinite sequence of tiles! In the abstract world the ordered sequence of tiles is replaced by consecutive integers. The domino effect
+I will not be going through the nuts and bolts of proof by induction and the pure maths behind it. But in a nutshell, the PMI — which is the foundation for proof by induction — resembles the domino effect. One tile knocks over the next, and this can initiate (hypothetically) an infinite sequence of toppling. Think of the domino as the real-world simulation of proof by induction where you have an infinite sequence of tiles! In the abstract world the ordered sequence of tiles is replaced by consecutive natural numbers      $(\mathbb{N})$. To have the actual domino effect you need to knock over one tile at the start in order to set off the whole show. Back to integers, the very first tile is equivalent to $1$, i.e. the start of $(\mathbb{N})$.
 
 <div style="text-align: right;">$\blacksquare$</div> 
