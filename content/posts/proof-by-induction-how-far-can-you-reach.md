@@ -14,7 +14,7 @@ draft: false
 
 ## Episode 1: The Thought
 
-A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 250 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and in the meantime students were trickling in. A few moments later, I glanced at the lecture hall— around 30 students were seated. But one tiny detail caught my attention: *every single one of them had blonde hair!*
+A few weeks ago, I was invited to an international school to give a public lecture for the students and teachers. The venue was school auditorium, with 150 seats and later I learnt that there are around 400 enrolees. Anyway, I was at the podium setting up my presentation with the help of the IT guy and in the meantime students were trickling in. A few moments later, I glanced at the lecture hall— around 30 students were seated. But one tiny detail caught my attention: *every single one of them had blonde hair!*
 
 A thought pops into my head: *“…hmm… can I use mathematical induction to justify that all the students in this school are blonde?”* I already knew the answer and I had to start my talk.
 
@@ -36,6 +36,6 @@ $\qquad \textsf{i.} \kern{0.25em}$ there must be a beginning,
 
 $\qquad \textsf{ii.} \kern{0.25em}$ ensure each tile will actually knock over the next one upon its own falling.
 
-In mathematical induction, the first condition required in the dominoes is referred to as the **base case**. Often the statement whose truth is to be proved by induction is denoted as $P(n)$ where $n \in \mathbb{N}$. In other words, we wish to prove $P$ is true for all integer values $n=1, 2, 3, ...$.
+In mathematical induction, the first condition required in the dominoes is referred to as the **base case**. Often the statement whose truth is to be proved by induction is denoted as $P(n)$ where $n \in \mathbb{N}$. In other words, we wish to prove $P$ is true for all integer values $n=1, 2, 3, ...$. For the base case we need to check that $P(1)$ is true. In my example of the blonde students this condition holds very well. In fact $P(1)$ to $P(30)$ are all true. But here is where the common sense kicks in and we can't say whether $P(31)$ will be true or not.
 
 <div style="text-align: right;">$\blacksquare$</div> 
