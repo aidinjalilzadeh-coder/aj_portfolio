@@ -28,14 +28,14 @@ However, the distinction becomes apparent when I follow up my question with a si
 
 I won't go into the nuts and bolts of proof by induction and the formalities. But in a nutshell, the PMI — the foundation of proof by induction — resembles the domino effect. One tile knocks over the next, and this can initiate (hypothetically) an infinite sequence of toppling. Think of dominoes as the real-world simulation of proof by induction, where you have an infinite sequence of tiles! In the abstract world of mathematics, the **ordered** sequence of tiles is replaced by the set of *natural numbers*, denoted $\mathbb{N}$. For the domino effect to work, you need to knock over the first tile to set off the whole show. This is necessary but not sufficient. The distance between two successive dominoes must be such that each falling tile knocks over its immediate successor— otherwise, if the gap is too large, no progress is made.
 
-OK- let's go back to the so-called “abstract world of mathematics”.
+OK- let's go back to the so-called abstract world of mathematics.
 
-From the description given above, two conditions will guarantee a successful domino effect:
+From the description above, two conditions will guarantee a successful domino effect:
 
 $\qquad \textsf{i.} \kern{0.25em}$ there must be a beginning,
 
 $\qquad \textsf{ii.} \kern{0.25em}$ ensure each tile will actually knock over the next one upon its own falling.
 
-In mathematical induction, the first condition required in the dominoes is referred to as the **base case**. Often the statement whose truth is to be proved by induction is denoted as $P(n)$ where $n \in \mathbb{N}$. In other words, we wish to prove $P$ is true for all integer values $n=1, 2, 3, ...$. For the base case we need to check that $P(1)$ is true. In my example of the blonde students this condition holds very well. In fact $P(1)$ to $P(30)$ are all true. But here is where the common sense kicks in and we can't say whether $P(31)$ will be true or not.
+In mathematical induction, the first condition required in the dominoes is referred to as the **base case**. Often the statement whose truth is to be proved by induction is denoted as $P(n)$ where $n \in \mathbb{N}$. In other words, we wish to prove $P$ is true for all integer values $n=1, 2, 3, ...$ For the base case we need to check that $P(1)$ is true. In my example of the blonde students this condition is satisfied— the first student who walked into the theatre was blonde. In fact $P(1)$ to $P(30)$ are all true. But here is where the common sense kicks in and we can't say whether $P(31)$ will be true or not.
 
 <div style="text-align: right;">$\blacksquare$</div> 
