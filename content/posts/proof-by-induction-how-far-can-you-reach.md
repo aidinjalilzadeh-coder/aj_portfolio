@@ -32,11 +32,8 @@ OK- let's go back to the so-called “abstract world of mathematics”.
 
 From the description given above, two conditions will guarantee a successful domino effect:
 
-1. there must be a beginning,
-2. ensure each tile will actually knock over the next one upon its own falling.
+$i. \quad$ there must be a beginning,
 
-* one
-* two
-* three
+$ii. \quad$ ensure each tile will actually knock over the next one upon its own falling
 
 <div style="text-align: right;">$\blacksquare$</div> 
