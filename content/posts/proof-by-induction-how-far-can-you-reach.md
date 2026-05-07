@@ -25,4 +25,6 @@ However, the distinction becomes apparent when I follow up my question with a si
 
 ## And Now ...
 
+I will not be going through the knots and bolts of proof by induction and the logic behind it; but in a nutshell, the PMI, which is the foundation for proof by induction, resembles the domino effect. One tile is knocked off and this can initiate (hypothetically) an infinite sequence of fall-overs.
+
 <div style="text-align: right;">$\blacksquare$</div> 
