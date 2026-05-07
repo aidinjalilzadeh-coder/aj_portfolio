@@ -100,6 +100,18 @@ export default defineConfig({
             name: "body",
             label: "Body",
             isBody: true,
+            ui: {
+              toolbar: [
+                "heading",
+                "bold",
+                "italic",
+                "ul",      // ← bullet list (unordered)
+                "ol",      // ← numbered list (ordered)
+                "link",
+                "code",
+                "blockquote"
+              ]
+            }
           },
         ],
       },
