@@ -9,7 +9,7 @@ tags:
   - mathematical induction
   - proof by induction
   - inductive reasoning
-draft: true
+draft: false
 ---
 
 ## Episode 1: The Thought
