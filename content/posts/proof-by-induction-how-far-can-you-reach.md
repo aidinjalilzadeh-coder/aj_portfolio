@@ -38,4 +38,6 @@ $\qquad \text{ii.} \kern{0.25em}$ ensure each tile will actually knock over the 
 
 In mathematical induction, the first condition required in the dominoes is referred to as the **base case**. Often the statement whose truth is to be proved by induction is denoted as $P(n)$ where $n \in \mathbb{N}$. In other words, we wish to prove $P$ is true for all integer values $n=1, 2, 3, \cdots$ So in my example: $P(n)$ means **student $n$ is blonde**. Now, for the base case we need to check that $P(1)$ is true and it is indeed true since the first student who walked into the theatre was blonde. In fact $P(1), P(2), \cdots, P(30)$ are all true. But here is where the common sense kicks in and we can't say whether $P(31)$ will be true or not. Hence we may have a problem with the progression condition (ii).
 
+In a proof by induction after checking the truth of the base case, we assume that our statement $P$ is true up until $P(k)$ where $k>1$, i.e. *the first $k$ students are all blonde*.
+
 <div style="text-align: right;">$\blacksquare$</div> 
