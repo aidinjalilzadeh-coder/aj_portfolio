@@ -40,4 +40,8 @@ In mathematical terms, the first condition in the domino example is referred to 
 
 In a proof by induction after checking the truth of the base case, we assume that our statement $P$ is true up to $P(k)$ where $k \geq 1$, i.e. **we assume** the first $k$ students are all blonde. The inductive step requires us to rigorously prove that $P(31)$ is also true (knowing $P(30)$ is); then I could repeat the same logic and show $P(32)$ is true and so forth. But as we all know we don't have a firm reason to justify that if the first $k$ students (for any $k \geq 1$) are blonde then student $k+1$ will also be blonde! In the domino analogy, this means that we are not sure whether tile $30$ will knock over tile $31$ or not— we simply can't tell!
 
+## The Verdict
+
+Let's write out the steps involved in proof by induction formally
+
 <div style="text-align: right;">$\blacksquare$</div> 
