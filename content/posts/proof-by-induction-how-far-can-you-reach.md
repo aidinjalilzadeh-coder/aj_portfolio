@@ -43,6 +43,7 @@ In a proof by induction after checking the truth of the base case, we assume tha
 ## The Verdict
 
 Let's write out the steps involved in proof by induction formally:
+
 $\qquad \textbf{Statement:} \kern{0.25em}$ $P(n)$ is true for any $n \in \mathbb{N}$, that is $n=1, 2, 3, \cdots$.
 
 $\qquad \textbf{Base Case:} \kern{0.25em}$ Show $P(1)$ is true,
