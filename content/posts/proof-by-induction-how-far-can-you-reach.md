@@ -54,6 +54,6 @@ Our blonde students' story fails in the inductive step. The only way that we can
 
 What went through my mind while waiting for the rest of the students, was more of an *inductive reasoning* or *everyday induction*. I observed a pattern repeat itself 30 times and this gave me the illusion, whereas it could have been a very rare coincidence. All I could've said was no more than: *"the next student might or might not be blonde"*. We can't always make safe stock market investments merely based on some patterns that may seem favourable. There are many more stochastic factors in play and even then, not everyone wins. That's why a deterministic proof technique such as induction that gives us a firm answer (yes or no and nothing in between) has no place in areas, where decisions are made based on risk tolerance and uncertainty.
 
-Mathematical induction is watertight when the logic holds and the premise is correct. Everyday induction, as my story shows, can be deceptive and illusory.
+Mathematical induction is watertight when the logic holds and the premise is correct. *Everyday induction, as my story shows, can be deceptive and illusory*.
 
 <div style="text-align: right;">$\blacksquare$</div> 
