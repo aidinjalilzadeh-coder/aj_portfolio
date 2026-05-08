@@ -44,12 +44,14 @@ In a proof by induction after checking the truth of the base case, we assume tha
 
 Let's write out the steps involved in proof by induction formally:
 
-$\qquad \textbf{Statement:} \kern{0.25em}$ $P(n)$ is true for any $n \in \mathbb{N}$, that is $n=1, 2, 3, \cdots$.
+$\qquad \textbf{Statement:} \kern{0.25em}$ $P(n)$ is true for any $n \in \mathbb{N}$, that is $n=1, 2, 3, \cdots$
 
 $\qquad \textbf{Base Case:} \kern{0.25em}$ Show $P(1)$ is true,
 
-$\qquad \textbf{Inductive Step:} \kern{0.25em}$ Assume $P(k)$ is true for some $k \geq 1$, prove that $P(k+1)$ is also true.
+$\qquad \textbf{Inductive Step:} \kern{0.25em}$ Assume $P(k)$ is true for some $k \geq 1$, then prove $P(k+1)$ is also true.
 
 Our blonde students situation fails in the inductive step. The only way that we can be sure is to go around the school and check every single student to see if they are blonde or not. And, honestly from a mathematician's point of view it's really hard and defeats the purpose of utilising proof by induction.
+
+What went through my mind, while waiting for the rest of the students, was more of an *inductive reasoning* or *everyday reasoning*. I observed a pattern repeat itself 30 times (quite rare!) and so this gave me the illusion. All I could say was that the likelihood of next student being blonde is quite high and nothing more. So, this takes us to the realm of probability and uncertainty; *you never know what's around the corner!*
 
 <div style="text-align: right;">$\blacksquare$</div> 
