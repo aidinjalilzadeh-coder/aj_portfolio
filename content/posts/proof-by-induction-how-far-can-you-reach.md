@@ -32,7 +32,7 @@ OK- let's go back to the abstract world of mathematics.
 
 From the description above, two conditions will guarantee a successful domino effect:
 
-$\qquad \text{i.} \kern{0.25em}$ there must be a beginning,
+$\qquad \textbf{i.} \kern{0.25em}$ there must be a beginning,
 
 $\qquad \text{ii.} \kern{0.25em}$ ensure each tile will actually knock over the next one upon its own falling.
 
