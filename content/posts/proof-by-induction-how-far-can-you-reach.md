@@ -44,14 +44,14 @@ In a proof by induction after checking the truth of the base case, we assume tha
 
 Let's write out the steps involved in proof by induction formally:
 
-$\qquad \textbf{Statement:} \kern{0.25em}$ $P(n)$ is true for any $n \in \mathbb{N}$, that is $n=1, 2, 3, \cdots$
+$\qquad \textbf{Statement:} \kern{0.25em}$ $P(n)$ is true for all $n \in \mathbb{N}={1,2,3,\cdots}$,
 
 $\qquad \textbf{Base Case:} \kern{0.25em}$ Show $P(1)$ is true,
 
-$\qquad \textbf{Inductive Step:} \kern{0.25em}$ Assume $P(k)$ is true for some $k \geq 1$, then prove $P(k+1)$ is also true.
+$\qquad \textbf{Inductive Step:} \kern{0.25em}$ Assume $P(k)$ is true for an arbitrary $k \geq 1$, then prove $P(k+1)$ is also true.
 
-Our blonde students situation fails in the inductive step. The only way that we can be sure is to go around the school and check every single student to see if they are blonde or not. And, honestly from a mathematician's point of view it's really hard and defeats the purpose of utilising proof by induction.
+Our blonde students' story fails in the inductive step. The only way that we can be sure is to go around the school and check every single student to see if they are blonde or not. And, honestly from a mathematician's point of view it's hard work and defeats the purpose of utilising proof by induction.
 
-What went through my mind, while waiting for the rest of the students, was more of an *inductive reasoning* or *everyday reasoning*. I observed a pattern repeat itself 30 times (quite rare!) and so this gave me the illusion. All I could say was that the likelihood of next student being blonde is quite high and nothing more. So, this takes us to the realm of probability and uncertainty; *you never know what's around the corner!*
+What went through my mind while waiting for the rest of the students, was more of an *inductive reasoning* or *everyday reasoning*. I observed a pattern repeat itself 30 times and gave me the illusion, whereas it could have been a very rare coincidence. All I could've said was no more than: *"the next student might or mightnot be blonde"*. You can't always make safe stock market investments merely based on some patterns that may seem favourable. There are many more stochastic factors in play and even then not everyone wins. That's why a deterministic proof technique such as induction that gives us a firm answer (yes or no and nothing in between) has no place in areas where decisions are made based on how big a risk one can take!!
 
 <div style="text-align: right;">$\blacksquare$</div> 
