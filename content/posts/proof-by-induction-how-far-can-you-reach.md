@@ -7,6 +7,7 @@ publishedAt: 2026-05-06T00:00:00.000Z
 tags:
   - cat-research
   - mathematical induction
+  - everyday induction
   - proof by induction
   - inductive reasoning
 draft: false
