@@ -1,5 +1,5 @@
 ---
-title: A Comparison of Differential Calculus with Variational Calculus
+title: Optimisation with Variational Calculus
 slug: Comparison of Differential Calculus with Variational Calculus
 summary: Although both subjects share the word calculus but they deal with very different types of problems in pure and applied mathematics.
 author: Dr. Aidin Jalilzadeh
@@ -9,6 +9,7 @@ tags:
   - functional
   - principle of least action
   - brachistochrone curve
+draft: false
 ---
 
 ## A Comparison of Differential Calculus vs. Variational Calculus
