@@ -11,4 +11,4 @@ tags:
   - brachistochrone curve
 ---
 
-A Comparison of Differential Calculus with Variational Calculus
+## A Comparison of Differential Calculus vs. Variational Calculus
