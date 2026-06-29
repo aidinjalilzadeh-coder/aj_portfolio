@@ -1,7 +1,7 @@
 ---
 title: Optimisation with Variational Calculus
 slug: Comparison of Differential Calculus with Variational Calculus
-summary: Although both subjects share the word calculus but they deal with very different types of problems in pure and applied mathematics.
+summary: Differential and variational calculus are both involved with some form of optimisation.
 author: Dr. Aidin Jalilzadeh
 publishedAt: 2026-06-01T00:00:00.000Z
 tags:
@@ -12,4 +12,4 @@ tags:
 draft: false
 ---
 
-## A Comparison of Differential Calculus vs. Variational Calculus
+## Differential Calculus vs. Variational Calculus
