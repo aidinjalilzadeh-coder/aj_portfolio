@@ -14,4 +14,4 @@ draft: false
 
 ## Differential Calculus vs. Variational Calculus
 
-The word *calculus* to many who have done it in their academic career is reminiscent of
+The word *calculus* to many who have done it in their academic career is synonymous to lots of differentiation and integration rules, calculating area under curves or perhaps the most interesting part (at least for me), 
