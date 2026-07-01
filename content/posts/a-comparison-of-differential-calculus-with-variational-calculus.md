@@ -14,4 +14,4 @@ draft: false
 
 ## Newtonian Calculus 
 
-The word *calculus* to many who have done it in their academic career is synonymous to lots of differentiation and integration rules, calculating area under curves or perhaps the most interesting part (at least for me), is optimisation, i.e. finding max/min/saddle points of a function. The objects of interest in linear algebra are vectors and matrices, in group theory are sets and in the differential calculus are the humble function $y=f(x)$.
+For many who encountered it during their academic years, the word calculus conjures up memories of differentiation and integration rules, or computing areas under curves. But the most compelling part—at least for me—has always been optimisation: finding the maxima, minima, and saddle points of a function. Just as linear algebra revolves around vectors and matrices, and group theory revolves around sets, differential calculus revolves around the humble function $y=f(x)$.
