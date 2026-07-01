@@ -14,4 +14,4 @@ draft: false
 
 ## Newtonian Calculus 
 
-The word *calculus* to many who have done it in their academic career is synonymous to lots of differentiation and integration rules, calculating area under curves or perhaps the most interesting part (at least for me), 
+The word *calculus* to many who have done it in their academic career is synonymous to lots of differentiation and integration rules, calculating area under curves or perhaps the most interesting part (at least for me), is optimisation, i.e. finding max/min/saddle points of a function. The very first ingredient in differential calculus is a mathematical object $y=f(x)$.
