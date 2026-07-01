@@ -13,3 +13,5 @@ draft: false
 ---
 
 ## Differential Calculus vs. Variational Calculus
+
+The word \textit{Calculus}
