@@ -14,4 +14,4 @@ draft: false
 
 ## Differential Calculus vs. Variational Calculus
 
-The word \textit{Calculus}
+The word *calculus* to many who have done it in their academic career is reminiscent of
