@@ -38,9 +38,13 @@ We know that the **shortest path** connecting two distinct points in 2-D or 3-D 
 
 **OK! let's get on with the proper proof.**
 
-<figure> 
-  <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/ShortestPath.png" alt="Shortest Path">
-  <figcaption>Figure 1</figcaption>
+<figure>
+  <img 
+    src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/ShortestPath.png" 
+    alt="Shortest Path"
+    style="width: 80%; max-width: 700px; height: auto;"
+  >
+  <figcaption>Figure 1: The shortest path between two points is a straight line.</figcaption>
 </figure>
 
 Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$. See Figure 1.
