@@ -9,7 +9,7 @@ tags:
   - stationary paths
   - principle of least action
   - brachistochrone curve
-draft: false
+draft: true
 ---
 
 ## Newtonian Calculus
@@ -32,4 +32,4 @@ It is worth noting that in 1744, Euler had already published his treatise *Metho
 
 ## The Mathematics of Variational Calculus
 
-What Euler did in his remarkable 1744 treatise — prior to Lagrange's letter — was to identify a variational problem by its so-called *variable curve property*. On the other hand, his solutions remained highly intricate and complex.
+What Euler did in his remarkable 1744 treatise — prior to Lagrange's letter — was to identify a variational problem by its so-called *variable curve property*. On the other hand, his solutions remained highly intricate and complex. So, it was nothing like the modern day variational calculus taught in schools.
