@@ -22,4 +22,4 @@ For multivariate function $f:\mathbb{R}^n \rightarrow \mathbb{R}$, the condition
 
 ## Variational Calculus
 
-The birth of variational calculus owes itself to a single, elegant problem: brachistochrone  - the curve of shortest time. In 1696 Johann Bernoulli posed the problem of finding a (the) curve that joins two distinct points in space such that a point mass object traverses the path in shortest time. Solutions were found in 1697 independently by Newton, Leibniz, l'Hôpital and by Johann's younger brother Jakob Bernoulli.
+The birth of variational calculus owes itself to a single, elegant problem: brachistochrone  — the curve of shortest time. In 1696, Johann Bernoulli posed a challenge: find the curve joining two distinct points in space such that a point mass, moving under gravity alone, traverses the path in the shortest possible time. The problem ignited the mathematical community. By 1697, solutions had been produced independently by Newton, Leibniz, l'Hôpital, and Johann's younger brother Jakob Bernoulli — each approaching the question from a different angle, yet all arriving at the same surprising answer: the cycloid.
