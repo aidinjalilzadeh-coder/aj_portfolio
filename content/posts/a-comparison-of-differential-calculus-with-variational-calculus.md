@@ -9,7 +9,7 @@ tags:
   - stationary paths
   - principle of least action
   - brachistochrone curve
-draft: true
+draft: false
 ---
 
 ## Newtonian Calculus
