@@ -36,4 +36,6 @@ What Euler did in his remarkable 1744 treatise — prior to Lagrange's letter �
 
 We know that the **shortest path** connecting two distinct points in 2-D or 3-D space is a **straight line**. This rather trivial fact is indeed a variational problem which goes back all the way to Euclid (fl. c. 300 BC). He proves it in his *Elements*, Book I, by first establishing the triangle inequality: *in any triangle, each side is shorter than the sum of the other two*. It was a clever proof for its time, but it was limited to polygonal paths only — for he had no way to calculate the length of a curved path. In other words, the proof was incomplete. In 1728, Johann Bernoulli assigned this very problem as homework to Euler. Euler, well versed in differential calculus and comfortable with infinitesimals, treated the curve as the limit of a polygon with infinitesimal sides. He did prove it — but again, the generality was lost!
 
-OK! let's get on with the proper proof. Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it.
+**OK! let's get on with the proper proof.**
+
+Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it.
