@@ -32,6 +32,4 @@ It is worth noting that in 1744, Euler had already published his treatise *Metho
 
 ## The Mathematics of Variational Calculus
 
-What Euler did in his remarkable 1744 treatise — prior to Lagrange's letter — was to identify a variational problem by its so-called *variable curve property*. On the other hand, his solutions remained highly intricate and complex — nothing like the modern day variational calculus.
-
-Now, let's walk through a simple and easy optimisation problem and show Lagrange's analytic method which shaped the calculus of variations as we know it today.
+What Euler did in his remarkable 1744 treatise — prior to Lagrange's letter — was to identify a variational problem by its so-called *variable curve property*. On the other hand, his solutions remained highly intricate and complex — nothing like the modern day variational calculus. So let's walk through a simple optimisation problem and see Lagrange's analytic method in action — the very method that shaped the calculus of variations as we know it.
