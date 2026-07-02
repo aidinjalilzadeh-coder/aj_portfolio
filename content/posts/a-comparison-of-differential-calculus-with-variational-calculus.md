@@ -44,9 +44,15 @@ We know that the **shortest path** connecting two distinct points in 2-D or 3-D 
     alt="Shortest Path"
     style="width: 25%; max-width: 700px; height: auto;"
   >
-  <figcaption>Figure 1: The shortest path between two points is a straight line.</figcaption>
+  <figcaption>Figure 1: There are infinitely many curves $y(x)$ that include $A$ and $B$ but only one of them has the shortest length.</figcaption>
 </figure>
 
-Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$ (**Figure 1**).
+Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$ (**Figure 1**). Recall the formula for the curve length:
+
+$$
+L\[y]=\int\_a^b \sqrt{1+y'^2} dx
+$$
+
+There is a subtlty: the value of $L$ varies with $y$, i.e. depending on which curve is plugged into $L$. So, we can think of $L$ as a function whose inputs are real-valued functions like $y(x)$ and the output is a positive real number.
 
 <div style="text-align: right;">$\blacksquare$</div>
