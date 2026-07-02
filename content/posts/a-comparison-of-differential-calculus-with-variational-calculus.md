@@ -34,6 +34,6 @@ It is worth noting that in 1744, Euler had already published his treatise *Metho
 
 What Euler did in his remarkable 1744 treatise — prior to Lagrange's letter — was to identify a variational problem by its so-called *variable curve property*. On the other hand, his solutions remained highly intricate and complex — nothing like the modern day variational calculus. So let's walk through a simple optimisation problem and see Lagrange's analytic method in action — the very method that shaped the calculus of variations as we know it.
 
-We know that the **shortest path** connecting two distinct points in 2-D or 3-D space is a **straight line**. This rather trivial fact is indeed a variational problem which goes back to Euclid and he proves it early on in Book I. He does so by first proving the triangle inequality showing in any triangle each side is shorter than the sum of the other two.
+We know that the **shortest path** connecting two distinct points in 2-D or 3-D space is a **straight line**. This rather trivial fact is indeed a variational problem which goes back to Euclid and he proves it early on in Book I. He does so by first proving the triangle inequality showing in any triangle each side is shorter than the sum of the other two. It was a clever proof for its time but it was limited polygonal paths only since he couldn't calculate the length of a curved path!
 
 Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it.
