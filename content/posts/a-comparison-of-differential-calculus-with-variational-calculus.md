@@ -43,4 +43,6 @@ We know that the **shortest path** connecting two distinct points in 2-D or 3-D 
   <figcaption>Figure 1</figcaption>
 </figure>
 
-Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$
+Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$.
+
+<div style="text-align: right;">$\blacksquare$</div>
