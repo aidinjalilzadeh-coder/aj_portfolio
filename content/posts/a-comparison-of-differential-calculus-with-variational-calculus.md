@@ -42,11 +42,11 @@ We know that the **shortest path** connecting two distinct points in 2-D or 3-D 
   <img 
     src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/ShortestPath.png" 
     alt="Shortest Path"
-    style="width: 50%; max-width: 700px; height: auto;"
+    style="width: 25%; max-width: 700px; height: auto;"
   >
   <figcaption>Figure 1: The shortest path between two points is a straight line.</figcaption>
 </figure>
 
-Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$. See Figure 1.
+Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$ (**Figure 1**).
 
 <div style="text-align: right;">$\blacksquare$</div>
