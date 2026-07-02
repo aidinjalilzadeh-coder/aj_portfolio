@@ -42,7 +42,7 @@ We know that the **shortest path** connecting two distinct points in 2-D or 3-D 
   <img 
     src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/ShortestPath.png" 
     alt="Shortest Path"
-    style="width: 80%; max-width: 700px; height: auto;"
+    style="width: 50%; max-width: 700px; height: auto;"
   >
   <figcaption>Figure 1: The shortest path between two points is a straight line.</figcaption>
 </figure>
