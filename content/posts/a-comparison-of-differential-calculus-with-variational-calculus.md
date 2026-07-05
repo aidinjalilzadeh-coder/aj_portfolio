@@ -82,7 +82,7 @@ $$(1') \qquad \qquad L \lbrack y \rbrack = \int\_a^b \sqrt{1+(y')^2} \kern{0.25e
 
 Now, let's stick the Lagrangian function $F(x,y,y') = \sqrt{1+(y')^2}$ into the Euler-Lagrange equation. Notice that $F$ depends directly on $y'$ only, hence from $(3)$, $ \frac{\partial F}{\partial y} = 0$ and we just need to evaluate the first term:
 $$
-\frac{d}{dx} \left( \frac{\partial F}{\partial y'} \right) = \frac{d}{dx} \left( \frac{\partial }{\partial y'} \right)
+\frac{d}{dx} \left( \frac{\partial F}{\partial y'} \right) = \frac{d}{dx} \left( \frac{\partial }{\partial y'} (1+(y')^)^{1/2} \right)
 $$
 
 <div style="text-align: right;">$\blacksquare$</div> 
