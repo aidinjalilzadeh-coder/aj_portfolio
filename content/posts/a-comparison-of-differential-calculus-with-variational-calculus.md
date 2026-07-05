@@ -9,6 +9,7 @@ tags:
   - stationary paths
   - principle of least action
   - brachistochrone curve
+  - Hamiltonian
 draft: false
 ---
 
@@ -103,7 +104,7 @@ Beyond mathematics, variational calculus proved to be a powerful tool in physics
 
 The story of variational calculus continues with **William Rowan Hamilton** (1805-1865), who unified and extended the work of Lagrange and Euler. Hamilton's approach was unique because it drew a deep analogy between **geometrical optics** and mechanics, revealing that light rays and particle paths could be described by the same mathematical formalism. This connection, however, had an earlier spark: in 1662, Fermat postulated his *principle of least time in optics*, stating that light travels between two points along the path that takes the least time. But Fermat never generalised his insight into a broader framework; it was Hamilton who saw the deeper structure, nearly two centuries later.
 
-In the 1830s, Hamilton reformulated Lagrange's mechanics into what is now known as **Hamiltonian mechanics** — a strikingly elegant version of classical physics that treats position and momentum as independent variables.
+In the 1830s, Hamilton reformulated Lagrange's mechanics into what is now known as **Hamiltonian mechanics** — a strikingly elegant version of classical physics that treats position and momentum as independent variables. He noticed that the mathematics governing light rays and the trajectories of particles were the same. This *optico‑mechanical* analogy was not just a curiosity; it later became a guiding light for the development of **quantum mechanics**, and Hamiltonian mechanics itself proved to be the natural language for the Schrödinger equation (1926) and the operator formalism of modern physics.
 
 <div style="text-align: right;">$\blacksquare$</div> 
 
