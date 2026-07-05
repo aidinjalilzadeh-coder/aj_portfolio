@@ -89,4 +89,6 @@ $$
 \end{aligned}
 $$
 
+As you see evaluating and simplifying the first term of Euler-Lagrange equation results in the fact that \frac{y'}{\sqrt{1+(y')^2}} is constant.
+
 <div style="text-align: right;">$\blacksquare$</div> 
