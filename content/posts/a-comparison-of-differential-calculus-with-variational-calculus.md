@@ -50,7 +50,10 @@ $$ L \lbrack y \rbrack = \int\_a^b \sqrt{1+(y')^2} dx$$
 There is a subtlety: the value of $L$ varies with $y$, i.e. depending on which curve is plugged into $L$. So, we can think of $L$ as a function, **whose inputs are real-valued functions** like $y(x)$, and the output is a positive real number. Entities like $L$ are called **functional**. A little bit more formal description of functionals would be the following:
 
 $$
-L: C^1 \lbrack a,b \rbrack \to \mathbb{R^{>0}}  \ \vspace{.5cm}
+L: C^1 \lbrack a,b \rbrack \to \mathbb{R^{>0}}  \\
+
+\vspace{.5cm}
+
 \quad y(x) \to \int\_a^b F(x,y,y')
 $$
 
