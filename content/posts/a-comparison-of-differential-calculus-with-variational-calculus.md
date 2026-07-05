@@ -57,6 +57,6 @@ y(x) & \mapsto \int\_a^b F(x,y,y'),  dx
 \end{aligned}
 $$
 
-In plain English, $L$ maps a function from the space of all continuous functions $C^1 \lbrack a,b \rbrack$ defined over the interval $\lbrack a,b \rbrack$ with continuous first derivatives.
+In plain English, $L$ maps a function from the space of all continuous functions $C^1 \lbrack a,b \rbrack$ defined over the interval $\lbrack a,b \rbrack$ with continuous first derivatives. The expression $F(x,y,y')$ is called **Lagrangian**.
 
 <div style="text-align: right;">$\blacksquare$</div>
