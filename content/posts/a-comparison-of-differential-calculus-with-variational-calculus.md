@@ -57,6 +57,9 @@ y(x) & \mapsto \int\_a^b F(x,y,y') \kern{0.25em} dx
 \end{aligned}
 $$
 
-In plain English, $L$ maps a function from the space of all continuous functions $C^1 \lbrack a,b \rbrack$ defined over the interval $\lbrack a,b \rbrack$ with continuous first derivatives. The expression $F(x,y,y')$ is called **Lagrangian**. Now, the goal is to minimise the functional $L$, i.e. find a particular curve $y(x)$ for which $L \lbrack y \rbrack$ is the smallest.
+In plain English, $L$ maps a function from the space of all continuous functions $C^1 \lbrack a,b \rbrack$ defined over the interval $\lbrack a,b \rbrack$ with continuous first derivatives. The expression $F(x,y,y')$ is called **Lagrangian**. Now, the goal is to minimise the functional $L$, i.e. find a particular curve $y(x)$ for which $L \lbrack y \rbrack$ is the smallest. So the variable here is $y$ and therefore we should compute and solve:
+$$
+\frac{d}{dy} L \lbrack y \rbrack =\frac{d}{dy} \int\_a^b F(x,y,y') \kern{0.25em} dx
+$$
 
 <div style="text-align: right;">$\blacksquare$</div>
