@@ -85,7 +85,7 @@ Now, let's stick the Lagrangian function $F(x,y,y') = \sqrt{1+(y')^2}$ into the 
 $$
 \begin{aligned}
 \frac{d}{dx} \left( \frac{\partial F}{\partial y'} \right) & = \frac{d}{dx} \left( \frac{\partial }{\partial y'} (1+(y')^2)^{1/2} \right) \\
-& = \frac{d}{dx}
+& = \frac{d}{dx}\left( \frac{y'}{\sqrt{1+(y')^2}}\right)
 \end{aligned}
 $$
 
