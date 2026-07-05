@@ -101,6 +101,6 @@ You notice that in a matter of a few lines we proved that the shortest path is a
 
 Beyond mathematics, variational calculus proved to be a powerful tool in physics and mechanics. So much so that Lagrange *redefined* Newtonian mechanics — not by changing $F=ma$, but by **abstracting** it. Instead of working with forces and accelerations (vectors), he reformulated mechanics in terms of energy (scalars): kinetic and potential. His Lagrangian $L = T - V$ and the **principle of least action** replaced Newton's vector equations with a single scalar principle — one that works in any coordinate system and generalises beautifully to relativity and quantum mechanics.
 
-This was the true abstraction: not adjusting constants, but \textbf{changing the language} of physics from forces to actions.
+This was the true abstraction: not adjusting constants, but **changing the language** of physics from forces to actions.
 
 <div style="text-align: right;">$\blacksquare$</div> 
