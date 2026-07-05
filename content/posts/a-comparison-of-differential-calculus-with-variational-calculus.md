@@ -93,6 +93,6 @@ After evaluating and simplifying, the first term of the Euler-Lagrange equation 
 
 $$ (y'(x))^2 = \frac{C^2}{1-C^2},$$
 
-which eventually implies that $y'(x)$ is constant. This is exactly the result we were hoping to reach; for if the first derivative is constant then the function is a linear polynomial of the form $y(x)=mx+h$, i.e. the equation of a **straight line** Mission Accompolished!
+which eventually implies that $y'(x)$ is constant. This is exactly the result we were hoping to reach; for if the first derivative is constant then the function is a linear polynomial of the form $y(x)=mx+h$, i.e. the equation of a **straight line** — Mission Accompolished!
 
 <div style="text-align: right;">$\blacksquare$</div> 
