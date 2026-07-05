@@ -42,6 +42,6 @@ Without loss of generality let's consider the 2-D Cartesian plane and two distin
 
 There is a subtlety: the value of $L$ varies with $y$, i.e. depending on which curve is plugged into $L$. So, we can think of $L$ as a function whose inputs are real-valued functions like $y(x)$ and the output is a positive real number. Any entity like $L$ is called a **functional**. A little bit more formal description of functional would be the following:
 
-A functional maps functions from $C^1 \[a,b]$ onto $\mathbb{R^{>0}}$ — $C^1$ is the space of all continuous functions over \[a,b] with continuous first derivatives.
+A functional maps functions from $C^1$ $\[a,b]$ onto $\mathbb{R^{>0}}$ — $C^1$ is the space of all continuous functions over $\[a,b]$ with continuous first derivatives.
 
 <div style="text-align: right;">$\blacksquare$</div>
