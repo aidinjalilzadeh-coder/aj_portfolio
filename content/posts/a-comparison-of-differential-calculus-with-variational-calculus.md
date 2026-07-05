@@ -106,6 +106,8 @@ The story of variational calculus continues with **William Rowan Hamilton** (180
 
 In the 1830s, Hamilton reformulated Lagrange's mechanics into what is now known as **Hamiltonian mechanics** — a strikingly elegant version of classical physics that treats position and momentum as independent variables. He noticed that the mathematics governing light rays and the trajectories of particles were the same. This *optico‑mechanical* analogy was not just a curiosity; it later became a guiding light for the development of **quantum mechanics**, and Hamiltonian mechanics itself proved to be the natural language for the Schrödinger equation (1926) and the operator formalism of modern physics.
 
+So from a straight line to the wave function, variational calculus has carried us from the geometry of the Greeks to the heart of quantum theory.
+
 <div style="text-align: right;">$\blacksquare$</div> 
 
 **PS.** *There will be post about the **principle of least action** in the near future!*
