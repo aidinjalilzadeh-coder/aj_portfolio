@@ -46,8 +46,10 @@ We know that the **shortest path** connecting two distinct points in 2-D or 3-D 
 </figure>
 Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$ (**Figure 1**). Recall the formula for the curve length:
 
-$$ L \lbrack y \rbrack = \int\_a^b \sqrt{1+(y')^2} , dx$$
-There is a subtlety: the value of $L$ varies with $y$, i.e. depending on which curve is plugged into $L$. So, we can think of $L$ as a function **whose inputs are real-valued functions** like $y(x)$ and the output is a positive real number. Entities like $L$ are called a **functional**. A little bit more formal description of functional would be the following:
+$$ L \lbrack y \rbrack = \int\_a^b \sqrt{1+(y')^2} dx$$
+There is a subtlety: the value of $L$ varies with $y$, i.e. depending on which curve is plugged into $L$. So, we can think of $L$ as a function, **whose inputs are real-valued functions** like $y(x)$, and the output is a positive real number. Entities like $L$ are called **functional**. A little bit more formal description of functionals would be the following:
+
+$$ L \lbrack \cdot \rbrack: C^1 \lbrack a,b \rbrack \to \mathbb{R^{>0}}  $$
 
 A functional maps functions from $C^1 \lbrack a,b \rbrack$ onto $\mathbb{R^{>0}}$ — $C^1$ is the space of all continuous functions over $\lbrack a,b \rbrack$ with continuous first derivatives.
 
