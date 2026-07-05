@@ -51,7 +51,7 @@ There is a subtlety: the value of $L$ varies with $y$, i.e. depending on which c
 
 $$
 \begin{aligned}
-L: C^1 \lbrack a,b \rbrack & \longrightarrow \mathbb{R^{>0}}  \\
+L: C^1 \lbrack a,b \rbrack & \longrightarrow \mathbb{R^{>0}}  \\\[10pt]
 y(x) & \longrightarrow \int\_a^b F(x,y,y')  dx
 \end{aligned}
 $$
