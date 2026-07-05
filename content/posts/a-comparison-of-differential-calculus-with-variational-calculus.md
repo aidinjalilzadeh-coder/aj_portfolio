@@ -62,4 +62,4 @@ $$
 \frac{d}{dy} L \lbrack y \rbrack =\frac{d}{dy} \int\_a^b F(x,y,y') \kern{0.25em} dx = 0
 $$
 
-<div style="text-align: right;">$\blacksquare$</div>
+<div style="text-align: right;">$\blacksquare$</div> 
