@@ -103,6 +103,6 @@ Apart from mathematics the variational calculus proved to be a very useful appar
 
 $$ \mathbf{F} \propto \mathbf{a} \quad \text{and} \quad \mathbf{F} \propto m \implies \mathbf{F} \propto m\mathbf{a}$$
 
-The proportionality becomes an equality if we multiply one side by a constant $k$; thus \mathbf{F}=km\mathbf{a}
+The proportionality becomes an equality if we multiply one side by a constant $k$; thus $\mathbf{F}=km\mathbf{a}$. Now we need to determine $k$ via *dimensional analysis*. The dimensions of force is $MLT^{-2}$
 
 <div style="text-align: right;">$\blacksquare$</div> 
