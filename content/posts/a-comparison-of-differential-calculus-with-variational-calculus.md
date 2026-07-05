@@ -51,11 +51,12 @@ There is a subtlety: the value of $L$ varies with $y$, i.e. depending on which c
 
 $$
 \begin{aligned}
-L: C^1 \lbrack a,b \rbrack & \longrightarrow \mathbb{R^{>0}}  \\\[10pt]
+L: C^1 \lbrack a,b \rbrack & \longrightarrow \mathbb{R^{>0}}  \\
+\vspace{10pt}\\
 y(x) & \mapsto \int\_a^b F(x,y,y')  dx
 \end{aligned}
 $$
 
-$L$ maps a function from $C^1 \lbrack a,b \rbrack$ onto $\mathbb{R^{>0}}$, where $C^1$ is the space of all continuous functions over the interval $\lbrack a,b \rbrack$ with continuous first derivatives.
+In plain English, $L$ maps a function from the space of all continuous functions ($C^1 \lbrack a,b \rbrack$) defined over the interval $\lbrack a,b \rbrack$ with continuous first derivatives.
 
 <div style="text-align: right;">$\blacksquare$</div>
