@@ -89,6 +89,8 @@ $$
 \end{aligned}
 $$
 
-As you see evaluating and simplifying the first term of Euler-Lagrange equation results in the fact that \frac{y'}{\sqrt{1+(y')^2}} is constant.
+As you see evaluating and simplifying the first term of Euler-Lagrange equation results in the fact that \frac{y'}{\sqrt{1+(y')^2}} is constant. You can rearrange this expression so that you make the $y'$ the subject:
+
+$$ (y'(x))^2 = \frac{C^2}{1-C^2}$$
 
 <div style="text-align: right;">$\blacksquare$</div> 
