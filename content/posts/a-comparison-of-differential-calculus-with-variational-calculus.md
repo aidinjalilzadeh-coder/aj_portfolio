@@ -39,11 +39,14 @@ We know that the **shortest path** connecting two distinct points in 2-D or 3-D 
 **OK! let's get on with the proper proof.**
 
 <figure> 
-  <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/ShortestPath.png" alt="Shortest Path">
+  <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/ShortestPath.png" 
+  alt="Shortest Path"
+  style="width: 70%; max-width: 600px; height: auto;">
   <figcaption>Figure 1</figcaption>
 </figure>
 Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$ (**Figure 1**). Recall the formula for the curve length:
 
+$$ L\[y] = $$
 There is a subtlety: the value of $L$ varies with $y$, i.e. depending on which curve is plugged into $L$. So, we can think of $L$ as a function whose inputs are real-valued functions like $y(x)$ and the output is a positive real number. Any entity like $L$ is called a **functional**. A little bit more formal description of functional would be the following:
 
 A functional maps functions from $C^1 \lbrack a,b \rbrack$ onto $\mathbb{R^{>0}}$ — $C^1$ is the space of all continuous functions over $\lbrack a,b \rbrack$ with continuous first derivatives.
