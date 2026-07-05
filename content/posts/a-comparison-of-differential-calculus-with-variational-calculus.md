@@ -61,5 +61,6 @@ In plain English, $L$ maps a function from the space of all continuous functions
 $$
 \frac{d}{dy} L \lbrack y \rbrack =\frac{d}{dy} \int\_a^b F(x,y,y') \kern{0.25em} dx = 0
 $$
+But, I'm going to fast forward and go straight to the final result, which is famously referred to as the **Euler-Lagrange Equation**.
 
 <div style="text-align: right;">$\blacksquare$</div> 
