@@ -99,10 +99,8 @@ which implies that $y'(x)$ is constant. This is exactly the result we were hopin
 
 You notice that in a matter of a few lines we proved that the shortest path is a straight line. Imagine trying to do this via analytical geometry — as others did before Lagrange. It would be a nightmare. Lagrange gave us a formula for finding *stationary paths* in a straightforward, systematic manner.
 
-Apart from mathematics the variational calculus proved to be a very useful apparatus in physics and mechanics. So much so that Lagrange *redefined* Newtonian mechanics by abstracting the Second Law of Motion, $\mathbf{F}=m\mathbf{a}$. Let me explain what I mean by abstracting. Newton's formulae are derived from empirical data. For example, he observed that the force on a moving object is directly proportional to its acceleration and likewise to its mass. We can write out this as follows:
+Beyond mathematics, variational calculus proved to be a powerful tool in physics and mechanics. So much so that Lagrange *redefined* Newtonian mechanics — not by changing $F=ma$, but by **abstracting** it. Instead of working with forces and accelerations (vectors), he reformulated mechanics in terms of energy (scalars): kinetic and potential. His Lagrangian $L = T - V$ and the **principle of least action** replaced Newton's vector equations with a single scalar principle — one that works in any coordinate system and generalises beautifully to relativity and quantum mechanics.
 
-$$ \mathbf{F} \propto \mathbf{a} \quad \text{and} \quad \mathbf{F} \propto m \implies \mathbf{F} \propto m\mathbf{a}$$
-
-The proportionality becomes an equality if we multiply one side by a constant $k$; thus $\mathbf{F}=km\mathbf{a}$. Now we need to determine $k$ and it turns out to be $1$ and therefore $\mathbf{F}=m\mathbf{a}$.
+This was the true abstraction: not adjusting constants, but \textbf{changing the language} of physics from forces to actions.
 
 <div style="text-align: right;">$\blacksquare$</div> 
