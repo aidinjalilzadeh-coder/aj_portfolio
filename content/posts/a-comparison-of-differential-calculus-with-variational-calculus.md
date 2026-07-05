@@ -74,4 +74,9 @@ $$
 
 This is saying that if $y$ is an extremal function (min or max) of the functional $L \lbrack y \rbrack$ then it must satisfy the differential equation $(3)$, hence the name: *Euler-Lagrange equation*. To be precise, the Euler-Lagrange equation is a second-order ordinary differential equation for the unknown function $y$. The optimal curve $y$ that is obtained via this ode is called a **stationary path**, the counterpart of **stationary point** from the differential calculus.
 
+## Back to the Shortest Path problem
+
+Recall the functional $(1)$ that computes the distance from $A$ to $B$ depending on the path we choose:
+$$(1') \qquad \qquad L \lbrack y \rbrack = \int\_a^b \sqrt{1+(y')^2} \kern{0.25em} dx \implies F(x,y,y') = \sqrt{1+(y')^2} $$
+
 <div style="text-align: right;">$\blacksquare$</div> 
