@@ -69,6 +69,6 @@ $$
 (3)  \qquad \qquad \frac{d}{dx} \left( \frac{\partial F}{\partial y'} \right) - \frac{\partial F}{\partial y} = 0
 $$
 
-This is saying that if $y$ is an extremum (min or max) of the functional $L \lbrack y \rbrack$ then it must satisfy the differential equation $(3)$, hence the name: *Euler-Lagrange equation*. To be precise, the Euler-Lagrange equation is a second-order ordinary differential equation for the unknown function $y$.
+This is saying that if $y$ is an extremum (min or max) of the functional $L \lbrack y \rbrack$ then it must satisfy the differential equation $(3)$, hence the name: *Euler-Lagrange equation*. To be precise, the Euler-Lagrange equation is a second-order ordinary differential equation for the unknown function $y$. The optimal curve $y$ that is obtained via this ode is called a **stationary path**, a counterpart of **stationary point** from the differential calculus.
 
 <div style="text-align: right;">$\blacksquare$</div> 
