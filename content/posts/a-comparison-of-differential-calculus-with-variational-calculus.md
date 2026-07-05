@@ -47,6 +47,7 @@ We know that the **shortest path** connecting two distinct points in 2-D or 3-D 
 Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$ (**Figure 1**). Recall the formula for the curve length:
 
 $$(1) \qquad \qquad L \lbrack y \rbrack = \int\_a^b \sqrt{1+(y')^2} \kern{0.25em} dx$$
+
 There is a subtlety: the value of $L$ varies with $y$, i.e. depending on which curve is plugged into $L$. So, we can think of $L$ as a function, **whose inputs are real-valued functions** like $y(x)$, and the output is a positive real number. Entities like $L$ are called **functional**. A little bit more formal description of functionals would be the following:
 
 $$
@@ -61,7 +62,9 @@ In plain English, $L$ maps a function from the space of all continuous functions
 $$
 (2)  \qquad \qquad \frac{d}{dy} L \lbrack y \rbrack =\frac{d}{dy} \int\_a^b F(x,y,y') \kern{0.25em} dx = 0
 $$
-But, I'm going to fast forward and go straight to the final result. The detail that I'm omitting here is easily retrievable from sources online or textbooks. I'm sure it'll be a great deal of fun for you to understand the whole process.
+Equation $(2)$ is equivalent to solving $f'(x)=0$ in differential calculus in order to determine the extreme points.
+
+I'm going to fast forward and go straight to the final result that $(2)$ yields. The detail that I'm omitting here is easily retrievable from sources online or textbooks. I'm sure it'll be a great deal of fun for you to understand the whole process - Not that difficult, I promise!
 
 OK! Distributing $d/dy$ into the integral in $(2)$ gives the following equation, which is famously referred to as the **Euler-Lagrange Equation:**
 
