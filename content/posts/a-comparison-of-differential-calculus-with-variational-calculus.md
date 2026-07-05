@@ -97,6 +97,8 @@ which implies that $y'(x)$ is constant. This is exactly the result we were hopin
 
 ## Closure
 
-You notice that in a matter of few lines we proved the shortest path is a straight line. Imagine you wanted to do this via analytical geometry where others did before Lagrange. It would almost be a nightmare.
+You notice that in a matter of a few lines we proved that the shortest path is a straight line. Imagine you wanted to do this via analytical geometry where others did before Lagrange. It would almost be a nightmare. We see how Lagrange has worked out a formula for finding the so-called *stationary paths* in a straight forward manner.
+
+Apart from mathematics the variational calculus proved to be a very useful apparatus in physics and mechanics. So much so that Lagrange *redefined* Newtonian mechanics by replacing Newton's Second Law of Motion, $\mathbf{F}=m\mathbf{a}$
 
 <div style="text-align: right;">$\blacksquare$</div> 
