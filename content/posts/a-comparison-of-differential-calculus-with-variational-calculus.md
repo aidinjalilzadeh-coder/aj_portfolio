@@ -66,7 +66,7 @@ But, I'm going to fast forward and go straight to the final result. The detail t
 OK! Distributing $d/dy$ into the integral in $(1)$ gives the following equation, which is famously referred to as the **Euler-Lagrange Equation:**
 
 $$
-\boxed{\frac{d}{dx} \left( \frac{\partial F}{\partial y'} \right) - \frac{\partial F}{\partial y} = 0}
+(2)  \qquad \qquad \frac{d}{dx} \left( \frac{\partial F}{\partial y'} \right) - \frac{\partial F}{\partial y} = 0
 $$
 
 <div style="text-align: right;">$\blacksquare$</div> 
