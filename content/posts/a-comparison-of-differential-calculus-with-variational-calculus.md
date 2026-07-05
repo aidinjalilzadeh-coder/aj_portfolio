@@ -95,4 +95,8 @@ $$ (y'(x))^2 = \frac{C^2}{1-C^2},$$
 
 which implies that $y'(x)$ is constant. This is exactly the result we were hoping to reach; for if the first derivative is constant, then the function is a linear polynomial of the form $y(x)=mx+h$, i.e. the equation of a **straight line** — Mission Accompolished!
 
+## Closure
+
+You notice that in a matter of few lines we proved the shortest path is a straight line. Imagine you wanted to do this via analytical geometry where others did before Lagrange
+
 <div style="text-align: right;">$\blacksquare$</div> 
