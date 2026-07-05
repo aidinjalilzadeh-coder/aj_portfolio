@@ -101,6 +101,6 @@ You notice that in a matter of a few lines we proved that the shortest path is a
 
 Apart from mathematics the variational calculus proved to be a very useful apparatus in physics and mechanics. So much so that Lagrange *redefined* Newtonian mechanics by abstracting the Second Law of Motion, $\mathbf{F}=m\mathbf{a}$. Let me explain what I mean by abstracting. Newton's formulae are derived from many experiments. For example, he observed that the force on a moving object is directly proportional to its acceleration and the proportionality ratio is how heavy the object is, i.e. its mass. We can write out this as follows:
 
-$$ \mathbf{F} \propto \mathbf{a}$$
+$$ \mathbf{F} \propto \mathbf{a} \text{and} \mathbf{F} \propto m$$
 
 <div style="text-align: right;">$\blacksquare$</div> 
