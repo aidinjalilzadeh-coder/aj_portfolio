@@ -91,7 +91,7 @@ $$
 
 As you see evaluating and simplifying the first term of Euler-Lagrange equation results in the fact that $\frac{y'}{\sqrt{1+(y')^2}}$ is constant. You can rearrange this expression so that you make $y'$ the subject:
 
-$$ (y'(x))^2 = \frac{C^2}{1-C^2}$$,
+$$ (y'(x))^2 = \frac{C^2}{1-C^2},$$
 
 which eventually implies that $y'(x)$ is constant. This is the result we were wishing to reach — from differential calculus you know if the first derivative is constant then the function is a linear polynomial of the form $y(x)=mx+h$, i.e. *equation of a straight line!*
 
