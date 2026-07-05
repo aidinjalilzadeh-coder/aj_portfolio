@@ -54,6 +54,6 @@ L: C^1 \lbrack a,b \rbrack \to \mathbb{R^{>0}}  \ \vspace{.5cm}
 \quad y(x) \to \int\_a^b F(x,y,y')
 $$
 
-A functional maps functions from $C^1 \lbrack a,b \rbrack$ onto $\mathbb{R^{>0}}$ — $C^1$ is the space of all continuous functions over $\lbrack a,b \rbrack$ with continuous first derivatives.
+$L$ maps a function from $C^1 \lbrack a,b \rbrack$ onto $\mathbb{R^{>0}}$, where $C^1$ is the space of all continuous functions over the interval $\lbrack a,b \rbrack$ with continuous first derivatives.
 
 <div style="text-align: right;">$\blacksquare$</div>
