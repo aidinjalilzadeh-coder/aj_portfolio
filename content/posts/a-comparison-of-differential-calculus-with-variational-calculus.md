@@ -44,7 +44,7 @@ We know that the **shortest path** connecting two distinct points in 2-D or 3-D 
   style="width: 50%; max-width: 600px; height: auto;">
   <figcaption>Figure 1: The shortest path between two points is a straight line</figcaption>
 </figure>
-Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be equation of any curve that passes through $A$ and $B$ (**Figure 1**). Recall the formula for the curve length:
+Without loss of generality let's consider the 2-D Cartesian plane and two distinct points $A$ and $B$ on it. Let $y(x)$ be any curve that passes through $A$ and $B$ (**Figure 1**). Recall the formula for the curve length:
 
 $$(1) \qquad \qquad L \lbrack y \rbrack = \int\_a^b \sqrt{1+(y')^2} \kern{0.25em} dx$$
 
@@ -58,7 +58,7 @@ y(x) & \mapsto \int\_a^b F(x,y,y') \kern{0.25em} dx
 \end{aligned}
 $$
 
-In plain English, $L$ maps a function from the space of all continuous functions $C^1 \lbrack a,b \rbrack$ defined over the interval $\lbrack a,b \rbrack$ with continuous first derivatives. The expression $F(x,y,y')$ is called **Lagrangian**. Now, the goal is to minimise the functional $L$, i.e. find a particular curve $y(x)$ for which $L \lbrack y \rbrack$ is the smallest. So the variable here is $y$ and therefore we should compute and solve:
+In plain English, $L$ maps a function from the space of all continuous functions $C^1 \lbrack a,b \rbrack$ defined over the interval $\lbrack a,b \rbrack$ with continuous first derivatives. The expression $F(x,y,y')$ is called **the Lagrangian**. Now, the goal is to minimise the functional $L$, i.e. find a particular curve $y(x)$ for which $L \lbrack y \rbrack$ is the smallest. So the unknown here is the function $y(x)$ and therefore we should compute and solve:
 $$
 (2)  \qquad \qquad \frac{d}{dy} L \lbrack y \rbrack =\frac{d}{dy} \int\_a^b F(x,y,y') \kern{0.25em} dx = 0
 $$
@@ -66,12 +66,12 @@ Equation $(2)$ is equivalent to solving $f'(x)=0$ in differential calculus in or
 
 I'm going to fast forward and go straight to the final result that $(2)$ yields. The detail that I'm omitting here is easily retrievable from sources online or textbooks. I'm sure it'll be a great deal of fun for you to understand the whole process - Not that difficult, I promise!
 
-OK! Distributing $d/dy$ into the integral in $(2)$ gives the following equation, which is famously referred to as the **Euler-Lagrange Equation:**
+Applying the variational derivative ($d/dy$) in $(2)$ gives the following equation, which is famously referred to as the **Euler-Lagrange Equation:**
 
 $$
 (3)  \qquad \qquad \frac{d}{dx} \left( \frac{\partial F}{\partial y'} \right) - \frac{\partial F}{\partial y} = 0
 $$
 
-This is saying that if $y$ is an extremum (min or max) of the functional $L \lbrack y \rbrack$ then it must satisfy the differential equation $(3)$, hence the name: *Euler-Lagrange equation*. To be precise, the Euler-Lagrange equation is a second-order ordinary differential equation for the unknown function $y$. The optimal curve $y$ that is obtained via this ode is called a **stationary path**, a counterpart of **stationary point** from the differential calculus.
+This is saying that if $y$ is an extremal function (min or max) of the functional $L \lbrack y \rbrack$ then it must satisfy the differential equation $(3)$, hence the name: *Euler-Lagrange equation*. To be precise, the Euler-Lagrange equation is a second-order ordinary differential equation for the unknown function $y$. The optimal curve $y$ that is obtained via this ode is called a **stationary path**, the counterpart of **stationary point** from the differential calculus.
 
 <div style="text-align: right;">$\blacksquare$</div> 
