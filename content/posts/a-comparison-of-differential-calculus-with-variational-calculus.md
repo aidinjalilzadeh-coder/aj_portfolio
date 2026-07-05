@@ -61,6 +61,8 @@ In plain English, $L$ maps a function from the space of all continuous functions
 $$
 (1)  \qquad \frac{d}{dy} L \lbrack y \rbrack =\frac{d}{dy} \int\_a^b F(x,y,y') \kern{0.25em} dx = 0
 $$
-But, I'm going to fast forward and go straight to the final result, which is famously referred to as the **Euler-Lagrange Equation**. The detail that I'm omitting here is easily retrievable
+But, I'm going to fast forward and go straight to the final result. The detail that I'm omitting here is easily retrievable from sources online or textbooks. I'm sure it'll be a great deal of fun for you to understand the whole process.
+
+OK! Distributing $d/dy$ into the integral in $(1)$
 
 <div style="text-align: right;">$\blacksquare$</div> 
