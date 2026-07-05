@@ -97,6 +97,6 @@ which implies that $y'(x)$ is constant. This is exactly the result we were hopin
 
 ## Closure
 
-You notice that in a matter of few lines we proved the shortest path is a straight line. Imagine you wanted to do this via analytical geometry where others did before Lagrange
+You notice that in a matter of few lines we proved the shortest path is a straight line. Imagine you wanted to do this via analytical geometry where others did before Lagrange. It would almost be a nightmare.
 
 <div style="text-align: right;">$\blacksquare$</div> 
