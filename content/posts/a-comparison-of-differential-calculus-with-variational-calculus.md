@@ -78,9 +78,9 @@ This is saying that if $y$ is an extremal function (min or max) of the functiona
 
 Recall the functional $(1)$ that computes the distance from $A$ to $B$ depending on the path $y$ we choose:
 
-$$(1') \qquad \qquad L \lbrack y \rbrack = \int\_a^b \sqrt{1+(y')^2} \kern{0.25em} dx \implies F(x,y,y') = \sqrt{1+(y')^2} .$$
+$$(1) \qquad \qquad L \lbrack y \rbrack = \int\_a^b \sqrt{1+(y')^2} \kern{0.25em} dx \implies F(x,y,y') = \sqrt{1+(y')^2} .$$
 
-Now, let's stick the Lagrangian function $F(x,y,y') = \sqrt{1+(y')^2}$ into the Euler-Lagrange equation. Notice that $F$ depends directly on $y'$ only, hence from $(3)$, $ \frac{\partial F}{\partial y} = 0$, and we just need to evaluate the first term:
+Now, let's stick the Lagrangian function $F(x,y,y') = \sqrt{1+(y')^2}$ into the Euler-Lagrange equation. Notice that $F$ depends only on $y'$, hence from $(3)$, $ \frac{\partial F}{\partial y} = 0$, and we just need to evaluate the first term:
 
 $$
 \begin{aligned}
@@ -89,7 +89,7 @@ $$
 \end{aligned}
 $$
 
-As you see evaluating and simplifying the first term of Euler-Lagrange equation results in the fact that $\frac{y'}{\sqrt{1+(y')^2}}$ is constant. You can rearrange this expression so that you make $y'$ the subject:
+After evaluating and simplifying, the first term of the Euler-Lagrange equation yields the fact that $\frac{y'}{\sqrt{1+(y')^2}}$ is constant. You can rearrange this expression so that you make $y'$ the subject:
 
 $$ (y'(x))^2 = \frac{C^2}{1-C^2},$$
 
