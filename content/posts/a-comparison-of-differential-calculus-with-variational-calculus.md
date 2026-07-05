@@ -110,4 +110,4 @@ In the 1830s, Hamilton reformulated Lagrange's mechanics into what is now known 
 
 <div style="text-align: right;">$\blacksquare$</div> 
 
-**PS.** *There will be post about the **principle of least action** in the near future!*
+**PS.** *There will be a post about the **principle of least action** in the near future!*
