@@ -1,0 +1,14 @@
+---
+title: 'The Gradient Vector: Two Faces, One Formula '
+slug: gradient
+summary: In finding the path of steepest ascent/descent students get confused which gradient direction to follow? Normal to the surface or normal to the level curves?
+author: Dr. Aidin Jalilzadeh
+publishedAt: 2026-07-01T00:00:00.000Z
+tags:
+  - cat-education
+  - multivariate calculus
+  - gradient vector
+  - steepest ascent/descent
+---
+
+# The Gradient Vector: Two Faces, One Formula 
