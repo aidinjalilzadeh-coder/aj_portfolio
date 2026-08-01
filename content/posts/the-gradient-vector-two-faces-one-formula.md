@@ -18,9 +18,8 @@ One of the first concepts that is introduced in any multivariate calculus course
 When $n=1$, the graph is a curve in the 2D plane. When $n=2$, it becomes a **surface** in 3D space. For higher dimensions, we lose the ability to visualize, but the gradient concept remains the same.
 
 Yet despite its simplicity, the gradient is also one of the most commonly **misunderstood** ideas in calculus — because students are told two seemingly contradictory things:
-
-* "The gradient points uphill."   
-* "The gradient is perpendicular to the surface."
+$\qquad \textbf{i.} \kern{0.25em}$ "The gradient points uphill."
+$\qquad \textbf{ii.} \kern{0.25em}$ "The gradient is perpendicular to the surface."
 
 Both are true — but they are talking about **different** gradient vectors.
 
