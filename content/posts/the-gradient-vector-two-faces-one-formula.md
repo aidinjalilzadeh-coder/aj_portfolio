@@ -20,12 +20,10 @@ When $n=1$, the graph is a curve in the 2D plane. When $n=2$, it becomes a **sur
 Yet despite its simplicity, the gradient is also one of the most commonly **misunderstood** ideas in calculus — because students are told two seemingly contradictory things:
 
 \begin{itemize}
-\item\[o] *"The gradient points uphill."* \\
-
-\item\[o] *"The gradient is perpendicular to the surface."*
+\item {*"The gradient points uphill."*} \\
+\item{*"The gradient is perpendicular to the surface."*}
 \end{itemize}
-Both are true. But they are talking about **different gradient vectors**.
 
-In this post, we will unpack the geometry, clear up the confusion, and show you exactly when to walk — and when to fly!
+Both are true. But they are talking about **different gradient vectors**. The confusion shows itself when one is trying to implement a *gradient descent* procedure for minimising some function or data. In this article, I will unpack the geometry, clear up the confusion, and show you exactly when to walk — and when to fly!
 
 <div style="text-align: right;">$\blacksquare$</div>
