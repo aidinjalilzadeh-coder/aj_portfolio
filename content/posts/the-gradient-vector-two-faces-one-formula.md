@@ -29,7 +29,7 @@ The confusion often surfaces when students try to implement *gradient descent* t
 
 In this article, I will unpack the geometry, clear up the confusion, and show you exactly when to walk — and when to fly!
 
-## 3D Surface and Its Map
+## Surfaces and Level Curves
 
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img 
