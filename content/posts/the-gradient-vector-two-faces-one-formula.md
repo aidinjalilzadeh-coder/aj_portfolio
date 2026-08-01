@@ -28,4 +28,6 @@ The confusion often surfaces when students try to implement *gradient descent* t
 
 In this article, I will unpack the geometry, clear up the confusion, and show you exactly when to walk — and when to fly!
 
+OK, Let's begin ...
+
 <div style="text-align: right;">$\blacksquare$</div>
