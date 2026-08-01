@@ -29,6 +29,8 @@ The confusion often surfaces when students try to implement *gradient descent* t
 
 In this article, I will unpack the geometry, clear up the confusion, and show you exactly when to walk — and when to fly!
 
+## 3D Surface and Its Map
+
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img 
     src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/NewSurface.png" 
