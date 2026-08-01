@@ -1,7 +1,7 @@
 ---
 title: 'The Gradient Vector: Two Faces, One Formula '
 slug: gradient
-summary: 'Common source of confusion: which gradient direction to follow Normal to the surface or normal to the level curves?'
+summary: 'Common source of confusion: which gradient direction to follow? Normal to the surface or normal to the level curves?'
 author: Dr. Aidin Jalilzadeh
 publishedAt: 2026-07-01T00:00:00.000Z
 tags:
