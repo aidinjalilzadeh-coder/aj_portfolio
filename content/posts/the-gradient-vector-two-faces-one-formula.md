@@ -19,16 +19,14 @@ When $n=1$, the graph is a curve in the 2D plane. When $n=2$, it becomes a **sur
 
 Yet despite its simplicity, the gradient is also one of the most commonly **misunderstood** ideas in calculus — because students are told two seemingly contradictory things:
 
-$\qquad \textbf{\circ} \kern{0.25em}$ "The gradient points uphill."
+$\qquad \bullet \kern{0.25em}$ *The gradient points uphill.*
 
-$\qquad \textbf{\circ} \kern{0.25em}$ "The gradient is perpendicular to the surface."
+$\qquad \bullet \kern{0.25em}$ *The gradient is perpendicular to the surface.*
 
 Both are true — but they are talking about **different** gradient vectors.
 
 The confusion often surfaces when students try to implement *gradient descent* to minimise a function or fit a model to data. Which gradient do you use? Where does it point? And how do you even walk in that direction?
 
 In this article, I will unpack the geometry, clear up the confusion, and show you exactly when to walk — and when to fly!
-
-OK, Let's begin ...
 
 <div style="text-align: right;">$\blacksquare$</div>
