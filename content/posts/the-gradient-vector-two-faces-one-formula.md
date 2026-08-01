@@ -13,6 +13,17 @@ tags:
 
 # The Gradient Vector: Two Faces, One Formula
 
-One of the earliest concepts that is introduced in any multivariate calculus course is the **gradient** vector of scalar fields - i.e. functions of the form $f: \mathbb{R}^n \to \mathbb{R}$, where $f$ maps a vector from $\mathbb{R}^n$ to a number (scalar). If $n=1$ we get a curve in 2D plane and when $n=2$ the picture is called a **surface** in 3D. In higher dimensions the visualisation is not possible but the gradient concept stays the same.
+One of the first concepts that is introduced in any multivariate calculus course is the **gradient** vector of a scalar field — that is a function of the form $f: \mathbb{R}^n \to \mathbb{R}$, which takes a vector and returns a single number (scalar).
+
+When $n=1$, the graph is a curve in the 2D plane. When $n=2$, it becomes a **surface** in 3D space. For higher dimensions, we lose the ability to visualize, but the gradient concept remains the same.
+
+Yet despite its simplicity, the gradient is also one of the most **confusing** ideas in calculus — because students are told two seemingly contradictory things:
+
+* *"The gradient points uphill."*
+* *"The gradient is perpendicular to the surface."*
+
+Both are true. But they are talking about **different gradient vectors**.
+
+In this post, we will unpack the geometry, clear up the confusion, and show you exactly when to walk — and when to fly!
 
 <div style="text-align: right;">$\blacksquare$</div>
