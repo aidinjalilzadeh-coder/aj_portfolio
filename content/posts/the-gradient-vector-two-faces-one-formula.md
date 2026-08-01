@@ -33,6 +33,9 @@ In this article, I will unpack the geometry, clear up the confusion, and show yo
   <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/NewSurface.png" 
   alt="Shortest Path"
   style="width: 50%; max-width: 600px; height: auto;">
+  <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/newSCtrs.png" 
+  alt="Shortest Path"
+  style="width: 50%; max-width: 600px; height: auto;">
   <figcaption>Figure 1: The shortest path between two points is a straight line</figcaption>
 </figure>
 <div style="text-align: right;">$\blacksquare$</div>
