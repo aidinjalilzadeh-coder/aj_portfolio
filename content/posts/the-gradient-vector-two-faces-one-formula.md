@@ -29,13 +29,20 @@ The confusion often surfaces when students try to implement *gradient descent* t
 
 In this article, I will unpack the geometry, clear up the confusion, and show you exactly when to walk — and when to fly!
 
-<figure> 
-  <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/NewSurface.png" 
-  alt="Shortest Path"
-  style="width: 50%; max-width: 600px; height: auto;">
-  <img src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/newSCtrs.png" 
-  alt="Shortest Path"
-  style="width: 50%; max-width: 600px; height: auto;">
-  <figcaption>Figure 1: The shortest path between two points is a straight line</figcaption>
+<figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <img 
+    src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/NewSurface.png" 
+    alt="3D surface plot of the dome"
+    style="width: 45%; max-width: 500px; height: auto;"
+  >
+  <img 
+    src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/newSCtrs.png" 
+    alt="Contour plot with level curves"
+    style="width: 45%; max-width: 500px; height: auto;"
+  >
+  <figcaption style="width: 100%; text-align: center; margin-top: 8px;">
+    <strong>Figure 1:</strong> Left: 3D surface of the dome. Right: contour plot with level curves.
+  </figcaption>
 </figure>
+
 <div style="text-align: right;">$\blacksquare$</div>
