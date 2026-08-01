@@ -13,6 +13,6 @@ tags:
 
 # The Gradient Vector: Two Faces, One Formula
 
-One of the earliest concepts that is introduced in any multivariate calculus course is the **gradient** vector of scalar fields - i.e. functions of the form $f: \mathbb{R}^n \to \mathbb{R}$, where $f$ maps a vector from $\mathbb{R}^n$ to a number (scalar).
+One of the earliest concepts that is introduced in any multivariate calculus course is the **gradient** vector of scalar fields - i.e. functions of the form $f: \mathbb{R}^n \to \mathbb{R}$, where $f$ maps a vector from $\mathbb{R}^n$ to a number (scalar). If $n=1$ we get a curve in 2D plane and when $n=2$ the picture is called a **surface** in 3D
 
 <div style="text-align: right;">$\blacksquare$</div>
