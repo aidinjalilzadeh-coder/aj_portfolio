@@ -58,6 +58,6 @@ Notice also that as we walk further out, the level curves become tighter, indica
 Now, the million dollar question: *Which gradient vector should you follow for the fastest ascent/descent?* Hold on! What do I mean by "which gradient vector"? Is there more than one? The answer is YES! Let me show you how.
 
 We can write the function in two forms:
-$$(1) \qquad z = f(x,y) \qquad \textsf{explicit form} \ (2) \qquad F(x,y,z): \quad f(x,y)-z=0 \qquad \textsf{implicit form}$$
+$$(1) \qquad z = f(x,y) \qquad \textsf{explicit form}$$  $$(2) \qquad F(x,y,z): \quad f(x,y)-z=0 \qquad \textsf{implicit form}$$
 
 <div style="text-align: right;">$\blacksquare$</div>
