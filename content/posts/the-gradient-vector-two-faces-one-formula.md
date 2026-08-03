@@ -31,6 +31,8 @@ In this article, I will unpack the geometry, clear up the confusion, and show yo
 
 ## Surfaces and Level Curves
 
+3D surfaces can be visualised via a variety of graphs and plots and just by this we can obtain information about the geometry and the shape of the surface. In Figure 1, on the left panel we have the surface plot of $z=-(\frac{x^2}{4}+\frac{y^2}{9})+4$, which looks like a dome (hill).
+
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img 
     src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/NewSurface.png" 
@@ -46,7 +48,5 @@ In this article, I will unpack the geometry, clear up the confusion, and show yo
     <strong>Figure 1:</strong> Left: 3D surface of the dome. Right: contour plot with level curves.
   </figcaption>
 </figure>
-
-3D surfaces can be visualised via a variety of graphs and plots and just by this we can obtain information about the geometry and the shape of the surface.
 
 <div style="text-align: right;">$\blacksquare$</div>
