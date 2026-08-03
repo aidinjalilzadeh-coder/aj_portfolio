@@ -53,6 +53,6 @@ which forms a dome‑shaped hill. The peak occurs at the domain point $(0,0)$ wh
 
 The plot on the right is known as the **contour map**. Each of the yellow curves — drawn in the 2D plane — is called a **level curve**. These curves correspond to different heights (or $z$-values) on the surface. For instance, the level curve at the peak is just a single point, $(0,0)$. As we move outward, the corresponding $z$-values decrease — we are moving away from the peak and descending the hill.
 
-Notice also that as we walk further out, the level curves become tighter, indicating a rapid descent. In other words, a single step changes your elevation markedly. Conversely, when walking toward the peak, the level curves are more widely spaced. This means you need to walk a longer distance to gain a unit of height. This is the landscape our walker will navigate. As we will see, the gradient knows exactly which way to go — and whether to take a long gentle stride or a short steep one.
+Notice also that as we walk further out, the level curves become tighter, indicating a rapid descent. In other words, a single step changes your elevation markedly. Conversely, when walking toward the peak, the level curves are more widely spaced. This means you need to walk a longer distance to gain a unit of height. This is the landscape our walker/hiker will navigate. As we will see, the gradient knows exactly which way to go — and whether to take a long gentle stride or a short steep one.
 
 <div style="text-align: right;">$\blacksquare$</div>
