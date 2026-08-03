@@ -55,6 +55,6 @@ The plot on the right is known as the **contour map**. Each of the yellow curves
 
 Notice also that as we walk further out, the level curves become tighter, indicating a rapid descent. In other words, a single step changes your elevation markedly. Conversely, when walking toward the peak, the level curves are more widely spaced. This means you need to walk a longer distance to gain a unit of height. This is the landscape our walker/hiker will navigate. As we will see, the gradient knows exactly which way to go — and whether to take a long gentle stride or a short steep one.
 
-Now, the million dollar question: *Which gradient vector should you follow for the fastest ascent/descent?* Hold on! What do I mean by *'which gradient vector'*? Is there more than one? The answer is YES! Let me show you how.
+Now, the million dollar question: *Which gradient vector should you follow for the fastest ascent/descent?* Hold on! What do I mean by *'which gradient vector'* ? Is there more than one? The answer is YES! Let me show you how.
 
 <div style="text-align: right;">$\blacksquare$</div>
