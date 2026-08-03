@@ -33,7 +33,7 @@ In this article, I will unpack the geometry, clear up the confusion, and show yo
 
 3D surfaces can be visualised in many ways, and each plot reveals something about the geometry of the shape. In **Figure 1** (left panel), we see the surface plot of
 $$z=-\left(\frac{x^2}{4}+\frac{y^2}{9}\right)+4$$,
-which forms a dome‑shaped hill. The peak occurs at the domain point $(0,0)$ where f(0,0)=4. This is the absolute maximum of the function — hence the label **"peak"**.
+which forms a dome‑shaped hill. The peak occurs at the domain point $(0,0)$ where $f(0,0)=4$. This is the absolute maximum of the function — hence the label **"peak"**.
 
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img 
