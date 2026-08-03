@@ -32,7 +32,7 @@ In this article, I will unpack the geometry, clear up the confusion, and show yo
 ## Surfaces and Level Curves
 
 3D surfaces can be visualised in many ways, and each plot reveals something about the geometry of the shape. In **Figure 1** (left panel), we see the surface plot of
-$$z=-\left(\frac{x^2}{4}+\frac{y^2}{9}\right)+4$$,
+$$z=-\left(\frac{x^2}{4}+\frac{y^2}{9}\right)+4$$
 which forms a dome‑shaped hill. The peak occurs at the domain point $(0,0)$ where $f(0,0)=4$. This is the absolute maximum of the function — hence the label **"peak"**.
 
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
@@ -50,5 +50,7 @@ which forms a dome‑shaped hill. The peak occurs at the domain point $(0,0)$ wh
     <strong>Figure 1:</strong> Left: 3D surface of the dome. Right: contour plot with level curves.
   </figcaption>
 </figure>
+
+The plot on the right is known as the **contour map** and each of the yellow curves (in 2D) is called a **level curve**. Level curves correspond to different height ($z$-value) on the surface.
 
 <div style="text-align: right;">$\blacksquare$</div>
