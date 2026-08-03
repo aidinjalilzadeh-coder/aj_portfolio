@@ -47,4 +47,6 @@ In this article, I will unpack the geometry, clear up the confusion, and show yo
   </figcaption>
 </figure>
 
+3D surfaces can be visualised via a variety of graphs and plots and just by this we can obtain information about the geometry and the shape of the surface.
+
 <div style="text-align: right;">$\blacksquare$</div>
