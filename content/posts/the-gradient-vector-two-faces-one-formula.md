@@ -51,6 +51,6 @@ which forms a dome‑shaped hill. The peak occurs at the domain point $(0,0)$ wh
   </figcaption>
 </figure>
 
-The plot on the right is known as the **contour map**. Each of the yellow curves — drawn in the 2D plane — is called a **level curve**. These curves correspond to different heights (or $z$-values) on the surface.
+The plot on the right is known as the **contour map**. Each of the yellow curves — drawn in the 2D plane — is called a **level curve**. These curves correspond to different heights (or $z$-values) on the surface. For instance, the level curve at the peak is just a single point, $(0,0)$. As we move outward, the corresponding $z$-values decrease — we are moving away from the peak and descending the hill.
 
 <div style="text-align: right;">$\blacksquare$</div>
