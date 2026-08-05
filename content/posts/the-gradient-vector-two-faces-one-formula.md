@@ -78,7 +78,10 @@ This ability to move between the two views is crucial because it builds a bridge
 Let us now see how we can obtain the normal to the same surface via the implicit form in $(2)$. In spite of $(1)$, in $(2)$ the variable $z$ is not the output value, i.e. does not depend on $x$ and $y$. Instead, it is one of the three independent variables of the implicit function $F$. The function $F(x,y,z)=0$ represents a **subspace** (a collection of points) of $\mathbb{R}^3$ for which: $-(x^2/4 + y^2/9)+4 -z=0$ or as written in $(2)$: $f(x,y)-z=0$. Now we can compute $\nabla F$, which is going to be a 3D vector.
 
 $$
-\nabla F = (\partial F/\partial x, \partial F/\partial y, \partial F/\partial z)
+\begin{aligned}
+\nabla F =& (\partial F/\partial x, \partial F/\partial y, \partial F/\partial z)\\
+\=& (\partial f/\partial x, \partial f/\partial y, -1)
+\end{aligned}
 $$
 
 The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two‑faced puzzle once and for all.
