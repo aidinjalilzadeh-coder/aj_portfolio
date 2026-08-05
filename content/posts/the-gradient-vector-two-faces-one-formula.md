@@ -65,16 +65,17 @@ $$
 (2)& \qquad F(x,y,z)=0  \to  f(x,y)-z=0  & \qquad (\textsf{implicit form})
 \end{aligned}
 $$
-In the explicit form the output is isolated — written directly in terms of the independent variables. In our example, $z=f(x,y)$, and so the gradient vector lives in the domain: 
+In the explicit form the output is isolated — written directly in terms of the independent variables. In our example, $z=f(x,y)$, and so the gradient vector lives in the domain:
 
 $$\nabla f = (\partial f/\partial x, \partial f/\partial y)$$
 
-This is a 2D vector — it lives in the $xy$-plane! 
+This is a 2D vector — it lives in the $xy$-plane!
 
-The key to mastering the gradient is learning to switch between these two perspectives: the contour map and the 3D surface. A point on the contour map corresponds to a point on the surface vertically aligned with it — either above or below the $xy$-plane, depending on the sign of $z=f(x,y)$ . For instance, the point $(0,4)$ on the map corresponds to $(0,4,2.22)$ on the surface. The explicit gradient vector in the $xy$-plane guides your steps on the map. But when you lift that same point onto the surface, the geometry changes. The vector that points uphill on the map becomes the vector that points uphill on the hill itself
+The key to mastering the gradient is learning to switch between these two perspectives: the contour map and the 3D surface. A point on the contour map corresponds to a point on the surface vertically aligned with it — either above or below the $xy$-plane, depending on the sign of $z=f(x,y)$ . For instance, the point $(0,4)$ on the map corresponds to $(0,4,2.22)$ on the surface. The explicit gradient vector in the $xy$-plane guides your steps on the map. But when you lift that same point onto the surface, the geometry changes.
 
-This ability to move between the two views is crucial because it builds a bridge between the abstract formula and the geometric reality. Without it, the gradient remains a collection of symbols rather than a tool for understanding slopes, rates, and directions. Yet this connection is rarely emphasised in introductory courses — and that is precisely where confusion takes root. Students see the gradient defined in the $xy$-plane, then later encounter the normal vector in 3D, and assume they are the same object. They are not. One points along the ground; the other points out of the hill. Mistaking one for the other leads to incorrect interpretations, misapplied algorithms, and a lingering sense that the math is somehow off … 
+This ability to move between the two views is crucial because it builds a bridge between the abstract formula and the geometric reality. Without it, the gradient remains a collection of symbols rather than a tool for understanding slopes, rates, and directions. Yet this connection is rarely emphasised in introductory courses — and that is precisely where confusion takes root and students find themselves at crossroads. They see the gradient defined in the $xy$-plane, then later encounter the normal vector in 3D, and assume they are the same object. They are not. The vector that points uphill on the map becomes the vector that points uphill on the *hill itself*. Mistaking one for the other leads to incorrect interpretations, misapplied algorithms, and a lingering sense that the math is somehow off …
 
-The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the two‑faces puzzle once and for all.
+Let us now see how we can obtain the normal to the same surface via the implicit form in $(2)$. In spite of $(1)$, in $(2)$ the variable $z$ is not the output value, i.e. does not depend on $x$ and $y$. Instead, it is one of the three independent variables of the implicit function $F$. The function $F(x,y,z)=0$ is the collection of points in $\mathbb{R}^3$ for which $-(x^2/4 + y^2/9)+4 -z=0$.
+The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two‑faced puzzle once and for all.
 
 <div style="text-align: right;">$\blacksquare$</div>
