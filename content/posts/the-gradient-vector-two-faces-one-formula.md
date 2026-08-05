@@ -84,8 +84,7 @@ $$
 Now we can compute $\nabla F$, which is a 3D vector:
 
 $$
-(4) \qquad \nabla F = \left( \frac{\partial F}{\partial x}, \frac{\partial F}{\partial y}, \frac{\partial F}{\partial z} \right)
-\= \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, -1 \right).
+(4) \qquad \nabla F = \left( \frac{\partial F}{\partial x}, \frac{\partial F}{\partial y}, \frac{\partial F}{\partial z} \right)=\left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, -1 \right).
 $$
 
 The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two-faced puzzle once and for all.
