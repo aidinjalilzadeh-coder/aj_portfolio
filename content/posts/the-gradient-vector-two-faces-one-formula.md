@@ -65,6 +65,6 @@ $$
 (2)& \qquad F(x,y,z)=0 \quad \to & \quad f(x,y)-z=0  & \quad (\textsf{implicit form})
 \end{aligned}
 $$
-In the explicit form $(1)$ the output is the subject; i.e. written in terms of the independent variables. In our example we have $z=f(x,y)$ hence the gradient vector is in the domain. Mathematically we write: $\nabla z = (\partial z/\partial x, \partial z/\partial y$
+In the explicit form $(1)$ the output is the subject; i.e. written in terms of the independent variables. In our example we have $z=f(x,y)$ hence the gradient vector is in the domain. Mathematically we write: $\nabla z = (\partial z/\partial x, \partial z/\partial y)$
 
 <div style="text-align: right;">$\blacksquare$</div>
