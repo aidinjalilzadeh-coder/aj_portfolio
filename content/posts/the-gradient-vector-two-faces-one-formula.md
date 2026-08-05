@@ -90,4 +90,6 @@ Let us pause to unpack this result. The first two components of $\nabla F$ are s
 
 ***The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two-faced puzzle once and for all.***
 
+<!--The following plots bring these ideas to life. On the left, we see the gradient vectors on the contour map; on the right, the same vectors lifted onto the surface.-->
+
 <div style="text-align: right;">$\blacksquare$</div>
