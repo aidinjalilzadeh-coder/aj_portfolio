@@ -60,13 +60,9 @@ Now, the million dollar question: *Which gradient vector should you follow for t
 We can write any function in two forms:
 $$
 \begin{aligned}
-(1) \qquad & z = f(x,y) \qquad & \textsf{explicit form}\\
-(2) \qquad F(x,y,z): & \quad f(x,y)-z=0 \qquad & \textsf{implicit form}
+(1)& \qquad & z = f(x,y) \qquad & \textsf{explicit form}\\
+(2)& \qquad F(x,y,z): & \quad f(x,y)-z=0 \qquad & \textsf{implicit form}
 \end{aligned}
-
 $$
-$$(1) \qquad z = f(x,y) \qquad \textsf{explicit form}$$
-
-$$ \qquad \qquad \qquad (2) \qquad F(x,y,z): \quad f(x,y)-z=0 \qquad \textsf{implicit form}$$
 
 <div style="text-align: right;">$\blacksquare$</div>
