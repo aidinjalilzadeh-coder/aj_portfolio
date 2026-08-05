@@ -84,6 +84,6 @@ $$
 \end{aligned}
 $$
 
-The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two‑faced puzzle once and for all.
+The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two-faced puzzle once and for all.
 
 <div style="text-align: right;">$\blacksquare$</div>
