@@ -69,6 +69,8 @@ In the explicit form the output is isolated — written directly in terms of the
 
 $$\nabla f = (\partial f/\partial x, \partial f/\partial y)$$
 
-Mathematically we write:  and you notice that it is a 2D vector, i.e. *lives in the $xy$-plane*. Most introductory courses in multivariate calculus work with the explicit form only and so the properties of gradient vector are deduced based on this particular perspective.
+This is a 2D vector — it lives in the $xy$-plane! 
+
+The key to mastering the gradient is learning to switch between these two perspectives: the contour map and the 3D surface. A point on the contour map corresponds to a point on the surface directly above it, at height $z=f(x,y)$. For instance, the point $(0,4)$ on the map corresponds to $(0,4,2.22)$ on the surface. The gradient vector in the $xy$-plane guides your steps on the map. But when you lift that same point onto the surface, the geometry changes. The vector that points uphill on the map becomes the vector that points uphill on the hill itself.
 
 <div style="text-align: right;">$\blacksquare$</div>
