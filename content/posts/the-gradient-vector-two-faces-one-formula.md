@@ -61,10 +61,10 @@ We can write our function - or any function - in two forms:
 
 $$
 \begin{aligned}
-(1)& \qquad & z = f(x,y) \quad & \quad (\textsf{explicit form})\\
-(2)& \qquad F(x,y,z)=0 \quad \to & \quad f(x,y)-z=0  & \quad (\textsf{implicit form})
+(1)& \qquad & z &= f(x,y) \quad & \qquad (\textsf{explicit form})\\
+(2)& \qquad F(x,y,z)=0 \quad \to & \quad f(x,y)-z&=0  & \qquad (\textsf{implicit form})
 \end{aligned}
 $$
-In the explicit form $(1)$ the output is the subject; i.e. written in terms of the independent variables. In our example we have $z=f(x,y)$ hence the gradient vector is in the domain. Mathematically we write: $\nabla z = (\partial z/\partial x, \partial z/\partial y)$
+In the explicit form $(1)$ the output is the subject; i.e. written in terms of the independent variables. In our example we have $z=f(x,y)$ hence the gradient vector is in the domain. Mathematically we write: $\nabla z = (\partial z/\partial x, \partial z/\partial y)$ and you notice it is a 2D vector.
 
 <div style="text-align: right;">$\blacksquare$</div>
