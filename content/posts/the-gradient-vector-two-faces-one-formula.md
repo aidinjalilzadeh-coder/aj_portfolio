@@ -61,7 +61,7 @@ We can write our function - or any function - in two forms:
 
 $$
 \begin{aligned}
-(1)& \qquad  z &= f(x,y)  \qquad (\textsf{explicit form})\\
+(1)& \qquad  z &= f(x,y)  &\qquad (\textsf{explicit form})\\
 (2)& \qquad F(x,y,z)=0 \quad \to  f(x,y)-z&=0  & \qquad (\textsf{implicit form})
 \end{aligned}
 $$
