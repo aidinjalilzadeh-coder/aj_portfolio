@@ -57,12 +57,12 @@ Notice also that as we walk further out, the level curves become tighter, indica
 
 Now, the million dollar question: *Which gradient vector should you follow for the fastest ascent/descent?* Hold on! What do I mean by "which gradient vector"? Is there more than one? The answer is YES! Let me show you how.
 
-We can write our function - or any function - in two forms:
+We can write our function — or any function — in two forms:
 
 $$
 \begin{aligned}
-(1)& \qquad  z &= f(x,y)  &\qquad (\textsf{explicit form})\\
-(2)& \qquad F(x,y,z)=0 \quad \to  f(x,y)-z&=0  & \qquad (\textsf{implicit form})
+(1)& \qquad  z = f(x,y)  &\qquad (\textsf{explicit form})\\
+(2)& \qquad F(x,y,z)=0 \quad \to  f(x,y)-z=0  & \qquad (\textsf{implicit form})
 \end{aligned}
 $$
 In the explicit form $(1)$ the output is the subject; i.e. written in terms of the independent variables. In our example we have $z=f(x,y)$ hence the gradient vector is in the domain. Mathematically we write: $\nabla z = (\partial z/\partial x, \partial z/\partial y)$ and you notice that it is a 2D vector, i.e. *lives in the $xy$-plane*. Most introductory courses in multivariate calculus work with the explicit form only and so the properties of gradient vector are deduced based on this particular perspective.
