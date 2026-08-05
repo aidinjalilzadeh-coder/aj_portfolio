@@ -62,9 +62,13 @@ We can write our function — or any function — in two forms:
 $$
 \begin{aligned}
 (1)& \qquad  z = f(x,y)  &\qquad (\textsf{explicit form})\\
-(2)& \qquad F(x,y,z)=0 \quad \to  f(x,y)-z=0  & \qquad (\textsf{implicit form})
+(2)& \qquad F(x,y,z)=0  \to  f(x,y)-z=0  & \qquad (\textsf{implicit form})
 \end{aligned}
 $$
-In the explicit form $(1)$ the output is the subject; i.e. written in terms of the independent variables. In our example we have $z=f(x,y)$ hence the gradient vector is in the domain. Mathematically we write: $\nabla z = (\partial z/\partial x, \partial z/\partial y)$ and you notice that it is a 2D vector, i.e. *lives in the $xy$-plane*. Most introductory courses in multivariate calculus work with the explicit form only and so the properties of gradient vector are deduced based on this particular perspective.
+In the explicit form the output is isolated — written directly in terms of the independent variables. In our example, $z=f(x,y)$, and so the gradient vector lives in the domain: 
+
+$$\nabla f = (\partial f/\partial x, \partial f/\partial y)$$
+
+Mathematically we write:  and you notice that it is a 2D vector, i.e. *lives in the $xy$-plane*. Most introductory courses in multivariate calculus work with the explicit form only and so the properties of gradient vector are deduced based on this particular perspective.
 
 <div style="text-align: right;">$\blacksquare$</div>
