@@ -88,6 +88,6 @@ $$
 $$
 Let us pause to unpack this result. The first two components of $\nabla F$ are simply the partial derivatives of $f$ with respect to $x$ and $y$ — they match the components of the 2D gradient $\nabla f$ in $(3)$. The third component, however, is $-1$. Why? Because in the implicit form $F(x,y,z) = f(x,y) - z$, the variable $z$ appears only in the term $-z$ as $f$ depends on $x$ and $y$ only. Thus differentiating $F$ with respect to $z$ gives $-1$. This third component is the **make-or-break** detail. Without it, $\nabla F$ would collapse into a 2D vector. With it, $\nabla F$ gains a vertical dimension pointing *out of* the surface, not along it!
 
-The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two-faced puzzle once and for all.
+*The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two-faced puzzle once and for all.*
 
 <div style="text-align: right;">$\blacksquare$</div>
