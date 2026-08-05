@@ -67,7 +67,7 @@ $$
 $$
 In the explicit form the output is isolated — written directly in terms of the independent variables. In our example, $z=f(x,y)$, and so the gradient vector lives in the domain:
 
-$$\nabla f = (\partial f/\partial x, \partial f/\partial y)$$
+$$(3) \qquad \nabla f = (\partial f/\partial x, \partial f/\partial y)$$
 
 This is a 2D vector — it lives in the $xy$-plane!
 
