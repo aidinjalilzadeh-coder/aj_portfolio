@@ -90,7 +90,7 @@ Let us pause to unpack this result. The first two components of $\nabla F$ are s
 
 ***The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two-faced puzzle once and for all!!***
 
-The following plots bring these ideas to life. The surface equation is the same as in $(0)$ and the point $A=(0,4)$ is on the domain and its reflection onto the surface becomes the point $A'$. I am going to leave the rest of the details for you to figure out. In case of any difficulties, please [email](https://aidinjalilzadeh.com/index.html#contact) me. You can also view a more compact post in my [LinkedIn](www.linkedin.com/in/aidinjalilzadeh) page. I recommend (strongly) that you go through that after reading this article.
+The following plots bring these ideas to life. The surface equation is the same as in $(0)$ and the point $A=(0,4)$ is on the domain and its reflection onto the surface becomes the point $A'$. I am going to leave the rest of the details for you to figure out. In case of any difficulties, please [email](https://aidinjalilzadeh.com/index.html#contact) me. You can also view a more compact post in my [LinkedIn](https://www.linkedin.com/in/aidinjalilzadeh/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bke8%2Ful0yTjKXDsW3P3bZjQ%3D%3D) page. I recommend (strongly) that you go through that after reading this article.
 
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img 
