@@ -96,17 +96,17 @@ The following plots bring these ideas to life. On the left, we see the gradient 
   <img 
     src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/grad_ctrs_xy.png" 
     alt="3D surface plot of the dome"
-    style="width: 40%; max-width: 500px; height: auto;"
+    style="width: 45%; max-width: 500px; height: auto;"
   >
   <img 
     src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/grad_ctrs.png" 
     alt="Contour plot with level curves"
-    style="width: 40%; max-width: 500px; height: auto;"
+    style="width: 45%; max-width: 500px; height: auto;"
   >
   <img 
     src="https://raw.githubusercontent.com/aidinjalilzadeh-coder/aj_portfolio/main/images/grad_surf.png" 
     alt="Contour plot with level curves"
-    style="width: 40%; max-width: 500px; height: auto;"
+    style="width: 45%; max-width: 500px; height: auto;"
   >
   <figcaption style="width: 100%; text-align: center; margin-top: 8px;">
     <strong>Figure 2:</strong> Left: 3D surface of the dome. Right: contour plot with level curves.
