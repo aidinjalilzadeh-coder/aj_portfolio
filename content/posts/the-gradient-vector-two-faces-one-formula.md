@@ -109,7 +109,7 @@ The following plots bring these ideas to life. On the left, we see the gradient 
     style="width: 45%; max-width: 500px; height: 45%;"
   >
   <figcaption style="width: 100%; text-align: center; margin-top: 8px;">
-    <strong>Figure 2:</strong> Different views of gradient for a fixed point. The thick orange curve on the lower plot is the path of steepest change. Takes you uphill from $\textsf{A'}$ if you follow along the blue arrow.
+    <strong>Figure 2:</strong> Different views of the gradient vector for a fixed point. The thick orange curve on the lower plot is the path of steepest change. Takes you uphill (rapidly) from $\textsf{A}'$ if you follow the curve along the blue arrow.
   </figcaption>
 </figure>
 
