@@ -90,7 +90,7 @@ Let us pause to unpack this result. The first two components of $\nabla F$ are s
 
 ***The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two-faced puzzle once and for all!!***
 
-The following plots bring these ideas to life. The surface equation is the same as in $(0)$ and the point $A=(0,4)$ is on the domain and its reflection onto the surface becomes the point $A'$. I am going to leave the rest of the details for you to figure out. In case of any difficulties, please [email](https://aidinjalilzadeh.com/index.html#contact) me
+The following plots bring these ideas to life. The surface equation is the same as in $(0)$ and the point $A=(0,4)$ is on the domain and its reflection onto the surface becomes the point $A'$. I am going to leave the rest of the details for you to figure out. In case of any difficulties, please [email](https://aidinjalilzadeh.com/index.html#contact) me. You can also view a more compact post in my \[LinkedIn] page. I reccomend (strongly) that you go through that after reading this article.
 
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img 
@@ -109,7 +109,7 @@ The following plots bring these ideas to life. The surface equation is the same 
     style="width: 45%; max-width: 500px; height: 45%;"
   >
   <figcaption style="width: 100%; text-align: center; margin-top: 8px;">
-    <strong>Figure 2:</strong> Different views of the gradient vector for a fixed point. The thick orange curve on the lower plot is the path of steepest change. Takes you uphill (rapidly) from $\textsf{A}'$ if you follow the curve along the blue arrow.
+    <strong>Figure 2:</strong> Different views of the gradient vector for a fixed point. The thick orange curve on the lower plot is the path of steepest change. Takes you uphill (rapidly) from $\textsf{ A'}$ if you follow the curve along the blue arrow.
   </figcaption>
 </figure>
 
