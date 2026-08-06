@@ -32,7 +32,7 @@ In this article, I will unpack the geometry, clear up the confusion, and show yo
 ## Surfaces and Level Curves
 
 3D surfaces can be visualised in many ways, and each plot reveals something about the geometry of the shape. In **Figure 1** (left panel), we see the surface plot of
-$$z=-\left(\frac{x^2}{4}+\frac{y^2}{9}\right)+4$$
+$$(0) \qquad z=-\left(\frac{x^2}{4}+\frac{y^2}{9}\right)+4$$
 which forms a dome‑shaped hill. The peak occurs at the domain point $(0,0)$ where $f(0,0)=4$. This is the absolute maximum of the function — hence the label **"peak"**.
 
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
@@ -90,7 +90,7 @@ Let us pause to unpack this result. The first two components of $\nabla F$ are s
 
 ***The ability to project points and vectors between these two views is what transforms the gradient from a formula into an intuition — and it is the key to resolving the seemingly two-faced puzzle once and for all!!***
 
-The following plots bring these ideas to life. On the left, we see the gradient vectors on the contour map; on the right, the same vectors lifted onto the surface.
+The following plots bring these ideas to life. The surface equation is the same as in $(0)$ and the point $A=(0,4)$ is on the domain and its reflection onto the surface becomes the point $A'$. I am going to leave the rest of the details for you to figure out. In case of any difficulties, please [email](https://aidinjalilzadeh.com/index.html#contact) me
 
 <figure style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img 
