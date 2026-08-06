@@ -47,15 +47,15 @@ img {
 }
 
 a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px;
-  text-decoration-color: #999; /* subtle grey underline */
+  color: #0066cc;          /* subtle but distinct blue */
+  text-decoration: none;   /* no underline */
+  font-weight: 500;        /* slightly bolder than body text (optional) */
+  transition: color 0.2s ease;
 }
+
 a:hover {
-  color: #0066cc;
-  text-decoration-color: #0066cc;
+  color: #003d99;          /* darker blue on hover */
+  text-decoration: underline;  /* underline only on hover */
 }
 
 button,
