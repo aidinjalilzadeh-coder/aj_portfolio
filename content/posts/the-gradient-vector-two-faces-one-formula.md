@@ -11,7 +11,7 @@ tags:
   - steepest ascent/descent
 ---
 
-# The Gradient Vector: Two Faces, One Formula
+# The Gradient Vector
 
 One of the first concepts that is introduced in any multivariate calculus course is the **gradient** vector of a scalar field — that is a function of the form $f: \mathbb{R}^n \to \mathbb{R}$, which takes a vector and returns a single number (scalar). The gradient vector of $f$ is denoted by $\nabla f$.
 
