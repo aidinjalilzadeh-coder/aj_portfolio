@@ -8,7 +8,7 @@ tags:
   - cat-education
   - numerical integration
   - numerical analysis
-  - ''
+  - quadrature
 ---
 
 ## Numerical Integration - why?
