@@ -9,6 +9,7 @@ tags:
   - numerical integration
   - numerical analysis
   - quadrature
+  - euler's method
 ---
 
 # Numerical Integration - why?
@@ -24,5 +25,9 @@ $$
 So, as you see, it is an easy integral to work out and the **exact answer** is $\pi$. But $\pi$ is not a rational number, and if you want to estimate it up to a certain number of decimal points, then you must do so numerically. This means you pretend this integral has no closed form answer and hence you apply an approximation scheme.
 
 Hopefully, this gives you an idea of why and when numerical integration (quadrature) is required. In the next section I will lay out the **simplest** and **slowest** numerical quadrature by taking advantage of Riemann sums. Keep in mind the highlighted terms above: simplest and slowest! But, first let's review two important results from calculus.
+
+# Revisiting Mean Value Theorem for Integrals and Taylor Series
+
+\*\*\* NB. This is a classroom activity. Students are supposed to have seen these topics in Calculus 101, so here we jug the memory to see how much every body remembers\*\*\*
 
 <div style="text-align: right;">$\blacksquare$</div>
