@@ -26,8 +26,8 @@ So, as you see, it is an easy integral to work out and the **exact answer** is $
 
 Hopefully, this gives you an idea of why and when numerical integration (quadrature) is required. In the next section I will lay out the **simplest** and **slowest** numerical quadrature by taking advantage of Riemann sums. Keep in mind the highlighted terms above: simplest and slowest! But, first let's review two important results from calculus.
 
-# Revisiting Mean Value Theorem and Taylor Series
+# Revisiting the Mean Value Theorem and Taylor Series
 
-***NB. This is a classroom activity. Students are supposed to have seen these topics in Calculus 101, so here we jug the memory to see how much every body remembers***
+***Note. This activity assumes familiarity with the core concepts of multivariable calculus as typically covered in a first course. The aim is to refresh your memory and assess your current understanding.***
 
 <div style="text-align: right;">$\blacksquare$</div>
