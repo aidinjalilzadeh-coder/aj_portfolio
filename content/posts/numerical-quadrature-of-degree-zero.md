@@ -10,3 +10,5 @@ tags:
 ---
 
 ## Numerical Integration - why?
+
+After taking a comprehensive calculus course, you might think to yourself that \textit{"there is no integration problem I cannot solve".} In fact, I thought the same until I got into mathematical modelling and realised that not everything is as nice and straightforward as our homework problems back in Calculus 101. Sometimes, if not often, we might have to evaluate tricky integrals or compute the area under a curve whose equation has no explicit (closed form) anti-derivative. Hence, we resort to the numerical approximation.
