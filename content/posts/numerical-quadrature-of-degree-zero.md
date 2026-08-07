@@ -9,4 +9,4 @@ tags:
   - ''
 ---
 
-On the Numerical Quadrature of Degree Zero
+## On the Numerical Quadrature of Degree Zero
