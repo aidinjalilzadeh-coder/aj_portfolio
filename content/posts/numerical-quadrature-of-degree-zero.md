@@ -24,7 +24,7 @@ $$
 
 So, as you see, it is an easy integral to work out and the **exact answer** is $\pi$. But $\pi$ is not a rational number, and if you want to estimate it up to a certain number of decimal points, then you must do so numerically. This means you pretend this integral has no closed form answer and hence you apply an approximation scheme.
 
-Hopefully, this gives you an idea of why and when numerical integration (quadrature) is required. In the next section I will lay out the **simplest** and **slowest** numerical quadrature by taking advantage of Riemann sums. Keep in mind the highlighted terms above: simplest and slowest! But, first let's review two important results from calculus.
+Hopefully, this gives you an idea of why and when numerical integration (quadrature) is required. In the next section I will lay out the **simplest** and **slowest** numerical quadrature by taking advantage of Riemann sums. Keep in mind the highlighted terms above: *simplest and slowest!* But, first let's review two important results from calculus.
 
 # Revisiting the Mean Value Theorem and Taylor Series
 
