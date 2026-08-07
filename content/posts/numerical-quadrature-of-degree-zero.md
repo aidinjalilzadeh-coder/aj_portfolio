@@ -28,6 +28,6 @@ Hopefully, this gives you an idea of why and when numerical integration (quadrat
 
 # Revisiting the Mean Value Theorem and Taylor Series
 
-***Note. This activity assumes familiarity with the core concepts of multivariable calculus as typically covered in a first course. The aim is to refresh your memory and assess your current understanding.***
+***Note. This is a hands-on (pen and paper) activity and assumes familiarity with the core concepts of calculus as typically covered in a first course. The aim is to refresh your memory and assess your current understanding of these two topics.***
 
 <div style="text-align: right;">$\blacksquare$</div>
