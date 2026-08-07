@@ -14,7 +14,7 @@ tags:
 
 # Numerical Integration - why?
 
-After taking a comprehensive calculus course, you might think to yourself that \textit{"there is no integration problem I cannot solve".} In fact, I thought the same until I got into mathematical modelling and realised that not everything is as nice and straightforward as our homework problems back in Calculus 101. Sometimes, if not often, we might have to evaluate tricky integrals or compute the area under a curve whose equation has no explicit (closed form) anti-derivative. Hence, we resort to the numerical approximation.
+After taking a comprehensive calculus course, you might think to yourself that \textit{"there is no integration problem I cannot solve".} In fact, I thought the same until I got into mathematical modelling and realised that not everything is as nice and straightforward as our homework problems back in *Calculus 101*. Sometimes, if not often, we might have to evaluate tricky integrals or compute the area under a curve whose equation has no explicit (closed form) anti-derivative. Hence, we resort to the numerical approximation.
 
 This is not it! There are few cases in which there is explicit anti-derivative and we can compute the area by applying the Fundamental Theorem of Calculus. However, for a different purpose we must use numerical approximation. See the example below:
 
@@ -26,8 +26,8 @@ So, as you see, it is an easy integral to work out and the **exact answer** is $
 
 Hopefully, this gives you an idea of why and when numerical integration (quadrature) is required. In the next section I will lay out the **simplest** and **slowest** numerical quadrature by taking advantage of Riemann sums. Keep in mind the highlighted terms above: simplest and slowest! But, first let's review two important results from calculus.
 
-# Revisiting Mean Value Theorem for Integrals and Taylor Series
+# Revisiting Mean Value Theorem and Taylor Series
 
-\*\*\* NB. This is a classroom activity. Students are supposed to have seen these topics in Calculus 101, so here we jug the memory to see how much every body remembers\*\*\*
+***NB. This is a classroom activity. Students are supposed to have seen these topics in Calculus 101, so here we jug the memory to see how much every body remembers***
 
 <div style="text-align: right;">$\blacksquare$</div>
