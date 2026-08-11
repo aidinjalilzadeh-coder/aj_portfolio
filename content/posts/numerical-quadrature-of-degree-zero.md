@@ -41,13 +41,13 @@ As our first and naive approach we will let $f(t)$ to be replaced by $f(a)$ for 
 $$
 (1) \qquad    \int\_a^b f(t) , \text{d}t = \int\_a^b f(a), \text{d}t + \mathcal{E}=(b-a)f(a)+\mathcal{E},
 $$
-where $\mathcal{E}$ is the error— see Fig. 1. The equality $\int\_a^b f(t) , \text{d}t = \int\_a^b f(a), \text{d}t$ holds only if $f(t)$ is a constant function over $\left\[a,b\right]$. A constant function can be thought of a polynomial of **degree zero**. Hence the reason this numerical quadrature is of degree zero.
+where $\mathcal{E}$ is the error— see Fig. 1. The equality $\int\_a^b f(t) , \text{d}t = \int\_a^b f(a), \text{d}t$ holds only if $f(t)$ is a constant function over $<span>\[a,b]</span>$. A constant function can be thought of a polynomial of **degree zero**. Hence the reason this numerical quadrature is of degree zero.
 
 This does not look very promising but we will improve it. What you see in Eqn. $(1)$ is the **single step** calculation. Before proceeding into multistep scheme, we should study the behaviour of $\mathcal{E}$.
 
 ## Local Truncation Error (LTE)
 
-The more precise term for $\mathcal{E}$ is Local Truncation Error (LTE). Let's dig deeper. Write out the $n$-th degree Taylor Series for $f$ over $\[a,b]$:
+The more precise term for $\mathcal{E}$ is Local Truncation Error (LTE). Let's dig deeper. Write out the $n$-th degree Taylor Series for $f$ over $<span>\[a,b]</span>$:
 $$
 f(t) = f(a)+f'(a)(t-a)+\cdots+\frac{1}{n!}f^{(n)}(a) (t-a)^n+\frac{1}{(n+1)!}f^{(n+1)}(\xi(t)) (t-a)^{n+1}, \quad (t \in \[a,b])
 $$
