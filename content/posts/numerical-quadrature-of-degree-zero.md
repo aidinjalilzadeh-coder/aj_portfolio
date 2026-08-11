@@ -10,7 +10,7 @@ tags:
   - numerical analysis
   - quadrature
   - euler's method
-draft: false
+draft: true
 ---
 
 ## Why Numerical Integration?
