@@ -10,7 +10,7 @@ tags:
   - numerical analysis
   - quadrature
   - euler's method
-draft: true
+draft: false
 ---
 
 # Why?
