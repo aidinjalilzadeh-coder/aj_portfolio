@@ -87,8 +87,12 @@ function extractMathSegments(text) {
   return { text: output, segments };
 }
 
+// ✅ FIXED
 function normalizeMathSegment(segment) {
-  return segment.replace(/\\_(?=[A-Za-z0-9{])/g, "_");
+  let normalized = segment.replace(/\\_(?=[A-Za-z0-9{])/g, "_");
+  // Preserve ALL backslashes that start a LaTeX command
+  normalized = normalized.replace(/\\([a-zA-Z]+)/g, "\\\\$1");
+  return normalized;
 }
 
 function restoreMathSegments(text, segments) {
