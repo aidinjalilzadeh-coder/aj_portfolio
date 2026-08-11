@@ -47,7 +47,7 @@ This does not look very promising but we will improve it. What you see in Eqn. $
 
 ## Local Truncation Error (LTE)
 
-The more precise term for $\mathcal{E}$ is Local Truncation Error (LTE). Let's dig deeper. Write out the $n$-th degree Taylor Series for $f$ over $$:
+The more precise term for $\mathcal{E}$ is Local Truncation Error (LTE). Let's dig deeper. Write out the $n$-th degree Taylor Series for $f$ over $\lbrack a,b \rbrack$:
 $$
 f(t) = f(a)+f'(a)(t-a)+\cdots+\frac{1}{n!}f^{(n)}(a) (t-a)^n+\frac{1}{(n+1)!}f^{(n+1)}(\xi(t)) (t-a)^{n+1}, \quad (t \in \lbrack a,b \rbrack)
 $$
