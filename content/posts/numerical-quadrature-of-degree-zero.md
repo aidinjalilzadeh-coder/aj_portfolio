@@ -37,4 +37,11 @@ Let's lay out the problem. The task in hand is to approximate $\int\_{a}^{b} f(t
 
 Now, we must replace $f(t)$ with an approximate value/function, which is easily integrable. A common candidate is to replace $f$ with a polynomial via its Taylor expansion. Interpolation methods such as Hermite are also considered since that also generates a polynomial easy to integrate. The art in implementing numerical methods is to find a right balance between accuracy (low error) and the amount of computation required per iteration. The latter becomes quite critical when you use computer programs to run your scheme.
 
+As our first and naive approach we will let $f(t)$ to be replaced by $f(a)$ for all $t \in \[a,b]$. Now with this we get:
+$$
+
+(1) \qquad    \int\_a^b f(t) , \text{d}t = \int\_a^b f(a), \text{d}t + \mathcal{E}=(b-a)f(a)+\mathcal{E},
+$$
+where $\mathcal{E}$ is the error (See Figure (1)). The equality $\int\_a^b f(t) , \text{d}t = \int\_a^b f(a), \text{d}t$ holds only if $f(t)$ is a constant function over $\[a,b]$. A constant function can be thought of a polynomial of **degree zero**. Hence the reason this numerical quadrature is of degree zero.
+
 <div style="text-align: right;">$\blacksquare$</div>
