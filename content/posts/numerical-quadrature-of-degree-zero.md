@@ -31,4 +31,10 @@ Hopefully, this gives you an idea of why and when numerical integration (quadrat
 
 ***Note. This is a hands-on (pen and paper) activity and assumes familiarity with the core concepts of calculus as typically covered in a first course. The aim is to refresh your memory and assess your current understanding of these two topics.***
 
+## Exploiting Riemann Sums
+
+Let's lay out the problem. The task in hand is to approximate $\int\_{a}^{b} f(t) , \text{d}t$. The function $f(t)$ is expected to be continuous and differentiable (at least once) over the interval $\[a,b]$. In abstract terms this is equivalent to $f \in \mathcal{C}^1 \[a,b]$.
+
+Now, we must replace $f(t)$ with an approximate value/function, which is easily integrable. A common candidate is to replace $f$ with a polynomial via its Taylor expansion. Interpolation methods such as Hermite are also considered since that also generates a polynomial easy to integrate. The art in implementing numerical methods is to find a right balance between accuracy (low error) and the amount of computation required per iteration. The latter becomes quite critical when you use computer programs to run your scheme.
+
 <div style="text-align: right;">$\blacksquare$</div>
