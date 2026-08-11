@@ -33,7 +33,7 @@ Hopefully, this gives you an idea of why and when numerical integration (quadrat
 
 ## Exploiting Riemann Sums
 
-Let's lay out the problem. The task in hand is to approximate $\int\_{a}^{b} f(t) , \text{d}t$. The function $f(t)$ is expected to be continuous and differentiable (at least once) over the interval $\[a,b]$. In abstract terms this is equivalent to $f \in \mathcal{C}^1$ $\[a,b]$.
+Let's lay out the problem. The task in hand is to approximate $\int\_{a}^{b} f(t) , \text{d}t$. The function $f(t)$ is expected to be continuous and differentiable (at least once) over the interval $\lbrack a,b \rbrack$. In abstract terms this is equivalent to $f \in \mathcal{C}^1$ $\[a,b]$.
 
 Now, we must replace $f(t)$ with an approximate value/function, which is easily integrable. A common candidate is to replace $f$ with a polynomial via its Taylor expansion. Interpolation methods such as Hermite are also considered since that also generates a polynomial easy to integrate. The art in implementing numerical methods is to find a right balance between accuracy (low error) and the amount of computation required per iteration. The latter becomes quite critical when you use computer programs to run your scheme.
 
@@ -52,5 +52,11 @@ $$
 f(t) = f(a)+f'(a)(t-a)+\cdots+\frac{1}{n!}f^{(n)}(a) (t-a)^n+\frac{1}{(n+1)!}f^{(n+1)}(\xi(t)) (t-a)^{n+1}, \quad (t \in \[a,b])
 $$
 Now integrate both sides. But before doing this let's compare Eqn. $(1)$ with the Taylor Series above. We see $(1)$ has only two terms, therefore when integrating the Taylor Series we just need to include two terms from the RHS, i.e. we need a Taylor expansion of degree zero:
+
+\begin{aligned}
+f(t) &=& f(a)+f'(\xi(t))(t-a) \\
+\int\_a^b f(t) \textrm{d}t &=&  \int\_a^b f(a) \textrm{d}t +  \int\_a^b f'(\xi(t))(t-a) \textrm{d}t \\
+&=& (b-a)f(a) + \int\_a^b f'(\xi(t))(t-a) \textrm{d}t.\label{four}
+\end{aligned}
 
 <div style="text-align: right;">$\blacksquare$</div>
