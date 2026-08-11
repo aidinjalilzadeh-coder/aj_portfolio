@@ -54,9 +54,9 @@ $$
 Now integrate both sides. But before doing this let's compare Eqn. $(1)$ with the Taylor Series above. We see $(1)$ has only two terms, therefore when integrating the Taylor Series we just need to include two terms from the RHS, i.e. we need a Taylor expansion of degree zero:
 $$
 \begin{aligned}
-f(t) &=& f(a)+f'(\xi(t))(t-a) \\
-\int\_a^b f(t) \textrm{d}t &=&  \int\_a^b f(a) \textrm{d}t +  \int\_a^b f'(\xi(t))(t-a) \textrm{d}t \\
-&=& (b-a)f(a) + \int\_a^b f'(\xi(t))(t-a) \textrm{d}t.
+f(t) &= f(a)+f'(\xi(t))(t-a) \\
+\int\_a^b f(t) \textrm{d}t &=  \int\_a^b f(a) \textrm{d}t +  \int\_a^b f'(\xi(t))(t-a) \textrm{d}t \\
+&= (b-a)f(a) + \int\_a^b f'(\xi(t))(t-a) \textrm{d}t.
 \end{aligned}
 $$
 
